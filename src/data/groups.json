@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "swatch-group",
+    "name": "Swatch Group",
+    "country": "switzerland",
+    "description": "The Swatch Group Ltd is a Swiss manufacturer of watches and jewellery. It is the world's largest watch company, owning brands across every price segment from luxury to affordable.",
+    "website": "https://www.swatchgroup.com",
+    "brandSlugs": ["omega", "longines", "tissot", "hamilton", "rado", "mido", "certina", "swatch"]
+  },
+  {
+    "slug": "richemont",
+    "name": "Richemont",
+    "country": "switzerland",
+    "description": "Compagnie Financière Richemont SA is a Swiss luxury goods conglomerate. Its watch brands span the highest tiers of horology, known for exceptional craftsmanship and heritage.",
+    "website": "https://www.richemont.com",
+    "brandSlugs": ["cartier", "iwc", "jaeger-lecoultre", "panerai", "vacheron-constantin", "piaget", "a-lange-sohne"]
+  },
+  {
+    "slug": "lvmh",
+    "name": "LVMH",
+    "country": "france",
+    "description": "LVMH Moët Hennessy Louis Vuitton is a French luxury conglomerate. Its watch division includes some of the most prestigious names in haute horlogerie alongside fashion-forward timepieces.",
+    "website": "https://www.lvmh.com",
+    "brandSlugs": ["tag-heuer", "hublot", "zenith", "bulgari"]
+  },
+  {
+    "slug": "seiko-group",
+    "name": "Seiko Group",
+    "country": "japan",
+    "description": "Seiko Group Corporation is a Japanese conglomerate and one of the world's most vertically integrated watch manufacturers. The group produces everything from movements to crystals in-house.",
+    "website": "https://www.seiko.co.jp",
+    "brandSlugs": ["seiko", "grand-seiko", "orient"]
+  },
+  {
+    "slug": "citizen-group",
+    "name": "Citizen Group",
+    "country": "japan",
+    "description": "Citizen Watch Co. is a Japanese electronics and watch company. Known for pioneering Eco-Drive solar technology, the group also owns several Swiss and Japanese watch brands.",
+    "website": "https://www.citizenwatch-global.com",
+    "brandSlugs": ["citizen", "bulova", "frederique-constant"]
+  },
+  {
+    "slug": "casio",
+    "name": "Casio",
+    "country": "japan",
+    "description": "Casio Computer Co., Ltd. is a Japanese multinational electronics company. In watchmaking, Casio is renowned for the virtually indestructible G-Shock line and affordable digital timepieces.",
+    "website": "https://www.casio.com",
+    "brandSlugs": ["casio", "g-shock"]
+  }
+]

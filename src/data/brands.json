@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "rolex",
+    "name": "Rolex",
+    "country": "switzerland",
+    "groupSlug": null,
+    "founded": 1905,
+    "description": "Rolex SA is a Swiss luxury watch manufacturer based in Geneva. Founded by Hans Wilsdorf and Alfred Davis in London in 1905, Rolex is the single largest luxury watch brand in the world. The company pioneered numerous watchmaking innovations including the first waterproof wristwatch (Oyster, 1926), the first self-winding mechanism with perpetual rotor (1931), and the first wristwatch to show the date (Datejust, 1945). Rolex produces approximately 1 million watches per year, each assembled by hand in their Geneva facilities.",
+    "website": "https://www.rolex.com"
+  },
+  {
+    "slug": "omega",
+    "name": "Omega",
+    "country": "switzerland",
+    "groupSlug": "swatch-group",
+    "founded": 1848,
+    "description": "Omega SA is a Swiss luxury watchmaker based in Biel/Bienne. Founded by Louis Brandt, Omega has been the official timekeeper of the Olympic Games since 1932 and was the first watch worn on the Moon during the Apollo 11 mission in 1969. Known for the Speedmaster, Seamaster, and Constellation collections, Omega combines heritage with cutting-edge technology including their Co-Axial escapement and Master Chronometer certification.",
+    "website": "https://www.omegawatches.com"
+  },
+  {
+    "slug": "patek-philippe",
+    "name": "Patek Philippe",
+    "country": "switzerland",
+    "groupSlug": null,
+    "founded": 1839,
+    "description": "Patek Philippe SA is a Swiss luxury watch and clock manufacturer founded in 1839. Widely regarded as the most prestigious watch manufacturer in the world, Patek Philippe remains family-owned by the Stern family since 1932. The company holds over 100 patents and is known for producing the most complicated mechanical watches ever made, including the Grandmaster Chime with 20 complications.",
+    "website": "https://www.patek.com"
+  },
+  {
+    "slug": "audemars-piguet",
+    "name": "Audemars Piguet",
+    "country": "switzerland",
+    "groupSlug": null,
+    "founded": 1875,
+    "description": "Audemars Piguet is a Swiss luxury watchmaker based in Le Brassus in the Vallée de Joux. Founded by Jules Louis Audemars and Edward Auguste Piguet, it is the oldest fine watchmaking company still in the hands of its founding families. The Royal Oak, designed by Gérald Genta in 1972, revolutionized luxury watchmaking by introducing the concept of a luxury steel sports watch.",
+    "website": "https://www.audemarspiguet.com"
+  },
+  {
+    "slug": "cartier",
+    "name": "Cartier",
+    "country": "france",
+    "groupSlug": "richemont",
+    "founded": 1847,
+    "description": "Cartier International SNC is a French luxury goods conglomerate that designs, manufactures, and sells jewellery, leather goods, and watches. Founded in Paris in 1847, Cartier created one of the first practical wristwatches — the Santos — in 1904 for aviator Alberto Santos-Dumont. The Tank, introduced in 1917, remains one of the most iconic watch designs ever created.",
+    "website": "https://www.cartier.com"
+  },
+  {
+    "slug": "seiko",
+    "name": "Seiko",
+    "country": "japan",
+    "groupSlug": "seiko-group",
+    "founded": 1881,
+    "description": "Seiko is a Japanese watchmaker founded in 1881 by Kintarō Hattori. Seiko revolutionized the watch industry by producing the world's first quartz wristwatch (Astron, 1969) and the first GPS solar watch. Known for exceptional value and in-house manufacturing capabilities, Seiko produces everything from affordable mechanical watches to high-end timepieces.",
+    "website": "https://www.seikowatches.com"
+  },
+  {
+    "slug": "grand-seiko",
+    "name": "Grand Seiko",
+    "country": "japan",
+    "groupSlug": "seiko-group",
+    "founded": 1960,
+    "description": "Grand Seiko is the luxury watch brand of Seiko Group, originally launched in 1960 with the goal of creating the ideal watch. Known for the Spring Drive movement — a unique hybrid of mechanical and electronic technology — and for dials inspired by Japanese nature. Grand Seiko's finishing standards rival those of the finest Swiss manufacturers at significantly lower prices.",
+    "website": "https://www.grand-seiko.com"
+  },
+  {
+    "slug": "tag-heuer",
+    "name": "TAG Heuer",
+    "country": "switzerland",
+    "groupSlug": "lvmh",
+    "founded": 1860,
+    "description": "TAG Heuer is a Swiss luxury watchmaker known for its sports watches and chronographs. Founded by Edouard Heuer in 1860, the brand has deep roots in motorsport timing and was the first Swiss watch in space (1962). TAG Heuer pioneered several chronograph innovations including the oscillating pinion and the first automatic chronograph movement (Calibre 11, 1969).",
+    "website": "https://www.tagheuer.com"
+  },
+  {
+    "slug": "iwc",
+    "name": "IWC Schaffhausen",
+    "country": "switzerland",
+    "groupSlug": "richemont",
+    "founded": 1868,
+    "description": "International Watch Company (IWC) is a Swiss luxury watch manufacturer located in Schaffhausen. Founded by American watchmaker Florentine Ariosto Jones, IWC uniquely combines Swiss craftsmanship with American engineering. Known for the Portugieser, Pilot's Watch, and Portofino collections, IWC is renowned for robust tool watches and clean, legible designs.",
+    "website": "https://www.iwc.com"
+  },
+  {
+    "slug": "jaeger-lecoultre",
+    "name": "Jaeger-LeCoultre",
+    "country": "switzerland",
+    "groupSlug": "richemont",
+    "founded": 1833,
+    "description": "Jaeger-LeCoultre is a Swiss luxury watch and clock manufacturer founded in 1833 in the Vallée de Joux. Known as the 'watchmaker's watchmaker,' the Manufacture has created over 1,400 different calibres and holds over 400 patents. Its most iconic creation, the Reverso, features a reversible case originally designed to protect the crystal during polo matches.",
+    "website": "https://www.jaeger-lecoultre.com"
+  },
+  {
+    "slug": "tudor",
+    "name": "Tudor",
+    "country": "switzerland",
+    "groupSlug": null,
+    "founded": 1926,
+    "description": "Tudor is a Swiss watch brand founded by Hans Wilsdorf, the founder of Rolex. Created to offer Rolex quality at a more accessible price point, Tudor has evolved into a brand with its own distinct identity. The Black Bay collection has become one of the most popular dive watch lines in modern horology, and Tudor now produces its own in-house movements.",
+    "website": "https://www.tudorwatch.com"
+  },
+  {
+    "slug": "longines",
+    "name": "Longines",
+    "country": "switzerland",
+    "groupSlug": "swatch-group",
+    "founded": 1832,
+    "description": "Longines is a Swiss luxury watchmaker based in Saint-Imier. Founded in 1832, it is one of the oldest watch brands still in existence. Longines has a rich heritage in aviation, exploration, and sports timing. The brand is known for elegant designs and excellent value within the accessible luxury segment.",
+    "website": "https://www.longines.com"
+  },
+  {
+    "slug": "tissot",
+    "name": "Tissot",
+    "country": "switzerland",
+    "groupSlug": "swatch-group",
+    "founded": 1853,
+    "description": "Tissot is a Swiss watchmaker founded in 1853 in Le Locle. As part of the Swatch Group, Tissot produces innovative and accessible Swiss watches. The brand pioneered tactile watches with the T-Touch collection and is the official timekeeper of numerous sports including MotoGP, the NBA, and the Tour de France.",
+    "website": "https://www.tissotwatches.com"
+  },
+  {
+    "slug": "citizen",
+    "name": "Citizen",
+    "country": "japan",
+    "groupSlug": "citizen-group",
+    "founded": 1918,
+    "description": "Citizen Watch Co. is a Japanese watchmaker known for pioneering Eco-Drive technology, which converts any light source into energy to power the watch. Founded in 1918, Citizen produces a wide range of watches from affordable everyday timepieces to the high-end Chronomaster collection. The brand also manufactures watch movements used by many other brands worldwide.",
+    "website": "https://www.citizenwatch.com"
+  },
+  {
+    "slug": "casio",
+    "name": "Casio",
+    "country": "japan",
+    "groupSlug": "casio",
+    "founded": 1946,
+    "description": "Casio Computer Co., Ltd. is a Japanese multinational electronics company. In watchmaking, Casio is renowned for affordable, durable, and feature-rich digital watches. The company produces everything from the iconic F-91W to sophisticated GPS and Bluetooth-connected timepieces.",
+    "website": "https://www.casio.com"
+  },
+  {
+    "slug": "g-shock",
+    "name": "G-Shock",
+    "country": "japan",
+    "groupSlug": "casio",
+    "founded": 1983,
+    "description": "G-Shock is a line of watches manufactured by Casio, designed to resist mechanical shock and vibration. Created by engineer Kikuo Ibe in 1983, G-Shock watches are built with a hollow structure that suspends the module within the case. The brand has become a cultural icon, popular in military, law enforcement, extreme sports, and street fashion.",
+    "website": "https://www.gshock.com"
+  },
+  {
+    "slug": "hublot",
+    "name": "Hublot",
+    "country": "switzerland",
+    "groupSlug": "lvmh",
+    "founded": 1980,
+    "description": "Hublot is a Swiss luxury watchmaker founded in 1980 by Carlo Crocco. The brand is known for its 'Art of Fusion' philosophy, combining unconventional materials like ceramic, carbon fiber, and sapphire crystal in bold designs. The Big Bang collection, launched in 2005 under CEO Jean-Claude Biver, transformed Hublot into one of the fastest-growing luxury watch brands.",
+    "website": "https://www.hublot.com"
+  },
+  {
+    "slug": "zenith",
+    "name": "Zenith",
+    "country": "switzerland",
+    "groupSlug": "lvmh",
+    "founded": 1865,
+    "description": "Zenith is a Swiss luxury watchmaker founded in 1865 in Le Locle. Famous for the El Primero movement — the world's first automatic chronograph calibre, beating at 36,000 vph — Zenith has been at the forefront of high-frequency watchmaking. Rolex used the El Primero as the base for the Daytona chronograph for over 30 years.",
+    "website": "https://www.zenith-watches.com"
+  },
+  {
+    "slug": "panerai",
+    "name": "Panerai",
+    "country": "italy",
+    "groupSlug": "richemont",
+    "founded": 1860,
+    "description": "Officine Panerai is an Italian luxury watchmaker originally founded in Florence. Initially a supplier of precision instruments to the Italian Navy, Panerai's military heritage defines its aesthetic: large cushion cases, luminous dials, and crown-protecting bridge devices. The Luminor and Radiomir remain among the most recognizable watch designs in the world.",
+    "website": "https://www.panerai.com"
+  },
+  {
+    "slug": "vacheron-constantin",
+    "name": "Vacheron Constantin",
+    "country": "switzerland",
+    "groupSlug": "richemont",
+    "founded": 1755,
+    "description": "Vacheron Constantin is a Swiss luxury watchmaker and one of the oldest watch manufacturers in the world, with an uninterrupted history since 1755. Part of the 'Holy Trinity' of watchmaking alongside Patek Philippe and Audemars Piguet, Vacheron Constantin is known for the Overseas, Patrimony, and Historiques collections, as well as extraordinary custom pieces through its Les Cabinotiers atelier.",
+    "website": "https://www.vacheron-constantin.com"
+  },
+  {
+    "slug": "a-lange-sohne",
+    "name": "A. Lange & Söhne",
+    "country": "germany",
+    "groupSlug": "richemont",
+    "founded": 1845,
+    "description": "A. Lange & Söhne is a German luxury watchmaker based in Glashütte, Saxony. Founded by Ferdinand Adolph Lange in 1845, the company was expropriated after World War II and refounded by Walter Lange in 1990 after German reunification. Known for meticulous German engineering, silver and gold movement finishing, and the iconic outsize date, Lange produces only a few thousand watches per year.",
+    "website": "https://www.alange-soehne.com"
+  },
+  {
+    "slug": "hamilton",
+    "name": "Hamilton",
+    "country": "usa",
+    "groupSlug": "swatch-group",
+    "founded": 1892,
+    "description": "Hamilton Watch Company is an American-Swiss watchmaker founded in Lancaster, Pennsylvania. Known as the 'Watch of Railroad Accuracy,' Hamilton has appeared in over 500 Hollywood films. Now headquartered in Biel/Bienne and part of the Swatch Group, Hamilton offers Swiss-made watches with American design DNA at accessible price points.",
+    "website": "https://www.hamiltonwatch.com"
+  },
+  {
+    "slug": "orient",
+    "name": "Orient",
+    "country": "japan",
+    "groupSlug": "seiko-group",
+    "founded": 1950,
+    "description": "Orient Watch Co. is a Japanese watchmaker and subsidiary of Seiko Epson. Known for producing affordable mechanical watches with in-house movements, Orient offers remarkable value. The Bambino dress watch and Mako/Ray dive watches are considered some of the best entry-level mechanical watches available.",
+    "website": "https://www.orient-watch.com"
+  },
+  {
+    "slug": "bulgari",
+    "name": "Bulgari",
+    "country": "italy",
+    "groupSlug": "lvmh",
+    "founded": 1884,
+    "description": "Bulgari is an Italian luxury brand founded in Rome in 1884. Known primarily for jewellery, Bulgari has made significant contributions to watchmaking with the Octo Finissimo collection, which has broken multiple records for the world's thinnest watches. The Serpenti and Lvcea collections showcase Bulgari's distinctive Italian design aesthetic.",
+    "website": "https://www.bulgari.com"
+  },
+  {
+    "slug": "breitling",
+    "name": "Breitling",
+    "country": "switzerland",
+    "groupSlug": null,
+    "founded": 1884,
+    "description": "Breitling SA is a Swiss luxury watchmaker known for precision-made chronographs and its strong connection to aviation. Founded in 1884, Breitling developed the modern chronograph pushpiece and the Navitimer with its iconic slide rule bezel. The brand is now owned by CVC Capital Partners and produces robust, pilot-oriented timepieces.",
+    "website": "https://www.breitling.com"
+  },
+  {
+    "slug": "nomos-glashutte",
+    "name": "NOMOS Glashütte",
+    "country": "germany",
+    "groupSlug": null,
+    "founded": 1990,
+    "description": "NOMOS Glashütte is a German watch manufacturer based in Glashütte, Saxony. Founded in 1990 shortly after German reunification, NOMOS is known for Bauhaus-inspired minimalist designs and in-house movements. Despite being a relatively young brand, NOMOS has earned recognition for producing high-quality, well-designed watches at reasonable prices.",
+    "website": "https://nomos-glashuette.com"
+  },
+  {
+    "slug": "rado",
+    "name": "Rado",
+    "country": "switzerland",
+    "groupSlug": "swatch-group",
+    "founded": 1917,
+    "description": "Rado is a Swiss watchmaker known as the 'Master of Materials.' A pioneer in the use of high-tech ceramics, hardened metals, and sapphire crystal in watchmaking, Rado created the world's first scratch-resistant watch in 1962. The brand continues to push material science boundaries with plasma high-tech ceramic and ceramos.",
+    "website": "https://www.rado.com"
+  },
+  {
+    "slug": "frederique-constant",
+    "name": "Frederique Constant",
+    "country": "switzerland",
+    "groupSlug": "citizen-group",
+    "founded": 1988,
+    "description": "Frederique Constant is a Swiss watchmaker based in Geneva. Founded in 1988, the brand's mission is to make luxury Swiss watches accessible to a broader audience. Known for the Classics and Highlife collections, Frederique Constant produces in-house movements and offers exceptional value in the accessible luxury segment.",
+    "website": "https://www.frederiqueconstant.com"
+  },
+  {
+    "slug": "bulova",
+    "name": "Bulova",
+    "country": "usa",
+    "groupSlug": "citizen-group",
+    "founded": 1875,
+    "description": "Bulova Corporation is an American watchmaker founded in New York City. Known for innovation, Bulova produced the first fully electronic watch (Accutron, 1960) using a tuning fork mechanism, and the Accutron technology was used in NASA instruments and satellites. Now part of the Citizen Group, Bulova offers affordable watches with notable heritage.",
+    "website": "https://www.bulova.com"
+  },
+  {
+    "slug": "piaget",
+    "name": "Piaget",
+    "country": "switzerland",
+    "groupSlug": "richemont",
+    "founded": 1874,
+    "description": "Piaget is a Swiss luxury watchmaker and jeweller founded in La Côte-aux-Fées. Known as a pioneer of ultra-thin watchmaking, Piaget has held multiple records for the world's thinnest movements and watches. The Altiplano and Polo collections showcase the brand's mastery of slim elegance, while jewelled timepieces display extraordinary gem-setting craftsmanship.",
+    "website": "https://www.piaget.com"
+  }
+]

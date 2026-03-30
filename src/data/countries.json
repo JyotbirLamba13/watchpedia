@@ -1,0 +1,12 @@
+[
+  { "slug": "switzerland", "name": "Switzerland", "flag": "🇨🇭" },
+  { "slug": "japan", "name": "Japan", "flag": "🇯🇵" },
+  { "slug": "germany", "name": "Germany", "flag": "🇩🇪" },
+  { "slug": "france", "name": "France", "flag": "🇫🇷" },
+  { "slug": "usa", "name": "United States", "flag": "🇺🇸" },
+  { "slug": "uk", "name": "United Kingdom", "flag": "🇬🇧" },
+  { "slug": "italy", "name": "Italy", "flag": "🇮🇹" },
+  { "slug": "sweden", "name": "Sweden", "flag": "🇸🇪" },
+  { "slug": "india", "name": "India", "flag": "🇮🇳" },
+  { "slug": "china", "name": "China", "flag": "🇨🇳" }
+]
