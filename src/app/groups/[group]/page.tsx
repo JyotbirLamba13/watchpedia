@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!group) return {};
   return {
     title: `${group.name} - Watch Brands & Collections`,
-    description: `${group.name} watch group. Browse all brands owned by ${group.name} including their complete watch collections and specifications.`,
+    description: `${group.name} watch group. Browse all brands owned by ${group.name}.`,
   };
 }
 
@@ -38,41 +38,47 @@ export default async function GroupPage({ params }: Props) {
     name: group.name,
     description: group.description,
     ...(group.website && { url: group.website }),
-    subOrganization: brands.map((b) => ({
-      '@type': 'Organization',
-      name: b.name,
-    })),
+    subOrganization: brands.map((b) => ({ '@type': 'Organization', name: b.name })),
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-      <JsonLd data={jsonLd} />
-      <Breadcrumbs items={[{ label: 'Groups', href: '/groups' }, { label: group.name }]} />
-
-      <h1 className="text-3xl font-serif font-bold text-gray-900 mb-1">{group.name}</h1>
-      <p className="text-sm text-gray-500 mb-4">
-        {country?.flag} {country?.name} &middot; {brands.length} brands &middot; {totalWatches} watches
-      </p>
-      <p className="text-gray-700 leading-relaxed mb-8">{group.description}</p>
-
-      {group.website && (
-        <p className="text-sm mb-6">
-          <a href={group.website} target="_blank" rel="noopener noreferrer" className="text-watchpedia-link hover:underline">
-            Official website &rarr;
-          </a>
-        </p>
-      )}
-
-      <section>
-        <h2 className="text-xl font-serif font-bold text-gray-900 border-b border-gray-200 pb-1 mb-4">
-          Brands ({brands.length})
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {brands.map((brand) => (
-            <BrandCard key={brand.slug} brand={brand} />
-          ))}
+    <div>
+      <div className="bg-wp-dark">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+          <p className="text-wp-gold text-[10px] font-semibold uppercase tracking-[0.2em] mb-2">Watch Group</p>
+          <h1 className="font-display text-3xl md:text-4xl font-bold text-white mb-2">{group.name}</h1>
+          <p className="text-white/50 text-sm">
+            {country?.flag} {country?.name} &middot; {brands.length} brands &middot; {totalWatches} references
+          </p>
         </div>
-      </section>
+      </div>
+
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <JsonLd data={jsonLd} />
+        <Breadcrumbs items={[{ label: 'Groups', href: '/groups' }, { label: group.name }]} />
+
+        <div className="max-w-3xl mb-12">
+          <p className="text-wp-dark/80 leading-relaxed">{group.description}</p>
+          {group.website && (
+            <p className="mt-4">
+              <a href={group.website} target="_blank" rel="noopener noreferrer" className="text-sm text-wp-gold hover:underline">
+                Official website &rarr;
+              </a>
+            </p>
+          )}
+        </div>
+
+        <section>
+          <h2 className="font-display text-2xl font-bold text-wp-dark mb-6">
+            Brands <span className="text-wp-muted font-normal text-base ml-1">({brands.length})</span>
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {brands.map((brand) => (
+              <BrandCard key={brand.slug} brand={brand} />
+            ))}
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

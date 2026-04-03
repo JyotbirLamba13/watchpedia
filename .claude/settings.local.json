@@ -7,7 +7,13 @@
       "Bash(gh auth:*)",
       "Bash(brew install:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"Initial commit: Watchpedia - The Watch Encyclopedia:*)"
+      "Bash(git commit -m \"Initial commit: Watchpedia - The Watch Encyclopedia:*)",
+      "Bash(gh repo:*)",
+      "Bash(npm i:*)",
+      "Bash(vercel:*)",
+      "WebFetch(domain:www.thewatchpages.com)",
+      "Bash(git commit -m \"Redesign: premium luxury aesthetic inspired by thewatchpages.com:*)",
+      "Bash(git push:*)"
     ]
   }
 }

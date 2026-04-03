@@ -9,119 +9,234 @@ export default function HomePage() {
   const countries = getAllCountries();
   const totalWatches = getAllWatches().length;
 
+  const topBrands = ['rolex', 'omega', 'patek-philippe', 'audemars-piguet', 'cartier', 'seiko', 'grand-seiko', 'tudor', 'tag-heuer', 'iwc', 'jaeger-lecoultre', 'breitling'];
+  const popularBrands = brands.filter((b) => topBrands.includes(b.slug));
+
   return (
     <div>
-      {/* Hero */}
-      <section className="bg-gradient-to-b from-gray-50 to-white py-16 px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
-          Watchpedia
-        </h1>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
-          The free encyclopedia of watches. {brands.length} brands, {totalWatches} references, and counting.
-        </p>
-        <Link
-          href="/search"
-          className="inline-flex items-center gap-2 px-6 py-2.5 bg-watchpedia-link text-white rounded-lg hover:bg-watchpedia-link-hover transition-colors text-sm"
-        >
-          Search the encyclopedia
-        </Link>
+      {/* Hero - Cinematic */}
+      <section className="relative bg-wp-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-wp-charcoal via-wp-dark to-black opacity-90" />
+        <div className="relative max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+          <div className="max-w-2xl">
+            <p className="text-wp-gold text-xs font-semibold uppercase tracking-[0.2em] mb-4">
+              The Watch Encyclopedia
+            </p>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-[1.1] mb-6">
+              Every Watch.<br />Every Brand.<br />One Place.
+            </h1>
+            <p className="text-white/60 text-lg md:text-xl leading-relaxed mb-8 max-w-lg">
+              Explore {brands.length} brands and {totalWatches} references from watchmakers around the world.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/search" className="btn-pill btn-gold text-sm">
+                Explore Watches
+              </Link>
+              <Link href="/brands" className="btn-pill border border-white/20 text-white hover:bg-white/10 text-sm transition-colors">
+                Browse Brands
+              </Link>
+            </div>
+          </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-3 gap-6 mt-16 max-w-lg">
+            <Stat value={`${brands.length}+`} label="Brands" />
+            <Stat value={`${totalWatches}`} label="References" />
+            <Stat value={`${countries.length}`} label="Countries" />
+          </div>
+        </div>
       </section>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        {/* Browse Categories */}
-        <section className="py-10">
-          <h2 className="text-2xl font-serif font-bold text-gray-900 mb-6">Browse</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <CategoryLink
+      {/* Featured Watches */}
+      <section className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+        <SectionHeader title="Featured Watches" subtitle="Iconic timepieces from the world's finest manufacturers" href="/search" linkText="View all" />
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
+          {featured.map((watch) => (
+            <WatchCard key={`${watch.brandSlug}-${watch.slug}`} watch={watch} />
+          ))}
+        </div>
+      </section>
+
+      {/* Browse Categories - 3 columns */}
+      <section className="bg-wp-cream">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+          <SectionHeader title="Discover" subtitle="Browse the encyclopedia your way" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <CategoryCard
               href="/brands"
-              title="Brands"
+              title="By Brand"
               count={brands.length}
-              description="Browse all watch brands from A to Z"
-              icon="🏷️"
+              description="From Audemars Piguet to Zenith"
+              gradient="from-[#1a1a1a] to-[#2d2d2d]"
             />
-            <CategoryLink
+            <CategoryCard
               href="/groups"
-              title="Watch Groups"
+              title="By Group"
               count={groups.length}
-              description="Swatch Group, Richemont, LVMH, Seiko Group, and more"
-              icon="🏢"
+              description="Swatch Group, Richemont, LVMH & more"
+              gradient="from-[#2d2d2d] to-[#3a3a3a]"
             />
-            <CategoryLink
+            <CategoryCard
               href="/countries"
               title="By Country"
               count={countries.length}
-              description="Switzerland, Japan, Germany, and beyond"
-              icon="🌍"
+              description="Switzerland, Japan, Germany & beyond"
+              gradient="from-[#3a3a3a] to-[#4a4a4a]"
             />
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Featured Watches */}
-        <section className="py-10 border-t border-gray-100">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-serif font-bold text-gray-900">Featured Watches</h2>
-            <Link href="/search" className="text-sm text-watchpedia-link hover:text-watchpedia-link-hover">
-              View all &rarr;
+      {/* Popular Brands */}
+      <section className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+        <SectionHeader title="Popular Brands" subtitle="The most sought-after names in horology" href="/brands" linkText="All brands" />
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          {popularBrands.map((brand) => (
+            <Link
+              key={brand.slug}
+              href={`/brands/${brand.slug}`}
+              className="group flex flex-col items-center p-5 rounded-xl border border-wp-border/60 bg-white card-hover text-center"
+            >
+              <div className="w-14 h-14 bg-gradient-to-br from-wp-cream to-wp-light rounded-full flex items-center justify-center text-xl font-display font-bold text-wp-muted/50 mb-3 group-hover:from-wp-dark group-hover:to-wp-charcoal group-hover:text-white transition-all duration-300">
+                {brand.name[0]}
+              </div>
+              <span className="text-sm font-display font-semibold text-wp-dark">{brand.name}</span>
+              <span className="text-[10px] text-wp-muted mt-1">Est. {brand.founded}</span>
             </Link>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {featured.map((watch) => (
-              <WatchCard key={`${watch.brandSlug}-${watch.slug}`} watch={watch} />
-            ))}
-          </div>
-        </section>
+          ))}
+        </div>
+      </section>
 
-        {/* Popular Brands */}
-        <section className="py-10 border-t border-gray-100">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-serif font-bold text-gray-900">Popular Brands</h2>
-            <Link href="/brands" className="text-sm text-watchpedia-link hover:text-watchpedia-link-hover">
-              All brands &rarr;
-            </Link>
+      {/* Groups Banner */}
+      <section className="bg-wp-dark">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+          <div className="text-center mb-10">
+            <p className="text-wp-gold text-xs font-semibold uppercase tracking-[0.2em] mb-3">Industry</p>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-3">Watch Groups &amp; Conglomerates</h2>
+            <p className="text-white/50 text-sm max-w-lg mx-auto">
+              The major companies that shape the global watch industry
+            </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
-            {brands.slice(0, 12).map((brand) => (
-              <Link
-                key={brand.slug}
-                href={`/brands/${brand.slug}`}
-                className="flex items-center gap-2 p-3 border border-gray-200 rounded-lg hover:shadow-sm transition-shadow bg-white text-sm"
-              >
-                <span className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs font-serif font-bold text-gray-400 shrink-0">
-                  {brand.name[0]}
-                </span>
-                <span className="text-gray-900 truncate">{brand.name}</span>
-              </Link>
-            ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {groups.map((group) => {
+              const country = countries.find((c) => c.slug === group.country);
+              return (
+                <Link
+                  key={group.slug}
+                  href={`/groups/${group.slug}`}
+                  className="group p-5 rounded-xl bg-wp-charcoal/50 border border-wp-border-dark hover:bg-wp-charcoal transition-colors"
+                >
+                  <h3 className="font-display text-lg font-semibold text-white group-hover:text-wp-gold transition-colors">
+                    {group.name}
+                  </h3>
+                  <p className="text-white/40 text-xs mt-1">
+                    {country?.flag} {country?.name} &middot; {group.brandSlugs.length} brands
+                  </p>
+                  <div className="flex flex-wrap gap-1.5 mt-3">
+                    {group.brandSlugs.slice(0, 5).map((slug) => {
+                      const b = brands.find((br) => br.slug === slug);
+                      return (
+                        <span key={slug} className="px-2 py-0.5 bg-white/5 border border-white/10 rounded text-[10px] text-white/60">
+                          {b?.name ?? slug}
+                        </span>
+                      );
+                    })}
+                    {group.brandSlugs.length > 5 && (
+                      <span className="px-2 py-0.5 text-[10px] text-white/30">+{group.brandSlugs.length - 5} more</span>
+                    )}
+                  </div>
+                </Link>
+              );
+            })}
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <p className="text-wp-gold text-xs font-semibold uppercase tracking-[0.2em] mb-3">Open Encyclopedia</p>
+        <h2 className="font-display text-3xl md:text-4xl font-bold text-wp-dark mb-4">
+          The World of Watches, Encyclopedized
+        </h2>
+        <p className="text-wp-muted max-w-lg mx-auto mb-8">
+          From a $15 Casio to a $500,000 Patek Philippe &mdash; every watch has a story. Start exploring.
+        </p>
+        <Link href="/search" className="btn-pill btn-dark">
+          Search the Encyclopedia
+        </Link>
+      </section>
     </div>
   );
 }
 
-function CategoryLink({
+function SectionHeader({
+  title,
+  subtitle,
+  href,
+  linkText,
+}: {
+  title: string;
+  subtitle: string;
+  href?: string;
+  linkText?: string;
+}) {
+  return (
+    <div className="flex items-end justify-between mb-8">
+      <div>
+        <h2 className="font-display text-2xl md:text-3xl font-bold text-wp-dark">{title}</h2>
+        <p className="text-wp-muted text-sm mt-1">{subtitle}</p>
+      </div>
+      {href && linkText && (
+        <Link href={href} className="hidden sm:flex items-center gap-1 text-sm text-wp-muted hover:text-wp-dark transition-colors">
+          {linkText}
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+          </svg>
+        </Link>
+      )}
+    </div>
+  );
+}
+
+function Stat({ value, label }: { value: string; label: string }) {
+  return (
+    <div>
+      <p className="text-2xl md:text-3xl font-display font-bold text-white">{value}</p>
+      <p className="text-white/40 text-xs uppercase tracking-wider mt-1">{label}</p>
+    </div>
+  );
+}
+
+function CategoryCard({
   href,
   title,
   count,
   description,
-  icon,
+  gradient,
 }: {
   href: string;
   title: string;
   count: number;
   description: string;
-  icon: string;
+  gradient: string;
 }) {
   return (
     <Link
       href={href}
-      className="group p-5 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white"
+      className={`group relative block p-8 rounded-xl bg-gradient-to-br ${gradient} overflow-hidden card-hover`}
     >
-      <div className="text-3xl mb-2">{icon}</div>
-      <h3 className="font-semibold text-gray-900 group-hover:text-watchpedia-link">
-        {title} <span className="text-gray-400 font-normal text-sm">({count})</span>
-      </h3>
-      <p className="text-sm text-gray-500 mt-1">{description}</p>
+      <div className="relative z-10">
+        <p className="text-white/40 text-xs font-semibold uppercase tracking-wider mb-2">{count} entries</p>
+        <h3 className="font-display text-2xl font-bold text-white mb-2 group-hover:text-wp-gold transition-colors">
+          {title}
+        </h3>
+        <p className="text-white/50 text-sm">{description}</p>
+      </div>
+      <div className="absolute top-4 right-4 w-10 h-10 rounded-full border border-white/10 flex items-center justify-center group-hover:border-wp-gold/30 transition-colors">
+        <svg className="w-4 h-4 text-white/30 group-hover:text-wp-gold transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </div>
     </Link>
   );
 }

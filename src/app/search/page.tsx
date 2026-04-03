@@ -1,11 +1,9 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { Suspense } from 'react';
 
-// Import search index data directly — this gets bundled at build time
 import brandsData from '@/data/brands.json';
 import watchesData from '@/data/watches.json';
 import groupsData from '@/data/groups.json';
@@ -66,18 +64,11 @@ function buildSearchIndex(): SearchEntry[] {
   return index;
 }
 
-const typeLabels: Record<string, string> = {
-  brand: 'Brand',
-  watch: 'Watch',
-  group: 'Group',
-  country: 'Country',
-};
-
-const typeColors: Record<string, string> = {
-  brand: 'bg-blue-100 text-blue-700',
-  watch: 'bg-green-100 text-green-700',
-  group: 'bg-purple-100 text-purple-700',
-  country: 'bg-orange-100 text-orange-700',
+const typeBadge: Record<string, { label: string; class: string }> = {
+  brand: { label: 'Brand', class: 'bg-wp-dark text-white' },
+  watch: { label: 'Watch', class: 'bg-wp-gold text-white' },
+  group: { label: 'Group', class: 'bg-wp-charcoal text-white' },
+  country: { label: 'Country', class: 'bg-wp-muted text-white' },
 };
 
 function SearchContent() {
@@ -97,55 +88,65 @@ function SearchContent() {
   }, [query, searchIndex]);
 
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
-      <h1 className="text-3xl font-serif font-bold text-gray-900 mb-6">Search Watchpedia</h1>
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
+      <h1 className="font-display text-3xl font-bold text-wp-dark mb-8">Search</h1>
 
       <div className="relative mb-8">
         <input
           type="search"
-          placeholder="Search watches, brands, groups, countries..."
+          placeholder="Search watches, brands, collections..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           autoFocus
-          className="w-full px-4 py-3 text-lg border border-gray-300 rounded-lg focus:outline-none focus:border-watchpedia-link focus:ring-1 focus:ring-watchpedia-link"
+          className="w-full px-5 py-4 text-lg bg-wp-cream border border-wp-border rounded-xl focus:outline-none focus:border-wp-dark placeholder:text-wp-muted/50 transition-colors"
         />
+        <div className="absolute right-4 top-1/2 -translate-y-1/2">
+          <svg className="w-5 h-5 text-wp-muted/40" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+        </div>
       </div>
 
       {query.trim() && (
-        <p className="text-sm text-gray-500 mb-4">
+        <p className="text-xs text-wp-muted mb-6 uppercase tracking-wider">
           {results.length} {results.length === 1 ? 'result' : 'results'} for &ldquo;{query.trim()}&rdquo;
         </p>
       )}
 
       <div className="space-y-2">
-        {results.map((result) => (
-          <Link
-            key={result.url}
-            href={result.url}
-            className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-200"
-          >
-            <span className={`shrink-0 px-2 py-0.5 rounded text-xs font-medium ${typeColors[result.type]}`}>
-              {typeLabels[result.type]}
-            </span>
-            <div className="min-w-0">
-              <h3 className="font-medium text-gray-900 text-sm">{result.title}</h3>
-              <p className="text-xs text-gray-500 truncate">{result.subtitle}</p>
-            </div>
-          </Link>
-        ))}
+        {results.map((result) => {
+          const badge = typeBadge[result.type];
+          return (
+            <Link
+              key={result.url}
+              href={result.url}
+              className="flex items-center gap-4 p-4 rounded-xl hover:bg-wp-cream transition-colors border border-transparent hover:border-wp-border/40"
+            >
+              <span className={`shrink-0 px-2.5 py-1 rounded-md text-[10px] font-semibold uppercase tracking-wider ${badge.class}`}>
+                {badge.label}
+              </span>
+              <div className="min-w-0">
+                <h3 className="font-display text-sm font-semibold text-wp-dark">{result.title}</h3>
+                <p className="text-[11px] text-wp-muted truncate">{result.subtitle}</p>
+              </div>
+            </Link>
+          );
+        })}
       </div>
 
       {query.trim() && results.length === 0 && (
-        <div className="text-center py-12 text-gray-500">
-          <p className="text-lg mb-2">No results found</p>
-          <p className="text-sm">Try a different search term, such as a brand name, reference number, or collection.</p>
+        <div className="text-center py-20">
+          <p className="font-display text-xl text-wp-dark mb-2">No results found</p>
+          <p className="text-sm text-wp-muted">Try a brand name, reference number, or collection.</p>
         </div>
       )}
 
       {!query.trim() && (
-        <div className="text-center py-12 text-gray-500">
-          <p className="text-lg mb-2">Start typing to search</p>
-          <p className="text-sm">Search across {searchIndex.length} brands, watches, groups, and countries.</p>
+        <div className="text-center py-20">
+          <p className="font-display text-xl text-wp-dark mb-2">Start typing to search</p>
+          <p className="text-sm text-wp-muted">
+            {searchIndex.length} entries across brands, watches, groups, and countries.
+          </p>
         </div>
       )}
     </div>
@@ -154,7 +155,7 @@ function SearchContent() {
 
 export default function SearchPage() {
   return (
-    <Suspense fallback={<div className="max-w-3xl mx-auto px-4 py-8"><p>Loading...</p></div>}>
+    <Suspense fallback={<div className="max-w-3xl mx-auto px-4 py-10"><p className="text-wp-muted">Loading...</p></div>}>
       <SearchContent />
     </Suspense>
   );

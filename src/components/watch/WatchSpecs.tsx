@@ -2,15 +2,15 @@ import type { WatchSpecs as WatchSpecsType } from '@/types';
 
 export default function WatchSpecs({ specs }: { specs: WatchSpecsType }) {
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full text-sm border border-gray-200 rounded">
+    <div className="overflow-x-auto rounded-xl border border-wp-border/60">
+      <table className="w-full text-sm">
         <thead>
-          <tr className="bg-gray-50">
-            <th className="px-4 py-2 text-left text-gray-700 font-medium w-1/3">Specification</th>
-            <th className="px-4 py-2 text-left text-gray-700 font-medium">Details</th>
+          <tr className="bg-wp-dark text-white">
+            <th className="px-5 py-3 text-left text-xs font-semibold uppercase tracking-wider w-1/3">Specification</th>
+            <th className="px-5 py-3 text-left text-xs font-semibold uppercase tracking-wider">Details</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="divide-y divide-wp-border/40">
           <SpecRow label="Movement" value={specs.movement} />
           <SpecRow label="Movement Type" value={specs.movementType} />
           <SpecRow label="Case Material" value={specs.caseMaterial} />
@@ -25,7 +25,7 @@ export default function WatchSpecs({ specs }: { specs: WatchSpecsType }) {
           {specs.complications && specs.complications.length > 0 && (
             <SpecRow label="Complications" value={specs.complications.join(', ')} />
           )}
-          {specs.price && <SpecRow label="Approximate MSRP" value={specs.price} />}
+          {specs.price && <SpecRow label="Approximate MSRP" value={specs.price} highlight />}
           {specs.yearIntroduced && <SpecRow label="Year Introduced" value={String(specs.yearIntroduced)} />}
         </tbody>
       </table>
@@ -33,11 +33,11 @@ export default function WatchSpecs({ specs }: { specs: WatchSpecsType }) {
   );
 }
 
-function SpecRow({ label, value }: { label: string; value: string }) {
+function SpecRow({ label, value, highlight }: { label: string; value: string; highlight?: boolean }) {
   return (
-    <tr className="border-t border-gray-200">
-      <td className="px-4 py-2 text-gray-500 font-medium">{label}</td>
-      <td className="px-4 py-2 text-gray-900">{value}</td>
+    <tr className={highlight ? 'bg-wp-cream' : 'bg-white even:bg-wp-cream/50'}>
+      <td className="px-5 py-3 text-wp-muted text-xs font-medium">{label}</td>
+      <td className={`px-5 py-3 text-xs ${highlight ? 'font-semibold text-wp-dark' : 'text-wp-dark'}`}>{value}</td>
     </tr>
   );
 }

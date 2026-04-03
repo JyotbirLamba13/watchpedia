@@ -21,10 +21,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${brand.name} Watches`,
     description: `${brand.name} watch encyclopedia. Browse all ${brand.name} collections, references, and specifications. Founded ${brand.founded}.`,
-    openGraph: {
-      title: `${brand.name} Watches | Watchpedia`,
-      description: `Complete guide to ${brand.name} watches. History, collections, and detailed specifications.`,
-    },
   };
 }
 
@@ -48,74 +44,74 @@ export default async function BrandPage({ params }: Props) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-      <JsonLd data={jsonLd} />
-      <Breadcrumbs items={[{ label: 'Brands', href: '/brands' }, { label: brand.name }]} />
-
-      <div className="lg:flex lg:gap-8">
-        {/* Infobox */}
-        <div className="lg:order-2 w-full lg:w-72 shrink-0 mb-6">
-          <div className="border border-watchpedia-border rounded bg-watchpedia-infobox">
-            <div className="bg-gray-200 p-6 text-center">
-              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto text-2xl font-serif font-bold text-gray-400">
-                {brand.name[0]}
-              </div>
-              <p className="mt-2 font-semibold text-sm">{brand.name}</p>
+    <div>
+      {/* Brand hero */}
+      <div className="bg-wp-dark">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+          <div className="flex items-center gap-5">
+            <div className="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center text-3xl font-display font-bold text-white shrink-0">
+              {brand.name[0]}
             </div>
-            <table className="w-full text-sm">
-              <tbody>
-                <tr className="border-t border-gray-200">
-                  <th className="px-3 py-1.5 text-left text-gray-500 font-normal">Founded</th>
-                  <td className="px-3 py-1.5 text-gray-900">{brand.founded}</td>
-                </tr>
-                <tr className="border-t border-gray-200">
-                  <th className="px-3 py-1.5 text-left text-gray-500 font-normal">Country</th>
-                  <td className="px-3 py-1.5 text-gray-900">{country?.flag} {country?.name}</td>
-                </tr>
+            <div>
+              <p className="text-wp-gold text-[10px] font-semibold uppercase tracking-[0.2em] mb-1">
+                {country?.flag} {country?.name} &middot; Est. {brand.founded}
+              </p>
+              <h1 className="font-display text-3xl md:text-4xl font-bold text-white">{brand.name}</h1>
+              <div className="flex items-center gap-3 mt-2 text-xs text-white/50">
                 {group && (
-                  <tr className="border-t border-gray-200">
-                    <th className="px-3 py-1.5 text-left text-gray-500 font-normal">Group</th>
-                    <td className="px-3 py-1.5">
-                      <Link href={`/groups/${group.slug}`} className="text-watchpedia-link hover:underline">
-                        {group.name}
-                      </Link>
-                    </td>
-                  </tr>
+                  <Link href={`/groups/${group.slug}`} className="hover:text-wp-gold transition-colors">
+                    {group.name}
+                  </Link>
                 )}
-                <tr className="border-t border-gray-200">
-                  <th className="px-3 py-1.5 text-left text-gray-500 font-normal">Watches</th>
-                  <td className="px-3 py-1.5 text-gray-900">{watches.length} references</td>
-                </tr>
+                <span>{watches.length} references</span>
                 {brand.website && (
-                  <tr className="border-t border-gray-200">
-                    <th className="px-3 py-1.5 text-left text-gray-500 font-normal">Website</th>
-                    <td className="px-3 py-1.5">
-                      <a href={brand.website} target="_blank" rel="noopener noreferrer" className="text-watchpedia-link hover:underline text-xs">
-                        Official site
-                      </a>
-                    </td>
-                  </tr>
+                  <a href={brand.website} target="_blank" rel="noopener noreferrer" className="hover:text-wp-gold transition-colors">
+                    Official site &rarr;
+                  </a>
                 )}
-              </tbody>
-            </table>
+              </div>
+            </div>
           </div>
         </div>
-
-        {/* Main content */}
-        <div className="lg:order-1 flex-1 min-w-0">
-          <h1 className="text-3xl font-serif font-bold text-gray-900 mb-4">{brand.name}</h1>
-          <p className="text-gray-700 leading-relaxed mb-8">{brand.description}</p>
-
-          {watches.length > 0 && (
-            <section>
-              <h2 className="text-xl font-serif font-bold text-gray-900 border-b border-gray-200 pb-1 mb-4">
-                Watches ({watches.length})
-              </h2>
-              <WatchGrid watches={watches} />
-            </section>
-          )}
-        </div>
       </div>
+
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <JsonLd data={jsonLd} />
+        <Breadcrumbs items={[{ label: 'Brands', href: '/brands' }, { label: brand.name }]} />
+
+        {/* Description */}
+        <div className="max-w-3xl mb-12">
+          <p className="text-wp-dark/80 leading-relaxed">{brand.description}</p>
+        </div>
+
+        {/* Quick facts */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
+          <FactCard label="Founded" value={String(brand.founded)} />
+          <FactCard label="Country" value={`${country?.flag} ${country?.name}`} />
+          <FactCard label="Group" value={group?.name ?? 'Independent'} />
+          <FactCard label="References" value={String(watches.length)} />
+        </div>
+
+        {/* Watches */}
+        {watches.length > 0 && (
+          <section>
+            <h2 className="font-display text-2xl font-bold text-wp-dark mb-6">
+              Watches
+              <span className="text-wp-muted font-normal text-base ml-2">({watches.length})</span>
+            </h2>
+            <WatchGrid watches={watches} />
+          </section>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function FactCard({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="p-4 rounded-xl bg-wp-cream border border-wp-border/40">
+      <p className="text-[10px] uppercase tracking-wider text-wp-muted mb-1">{label}</p>
+      <p className="text-sm font-display font-semibold text-wp-dark">{value}</p>
     </div>
   );
 }
