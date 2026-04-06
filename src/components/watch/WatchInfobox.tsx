@@ -13,7 +13,7 @@ export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Br
             src={watch.image}
             alt={`${brand.name} ${watch.name}`}
             fill
-            className="object-contain p-6"
+            className="object-contain p-6 mix-blend-multiply"
             sizes="320px"
             priority
           />
