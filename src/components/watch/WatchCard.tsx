@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Watch } from '@/types';
 import { getBrandBySlug } from '@/lib/data';
 
@@ -11,7 +12,17 @@ export default function WatchCard({ watch }: { watch: Watch }) {
       className="group block card-hover rounded-xl overflow-hidden bg-white border border-wp-border/60"
     >
       <div className="aspect-[4/5] bg-gradient-to-b from-wp-cream to-wp-light flex items-center justify-center overflow-hidden relative">
-        <span className="text-7xl opacity-30 group-hover:opacity-50 transition-opacity duration-500">⌚</span>
+        {watch.image ? (
+          <Image
+            src={watch.image}
+            alt={`${brand?.name} ${watch.name}`}
+            fill
+            className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          />
+        ) : (
+          <span className="text-7xl opacity-30 group-hover:opacity-50 transition-opacity duration-500">⌚</span>
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
       <div className="p-4">

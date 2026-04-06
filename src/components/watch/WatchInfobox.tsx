@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Watch, Brand } from '@/types';
 
 export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Brand }) {
@@ -6,8 +7,19 @@ export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Br
   return (
     <div className="float-none md:float-right w-full md:w-80 md:ml-8 mb-8 rounded-xl overflow-hidden border border-wp-border/60 bg-white shadow-sm">
       {/* Image area */}
-      <div className="aspect-square bg-gradient-to-b from-wp-cream to-wp-light flex items-center justify-center">
-        <span className="text-8xl opacity-30">⌚</span>
+      <div className="aspect-square bg-gradient-to-b from-wp-cream to-wp-light flex items-center justify-center relative">
+        {watch.image ? (
+          <Image
+            src={watch.image}
+            alt={`${brand.name} ${watch.name}`}
+            fill
+            className="object-contain p-6"
+            sizes="320px"
+            priority
+          />
+        ) : (
+          <span className="text-8xl opacity-30">⌚</span>
+        )}
       </div>
 
       {/* Title bar */}
