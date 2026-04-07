@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import type { Watch, Brand } from '@/types';
+import ImageZoom from './ImageZoom';
 
 export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Brand }) {
   const { specs } = watch;
@@ -9,14 +10,18 @@ export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Br
       {/* Image area */}
       <div className="aspect-square bg-gradient-to-b from-wp-cream to-wp-light flex items-center justify-center relative">
         {watch.image ? (
-          <Image
-            src={watch.image}
-            alt={`${brand.name} ${watch.name}`}
-            fill
-            className="object-contain p-6 mix-blend-multiply"
-            sizes="320px"
-            priority
-          />
+          <>
+            <Image
+              src={watch.image}
+              alt={`${brand.name} ${watch.name}`}
+              fill
+              className="object-contain p-6 mix-blend-multiply"
+              sizes="640px"
+              quality={95}
+              priority
+            />
+            <ImageZoom src={watch.image} alt={`${brand.name} ${watch.name}`} />
+          </>
         ) : (
           <span className="text-8xl opacity-30">⌚</span>
         )}
