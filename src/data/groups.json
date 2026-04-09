@@ -46,5 +46,13 @@
     "description": "Casio Computer Co., Ltd. is a Japanese multinational electronics company. In watchmaking, Casio is renowned for the virtually indestructible G-Shock line and affordable digital timepieces.",
     "website": "https://www.casio.com",
     "brandSlugs": ["casio", "g-shock"]
+  },
+  {
+    "slug": "titan-group",
+    "name": "Titan Company",
+    "country": "india",
+    "description": "Titan Company Limited is an Indian luxury goods company and a subsidiary of the Tata Group, headquartered in Bengaluru. Founded in 1984, Titan is the fifth-largest integrated own-brand watch manufacturer in the world. The company operates over 2,000 retail stores across India and owns multiple watch brands including Titan, Fastrack, and Sonata.",
+    "website": "https://www.titancompany.in",
+    "brandSlugs": ["titan"]
   }
 ]

@@ -268,5 +268,41 @@
     "founded": 1874,
     "description": "Piaget is a Swiss luxury watchmaker and jeweller founded in La Côte-aux-Fées. Known as a pioneer of ultra-thin watchmaking, Piaget has held multiple records for the world's thinnest movements and watches. The Altiplano and Polo collections showcase the brand's mastery of slim elegance, while jewelled timepieces display extraordinary gem-setting craftsmanship.",
     "website": "https://www.piaget.com"
+  },
+  {
+    "slug": "titan",
+    "name": "Titan",
+    "country": "india",
+    "groupSlug": "titan-group",
+    "founded": 1984,
+    "description": "Titan Company Limited is an Indian consumer goods company and a subsidiary of the Tata Group, headquartered in Bengaluru. Founded in 1984 as a joint venture between the Tata Group and the Tamil Nadu Industrial Development Corporation, Titan is the fifth-largest integrated own-brand watch manufacturer in the world. Known for collections like Edge (world's slimmest ceramic watch at 4.4mm), Octane, Raga, and Nebula, Titan operates over 2,000 retail stores across India.",
+    "website": "https://www.titan.co.in"
+  },
+  {
+    "slug": "hmt",
+    "name": "HMT",
+    "country": "india",
+    "groupSlug": null,
+    "founded": 1961,
+    "description": "Hindustan Machine Tools (HMT) Watches was India's first watchmaker, established in 1961 in Bangalore through a technology transfer with Citizen of Japan. Known as the 'Timekeeper to the Nation,' HMT produced iconic models like the Janata, Pilot, and Sona that became symbols of Indian self-reliance. At its peak in the 1980s, HMT was the largest watch supplier in India. The watch division closed in 2016, and HMT watches are now highly valued collectibles.",
+    "website": "https://www.hmtwatches.in"
+  },
+  {
+    "slug": "delhi-watch-company",
+    "name": "Delhi Watch Company",
+    "country": "india",
+    "groupSlug": null,
+    "founded": 2020,
+    "description": "Delhi Watch Company is an Indian microbrand founded in 2020 that celebrates Delhi's cultural heritage through watchmaking. Starting with the Dilli 36 collection featuring designs inspired by 36 iconic Delhi neighborhoods, DWC focuses on affordable, handcrafted timepieces using locally sourced materials. Each watch incorporates engraved casebacks and dial textures that pay tribute to Delhi's layered history.",
+    "website": "https://delhiwatchcompany.com"
+  },
+  {
+    "slug": "coromandel-watch-company",
+    "name": "Coromandel Watch Co.",
+    "country": "india",
+    "groupSlug": null,
+    "founded": 2024,
+    "description": "Coromandel Watch Co. is an Indian microbrand founded in 2024 that manufactures high-quality handcrafted watches blending traditional South Indian heritage with modern design. Named after the Coromandel Coast, the brand has released collections including the Blue Mountain Edition (tribute to the Nilgiris), Tanjore Edition (inspired by Thanjavur art), and the Varnam Collection featuring dials inspired by the Western Ghats.",
+    "website": "https://coromandelwatchco.com"
   }
 ]
