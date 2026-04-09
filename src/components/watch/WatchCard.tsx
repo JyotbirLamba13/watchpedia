@@ -11,7 +11,7 @@ export default function WatchCard({ watch }: { watch: Watch }) {
       href={`/watches/${watch.brandSlug}/${watch.slug}`}
       className="group block card-hover rounded-xl overflow-hidden bg-white border border-wp-border/60"
     >
-      <div className="aspect-[4/5] bg-gradient-to-b from-wp-cream to-wp-light flex items-center justify-center overflow-hidden relative">
+      <div className="aspect-[4/5] bg-white flex items-center justify-center overflow-hidden relative">
         {watch.image ? (
           <Image
             src={watch.image}

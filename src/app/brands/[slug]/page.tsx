@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllBrands, getBrandBySlug, getWatchesByBrand, getGroupBySlug, getCountryBySlug } from '@/lib/data';
+import { brandLogos } from '@/lib/brandLogos';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import WatchGrid from '@/components/watch/WatchGrid';
 import JsonLd from '@/components/seo/JsonLd';
@@ -49,8 +51,19 @@ export default async function BrandPage({ params }: Props) {
       <div className="bg-wp-dark">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="flex items-center gap-5">
-            <div className="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center text-3xl font-display font-bold text-white shrink-0">
-              {brand.name[0]}
+            <div className="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center shrink-0 overflow-hidden p-3">
+              {brandLogos[brand.slug] ? (
+                <Image
+                  src={brandLogos[brand.slug]}
+                  alt={`${brand.name} logo`}
+                  width={64}
+                  height={64}
+                  className="object-contain max-h-14 brightness-0 invert opacity-90"
+                  unoptimized
+                />
+              ) : (
+                <span className="text-3xl font-display font-bold text-white">{brand.name[0]}</span>
+              )}
             </div>
             <div>
               <p className="text-wp-gold text-[10px] font-semibold uppercase tracking-[0.2em] mb-1">

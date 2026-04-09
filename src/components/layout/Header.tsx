@@ -44,7 +44,7 @@ export default function Header() {
       <div className="bg-wp-dark text-white text-xs text-center py-1.5 tracking-wide">
         The World&apos;s Watch Encyclopedia &mdash; {' '}
         <Link href="/brands" className="underline underline-offset-2 hover:text-wp-gold transition-colors">
-          Explore 30+ Brands
+          Explore 34 Brands
         </Link>
       </div>
 
@@ -60,11 +60,9 @@ export default function Header() {
               <div className="w-9 h-9 bg-wp-dark rounded-full flex items-center justify-center">
                 <span className="text-white text-sm font-bold">W</span>
               </div>
-              <div className="hidden sm:block">
-                <span className="text-lg font-display font-bold text-wp-dark tracking-tight">
-                  Watchpedia
-                </span>
-              </div>
+              <span className="text-lg font-display font-bold text-wp-dark tracking-tight">
+                Watchpedia
+              </span>
             </Link>
 
             {/* Desktop nav */}

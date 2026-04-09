@@ -8,7 +8,7 @@ export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Br
   return (
     <div className="w-full rounded-xl overflow-hidden border border-wp-border/60 bg-white shadow-sm">
       {/* Image area */}
-      <div className="aspect-square bg-gradient-to-b from-wp-cream to-wp-light flex items-center justify-center relative">
+      <div className="aspect-square bg-white flex items-center justify-center relative">
         {watch.image ? (
           <>
             <Image

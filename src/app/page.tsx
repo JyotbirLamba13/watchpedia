@@ -2,21 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getFeaturedWatches, getAllBrands, getAllGroups, getAllCountries, getAllWatches } from '@/lib/data';
 import WatchCard from '@/components/watch/WatchCard';
-
-const brandLogos: Record<string, string> = {
-  'rolex': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rolex_wordmark_logo.svg/200px-Rolex_wordmark_logo.svg.png',
-  'omega': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Omega_Logo.svg/200px-Omega_Logo.svg.png',
-  'patek-philippe': 'https://upload.wikimedia.org/wikipedia/de/thumb/5/5f/Logo_Patek_Philippe.svg/200px-Logo_Patek_Philippe.svg.png',
-  'audemars-piguet': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Logo_Audemars_Piguet.svg/200px-Logo_Audemars_Piguet.svg.png',
-  'cartier': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/200px-Cartier_logo.svg.png',
-  'seiko': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Seiko_logo.svg/200px-Seiko_logo.svg.png',
-  'grand-seiko': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Grand_Seiko_Logo.svg/200px-Grand_Seiko_Logo.svg.png',
-  'tudor': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Tudor_%28Uhrenmarke%29_logo.svg/200px-Tudor_%28Uhrenmarke%29_logo.svg.png',
-  'tag-heuer': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TAG_Heuer_Logo.svg/200px-TAG_Heuer_Logo.svg.png',
-  'iwc': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/International_Watch_Company_logo.svg/200px-International_Watch_Company_logo.svg.png',
-  'jaeger-lecoultre': 'https://upload.wikimedia.org/wikipedia/commons/3/33/Jaeger-LeCoultre_Logo_%28cropped%29.png',
-  'breitling': 'https://upload.wikimedia.org/wikipedia/fr/thumb/8/8b/Breitling_logo.svg/200px-Breitling_logo.svg.png',
-};
+import { brandLogos } from '@/lib/brandLogos';
 
 export default function HomePage() {
   const featured = getFeaturedWatches();
