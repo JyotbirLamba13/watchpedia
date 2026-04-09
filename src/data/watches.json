@@ -4459,7 +4459,7 @@
       "price": "~$95,000",
       "yearIntroduced": 2009
     },
-    "image": "https://cdn.watchbase.com/watch/lg/origin:jpg/a-lange-sohne/zeitwerk/140-029-54.png"
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/zeitwerk/140-029-54.jpg"
   },
   {
     "reference": "363.068",
@@ -4487,7 +4487,7 @@
       "price": "~$34,200",
       "yearIntroduced": 2019
     },
-    "image": "https://cdn.watchbase.com/watch/lg/origin:jpg/a-lange-sohne/odysseus/3630-68-e8.png"
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/odysseus/3630-68-e8.jpg"
   },
   {
     "reference": "405.035",
@@ -4516,7 +4516,7 @@
       "price": "~$103,000",
       "yearIntroduced": 2012
     },
-    "image": "https://cdn.watchbase.com/watch/lg/origin:jpg/a-lange-sohne/saxonia/405-035-b7.png"
+    "image": "https://cdn.swisswatchexpo.com/productphotos/3/27/a-lange-and-sohne-datograph-updown-platinum-mens-watch-405035-box-papers-60415_f305b_md.jpg"
   },
   {
     "reference": "AB0118221B1A1",
@@ -4600,7 +4600,7 @@
       "price": "~$5,700",
       "yearIntroduced": 2019
     },
-    "image": "https://cdn.watchbase.com/watch/lg/origin:jpg/breitling/superocean-heritage/a10370121b1a1-e2.png"
+    "image": "https://www.prestigetime.com/images/watches/a10370121b1a1-superoceanheritage_main.jpg"
   },
   {
     "reference": "AB0147101B1A1",
@@ -5494,7 +5494,7 @@
       "price": "~$1,095",
       "yearIntroduced": 2015
     },
-    "image": "https://cdn.watchbase.com/watch/lg/origin:png/frederique-constant/index/fc303s5b6-b8.png"
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/index/fc303s5b6-b8.png"
   },
   {
     "reference": "FC-303V4NH6B",
@@ -5549,7 +5549,7 @@
       "price": "~$2,595",
       "yearIntroduced": 2017
     },
-    "image": "https://chpremier.com/cdn/shop/products/frederique-constant-manufacture-slimline-moonphase-fc-705s4s6-154408.jpg?v=1620874057"
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/slim-line/fc705s4s6-5d.png"
   },
   {
     "reference": "FC-310MS5B6",
@@ -5869,5 +5869,856 @@
       "yearIntroduced": 2020
     },
     "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/w_650,h_800,c_pad/q_auto:best/f_auto/wmmedia/watch_images/large/g0a46010_1641111279.jpg"
+  },
+  {
+    "reference": "AB0139211B1P1",
+    "slug": "ab0139211b1p1",
+    "brandSlug": "breitling",
+    "name": "Navitimer B01 Chronograph 46",
+    "collection": "Navitimer",
+    "description": "The quintessential pilot's chronograph featuring Breitling's iconic circular slide rule bezel. Powered by the in-house Calibre B01 with 70-hour power reserve in a 46mm stainless steel case with a striking blue dial.",
+    "specs": {
+      "movement": "Breitling Calibre B01",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "46mm",
+      "caseThickness": "14.25mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Blue",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph",
+        "Date",
+        "Slide rule bezel"
+      ],
+      "price": "~$9,600",
+      "yearIntroduced": 2019
+    },
+    "image": "https://content.thewosgroup.com/productimage/17532562/17532562_1.jpg?impolicy=hero&imwidth=700"
+  },
+  {
+    "reference": "A10370121B1A1",
+    "slug": "a10370121b1a1",
+    "brandSlug": "breitling",
+    "name": "Superocean Heritage '57",
+    "collection": "Superocean Heritage",
+    "description": "A refined vintage-inspired dive watch celebrating the original 1957 Superocean. Features a slim 42mm case with mesh bracelet and COSC-certified movement, combining heritage design with modern performance.",
+    "specs": {
+      "movement": "Breitling Calibre 10",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11.9mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless Steel mesh bracelet",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$5,800",
+      "yearIntroduced": 2019
+    },
+    "image": "https://www.prestigetime.com/images/watches/a10370121b1a1-superoceanheritage_main.jpg"
+  },
+  {
+    "reference": "AB0134101G1A1",
+    "slug": "ab0134101g1a1",
+    "brandSlug": "breitling",
+    "name": "Chronomat B01 42",
+    "collection": "Chronomat",
+    "description": "Breitling's all-purpose sports chronograph with the signature Rouleaux bracelet. Powered by the manufacture B01 chronograph calibre with 70-hour power reserve and a bold copper-colored dial.",
+    "specs": {
+      "movement": "Breitling Calibre B01",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "15.1mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Copper",
+      "strapMaterial": "Stainless Steel Rouleaux bracelet",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph",
+        "Date",
+        "Rotating bezel with rider tabs"
+      ],
+      "price": "~$9,100",
+      "yearIntroduced": 2020
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/ab0134101g1a1_1594137356.jpg"
+  },
+  {
+    "reference": "A32320101B1X1",
+    "slug": "a32320101b1x1",
+    "brandSlug": "breitling",
+    "name": "Avenger Automatic GMT 44",
+    "collection": "Avenger",
+    "description": "A bold military-inspired GMT watch built for extreme conditions. The 44mm DLC-coated titanium case houses a COSC-certified movement with dual time zone function and a bold black dial with yellow accents.",
+    "specs": {
+      "movement": "Breitling Calibre 32",
+      "movementType": "Automatic",
+      "caseMaterial": "DLC-coated Titanium",
+      "caseDiameter": "44mm",
+      "caseThickness": "12.4mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Black",
+      "strapMaterial": "Textile military strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "GMT",
+        "Date"
+      ],
+      "price": "~$5,450",
+      "yearIntroduced": 2019
+    },
+    "image": "https://cdn11.bigcommerce.com/s-bc02e/images/stencil/1280x1280/products/116225/127127/A32320101B1X1__34193.1759954314.jpg?c=2"
+  },
+  {
+    "reference": "AB0118A11G1P1",
+    "slug": "ab0118a11g1p1",
+    "brandSlug": "breitling",
+    "name": "Premier B01 Chronograph 42",
+    "collection": "Premier",
+    "description": "Breitling's elegant dress chronograph combining sophisticated style with in-house performance. Features a refined pistachio green dial with contrasting sub-dials and an alligator leather strap.",
+    "specs": {
+      "movement": "Breitling Calibre B01",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "13.65mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Pistachio Green",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph",
+        "Date"
+      ],
+      "price": "~$8,900",
+      "yearIntroduced": 2020
+    },
+    "image": "https://www.signaturewatches.com/cdn/shop/files/WP22832-1.jpg?v=1736906604"
+  },
+  {
+    "reference": "7900V/110A-B334",
+    "slug": "7900v-110a-b334",
+    "brandSlug": "vacheron-constantin",
+    "name": "Overseas Dual Time",
+    "collection": "Overseas",
+    "description": "A versatile luxury travel watch with an integrated bracelet and interchangeable strap system. Displays home and local time simultaneously with day/night indicator, powered by the in-house Calibre 5110 DT.",
+    "specs": {
+      "movement": "Calibre 5110 DT",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "12.8mm",
+      "waterResistance": "150m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless Steel bracelet",
+      "powerReserve": "60 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Dual Time Zone",
+        "Date",
+        "Day/Night indicator"
+      ],
+      "price": "~$30,100",
+      "yearIntroduced": 2016
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/7900v110ab334_1584458562.jpg"
+  },
+  {
+    "reference": "4000U/000R-B516",
+    "slug": "4000u-000r-b516",
+    "brandSlug": "vacheron-constantin",
+    "name": "Patrimony Retrograde Day-Date",
+    "collection": "Patrimony",
+    "description": "A masterpiece of understated elegance with retrograde day and date displays on a refined silver-toned dial. The 42.5mm rose gold case houses the manufacture Calibre 2460 R31R7 with Geneva Seal certification.",
+    "specs": {
+      "movement": "Calibre 2460 R31R7",
+      "movementType": "Automatic",
+      "caseMaterial": "18K Rose Gold",
+      "caseDiameter": "42.5mm",
+      "caseThickness": "9.7mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver-toned opaline",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "65 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Retrograde Day",
+        "Retrograde Date"
+      ],
+      "price": "~$42,500",
+      "yearIntroduced": 2015
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/4000u000rb516_1594109642.jpg"
+  },
+  {
+    "reference": "82172/000R-9382",
+    "slug": "82172-000r-9382",
+    "brandSlug": "vacheron-constantin",
+    "name": "Traditionnelle Manual-Winding",
+    "collection": "Traditionnelle",
+    "description": "A purist's dress watch showcasing traditional haute horlogerie finishing. The slim 38mm rose gold case frames a silvered dial with applied hour markers and hand-finished dauphine hands, powered by hand-wound Calibre 4400.",
+    "specs": {
+      "movement": "Calibre 4400",
+      "movementType": "Manual",
+      "caseMaterial": "18K Rose Gold",
+      "caseDiameter": "38mm",
+      "caseThickness": "8.06mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silvered opaline",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "65 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$20,900",
+      "yearIntroduced": 2013
+    },
+    "image": "https://www.prestigetime.com/images/watches/82172-000r-9382--_main.jpg"
+  },
+  {
+    "reference": "1100S/000R-B430",
+    "slug": "1100s-000r-b430",
+    "brandSlug": "vacheron-constantin",
+    "name": "Historiques American 1921",
+    "collection": "Historiques",
+    "description": "A faithful reissue of Vacheron Constantin's legendary 1921 driver's watch with its distinctively tilted dial. The cushion-shaped 40mm rose gold case features a diagonal crown and Art Deco-inspired sector dial.",
+    "specs": {
+      "movement": "Calibre 4400 AS",
+      "movementType": "Manual",
+      "caseMaterial": "18K Rose Gold",
+      "caseDiameter": "40mm",
+      "caseThickness": "8.06mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Cream with sector markings",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "65 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$33,500",
+      "yearIntroduced": 2009
+    },
+    "image": "https://www.prestigetime.com/images/watches/1100s000r-b430_main.jpg"
+  },
+  {
+    "reference": "4000E/000R-B438",
+    "slug": "4000e-000r-b438",
+    "brandSlug": "vacheron-constantin",
+    "name": "Fiftysix Complete Calendar",
+    "collection": "Fiftysix",
+    "description": "Vacheron Constantin's contemporary entry-point collection with a sophisticated complete calendar complication. The 40mm rose gold case features a Maltese cross-inspired lugs and displays day, date, month, and moon phase.",
+    "specs": {
+      "movement": "Calibre 2460 QCL/1",
+      "movementType": "Automatic",
+      "caseMaterial": "18K Rose Gold",
+      "caseDiameter": "40mm",
+      "caseThickness": "11mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Petrol blue lacquered",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Day",
+        "Date",
+        "Month",
+        "Moon phase"
+      ],
+      "price": "~$38,700",
+      "yearIntroduced": 2018
+    },
+    "image": "https://www.prestigetime.com/images/watches/4000e-000r-b438_main.jpg"
+  },
+  {
+    "reference": "103472",
+    "slug": "103472",
+    "brandSlug": "bulgari",
+    "name": "Octo Roma",
+    "collection": "Octo",
+    "description": "A contemporary expression of Italian design and Swiss watchmaking excellence. The distinctive octagonal 41mm case in steel features a blue sunburst dial and automatic movement with date function.",
+    "specs": {
+      "movement": "BVL 191",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "10.5mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue sunburst",
+      "strapMaterial": "Stainless Steel bracelet",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$7,150",
+      "yearIntroduced": 2020
+    },
+    "image": "https://www.swissluxury.com/product_images/103762.jpg"
+  },
+  {
+    "reference": "103893",
+    "slug": "103893",
+    "brandSlug": "bulgari",
+    "name": "Serpenti Seduttori",
+    "collection": "Serpenti",
+    "description": "Bulgari's iconic serpent-inspired women's watch with a captivating interplay of polished curves and sparkling gems. The 33mm rose gold case with diamond-set bezel houses a lacquered white dial on an elegant bracelet.",
+    "specs": {
+      "movement": "Calibre B043",
+      "movementType": "Quartz",
+      "caseMaterial": "18K Rose Gold",
+      "caseDiameter": "33mm",
+      "caseThickness": "7.5mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "White lacquered",
+      "strapMaterial": "18K Rose Gold bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$22,800",
+      "yearIntroduced": 2019
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/103449_1655835077.jpg"
+  },
+  {
+    "reference": "103532",
+    "slug": "103532",
+    "brandSlug": "bulgari",
+    "name": "Octo Finissimo Skeleton",
+    "collection": "Octo Finissimo",
+    "description": "One of the thinnest skeleton watches in the world at just 5.35mm thick. The openworked dial reveals the ultra-thin BVL 128SK calibre through its sandblasted titanium case, a triumph of minimalist design and engineering.",
+    "specs": {
+      "movement": "BVL 128SK",
+      "movementType": "Automatic",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "40mm",
+      "caseThickness": "5.35mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Skeleton",
+      "strapMaterial": "Titanium bracelet",
+      "powerReserve": "65 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$14,400",
+      "yearIntroduced": 2020
+    },
+    "image": "https://www.prestigetime.com/images/watches/103126-%20Octo%20Finissimo_main.jpg"
+  },
+  {
+    "reference": "103689",
+    "slug": "103689",
+    "brandSlug": "bulgari",
+    "name": "Bulgari Bulgari",
+    "collection": "Bulgari Bulgari",
+    "description": "The iconic model that established Bulgari's watchmaking identity with its double logo engraved on the bezel. The 41mm steel case features a black lacquered dial and in-house automatic movement with date display.",
+    "specs": {
+      "movement": "BVL 191",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "9.35mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Black lacquered",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$6,500",
+      "yearIntroduced": 2017
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/103689_1658342715.jpg"
+  },
+  {
+    "reference": "103882",
+    "slug": "103882",
+    "brandSlug": "bulgari",
+    "name": "Aluminium GMT",
+    "collection": "Aluminium",
+    "description": "A sporty and lightweight GMT watch featuring Bulgari's distinctive aluminium and rubber construction. The 40mm case combines brushed aluminium bezel with rubber center links, housing an automatic GMT movement.",
+    "specs": {
+      "movement": "BVL 287",
+      "movementType": "Automatic",
+      "caseMaterial": "Aluminium and Titanium",
+      "caseDiameter": "40mm",
+      "caseThickness": "11.15mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Gray",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "GMT",
+        "Date"
+      ],
+      "price": "~$4,450",
+      "yearIntroduced": 2022
+    },
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiai0yJA9XpPuP7UTBUegGPgasCpbhX8INZcfcaPP-HGNPX0gxIPTlPR_cqj2CYGMSwpI6T3MOwJSp7KNK5mwoJLe5-x3Ft-8QOnP_bnOwQlDxIQ7hH16i-zb0-9i4P49jZ8wvROADlU9NwFn1A-xrpP0DRrftkhvDfVIp05oqTLmmADKcU8Vh5O2L73FM/s1600/Bulgari%20Aluminium%20GMT%20103963_001.jpg"
+  },
+  {
+    "reference": "FC-303S5B6",
+    "slug": "fc-303s5b6",
+    "brandSlug": "frederique-constant",
+    "name": "Highlife Automatic",
+    "collection": "Highlife",
+    "description": "Frederique Constant's modern sports-elegant watch with an integrated bracelet design. The 41mm stainless steel case features a textured blue dial and the in-house FC-303 automatic calibre with 38-hour power reserve.",
+    "specs": {
+      "movement": "FC-303",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "9.4mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Blue textured",
+      "strapMaterial": "Stainless Steel integrated bracelet",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$1,695",
+      "yearIntroduced": 2020
+    },
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/index/fc303s5b6-b8.png"
+  },
+  {
+    "reference": "FC-310MC5B6",
+    "slug": "fc-310mc5b6",
+    "brandSlug": "frederique-constant",
+    "name": "Classics Heart Beat",
+    "collection": "Classics",
+    "description": "The model that defined Frederique Constant with its signature open heart aperture at 12 o'clock, revealing the balance wheel's oscillation. The 40mm rose gold-plated case houses an automatic movement with a refined silver dial.",
+    "specs": {
+      "movement": "FC-310",
+      "movementType": "Automatic",
+      "caseMaterial": "Rose gold-plated Stainless Steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "10mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Open heart"
+      ],
+      "price": "~$1,295",
+      "yearIntroduced": 2004
+    },
+    "image": "https://www.mastersintime.com/pictures/frederique-constant-fc-310mc5b6-classics-heart-beat-16646615.jpg"
+  },
+  {
+    "reference": "FC-705S4S6",
+    "slug": "fc-705s4s6",
+    "brandSlug": "frederique-constant",
+    "name": "Slimline Moonphase",
+    "collection": "Slimline",
+    "description": "An elegant dress watch featuring a beautifully detailed moon phase display and the in-house FC-705 automatic calibre. The slim 42mm steel case frames a refined silver dial with applied Roman numerals.",
+    "specs": {
+      "movement": "FC-705",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11.3mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Silver",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Moon phase",
+        "Date"
+      ],
+      "price": "~$2,395",
+      "yearIntroduced": 2016
+    },
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/slim-line/fc705s4s6-5d.png"
+  },
+  {
+    "reference": "FC-718WM4H6",
+    "slug": "fc-718wm4h6",
+    "brandSlug": "frederique-constant",
+    "name": "Classics Worldtimer",
+    "collection": "Classics",
+    "description": "An accessible worldtimer displaying all 24 time zones simultaneously on an intricately detailed dial. The 42mm case houses the in-house FC-718 automatic calibre with a city disc and 24-hour ring.",
+    "specs": {
+      "movement": "FC-718",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "12.1mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Silver with world map",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Worldtimer",
+        "24-hour display"
+      ],
+      "price": "~$3,295",
+      "yearIntroduced": 2014
+    },
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/manufacture/fc718wm4h6-1a.png"
+  },
+  {
+    "reference": "G0A45501",
+    "slug": "g0a45501",
+    "brandSlug": "piaget",
+    "name": "Altiplano Ultimate Concept",
+    "collection": "Altiplano",
+    "description": "The world's thinnest mechanical watch at just 2mm thick, a revolutionary feat of micro-engineering. The case itself serves as the mainplate in this groundbreaking hand-wound movement, pushing the boundaries of ultra-thin watchmaking.",
+    "specs": {
+      "movement": "Calibre 900P-UC",
+      "movementType": "Manual",
+      "caseMaterial": "Cobalt alloy",
+      "caseDiameter": "41mm",
+      "caseThickness": "2mm",
+      "waterResistance": "20m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$405,000",
+      "yearIntroduced": 2018
+    },
+    "image": "https://chpremier.com/cdn/shop/products/piaget-altiplano-ultimate-concept-watch-g0a45501-455964.jpg?v=1620858196"
+  },
+  {
+    "reference": "G0A45004",
+    "slug": "g0a45004",
+    "brandSlug": "piaget",
+    "name": "Polo S Chronograph",
+    "collection": "Polo",
+    "description": "Piaget's sporty chronograph with a cushion-shaped case and integrated bracelet design. The 42mm steel case houses the in-house 1160P chronograph calibre with a slate gray dial featuring two horizontal counters.",
+    "specs": {
+      "movement": "Calibre 1160P",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11.2mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Slate gray",
+      "strapMaterial": "Stainless Steel bracelet",
+      "powerReserve": "50 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph",
+        "Date"
+      ],
+      "price": "~$16,800",
+      "yearIntroduced": 2016
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/g0a45004_1641144876.jpg"
+  },
+  {
+    "reference": "G0A49156",
+    "slug": "g0a49156",
+    "brandSlug": "piaget",
+    "name": "Possession",
+    "collection": "Possession",
+    "description": "Piaget's signature women's watch featuring a freely rotating bezel set with brilliant-cut diamonds. The 34mm rose gold case frames a silvered dial and houses a quartz movement, embodying effortless Parisian elegance.",
+    "specs": {
+      "movement": "Calibre 690P",
+      "movementType": "Quartz",
+      "caseMaterial": "18K Rose Gold",
+      "caseDiameter": "34mm",
+      "caseThickness": "7.45mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silvered",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$15,600",
+      "yearIntroduced": 2015
+    },
+    "image": "https://www.swissluxury.com/product_images/400/G0A44081.jpg"
+  },
+  {
+    "reference": "G0A45162",
+    "slug": "g0a45162",
+    "brandSlug": "piaget",
+    "name": "Limelight Gala",
+    "collection": "Limelight",
+    "description": "An exquisite high jewellery watch inspired by the glamour of red-carpet events. The asymmetric 32mm white gold case is adorned with 62 brilliant-cut diamonds and features a deep blue dial with Palace decoration.",
+    "specs": {
+      "movement": "Calibre 690P",
+      "movementType": "Quartz",
+      "caseMaterial": "18K White Gold",
+      "caseDiameter": "32mm",
+      "caseThickness": "7.1mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue Palace decoration",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$27,500",
+      "yearIntroduced": 2016
+    },
+    "image": "https://www.swissluxury.com/product_images/400/G0A42213.jpg"
+  },
+  {
+    "reference": "R27106112",
+    "slug": "r27106112",
+    "brandSlug": "rado",
+    "name": "True Square Open Heart",
+    "collection": "True Square",
+    "description": "A striking timepiece combining Rado's signature high-tech ceramic with an open heart window revealing the movement's escapement. The 38mm square ceramic case features a distinctive matte black dial with architectural lines.",
+    "specs": {
+      "movement": "R808",
+      "movementType": "Automatic",
+      "caseMaterial": "High-Tech Ceramic",
+      "caseDiameter": "38mm",
+      "caseThickness": "10.8mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "High-Tech Ceramic bracelet",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Open heart"
+      ],
+      "price": "~$2,750",
+      "yearIntroduced": 2020
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/r32127152_1770393876.jpg"
+  },
+  {
+    "reference": "R32128152",
+    "slug": "r32128152",
+    "brandSlug": "rado",
+    "name": "Captain Cook High-Tech Ceramic",
+    "collection": "Captain Cook",
+    "description": "A modern dive watch crafted entirely from Rado's signature high-tech ceramic for ultimate scratch resistance. The 43mm case features a ceramic rotating bezel and automatic movement with 80-hour power reserve.",
+    "specs": {
+      "movement": "R819",
+      "movementType": "Automatic",
+      "caseMaterial": "High-Tech Ceramic",
+      "caseDiameter": "43mm",
+      "caseThickness": "12.8mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire with anti-reflective coating",
+      "dialColor": "Green",
+      "strapMaterial": "High-Tech Ceramic bracelet",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$3,600",
+      "yearIntroduced": 2021
+    },
+    "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/r32127152_1770393876.jpg"
+  },
+  {
+    "reference": "R12162153",
+    "slug": "r12162153",
+    "brandSlug": "rado",
+    "name": "DiaStar Original",
+    "collection": "DiaStar",
+    "description": "A faithful reissue of the world's first scratch-proof watch from 1962. The oval high-tech ceramic and stainless steel case retains the iconic design while incorporating modern Nivachron hairspring technology for improved accuracy.",
+    "specs": {
+      "movement": "R764",
+      "movementType": "Automatic",
+      "caseMaterial": "High-Tech Ceramic and Stainless Steel",
+      "caseDiameter": "38mm",
+      "caseThickness": "12.1mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Green",
+      "strapMaterial": "Stainless Steel bracelet with ceramic inserts",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$2,200",
+      "yearIntroduced": 2022
+    },
+    "image": "https://cdn.shopify.com/s/files/1/0721/9897/9877/files/R12162153-1_bb302f96-1f19-4452-a6e9-0503f4c6fd0e.jpg?v=1730826449"
+  },
+  {
+    "reference": "R32259153",
+    "slug": "r32259153",
+    "brandSlug": "rado",
+    "name": "HyperChrome Chronograph",
+    "collection": "HyperChrome",
+    "description": "Rado's sporty chronograph featuring the brand's plasma high-tech ceramic for a unique metallic-like finish that is virtually scratchproof. The 44.9mm case houses an automatic chronograph movement with tachymeter scale.",
+    "specs": {
+      "movement": "R81",
+      "movementType": "Automatic",
+      "caseMaterial": "Plasma High-Tech Ceramic",
+      "caseDiameter": "44.9mm",
+      "caseThickness": "14.1mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Brown",
+      "strapMaterial": "Plasma High-Tech Ceramic bracelet",
+      "powerReserve": "45 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph",
+        "Date",
+        "Tachymeter"
+      ],
+      "price": "~$4,850",
+      "yearIntroduced": 2018
+    },
+    "image": "https://ad.kapoorwatch.com/content/images/product/R32259153.jpg"
+  },
+  {
+    "reference": "140.029",
+    "slug": "140-029",
+    "brandSlug": "a-lange-sohne",
+    "name": "Zeitwerk",
+    "collection": "Zeitwerk",
+    "description": "A revolutionary mechanical watch with a digital jumping hours and minutes display, a feat of engineering considered impossible before its creation. The 41.9mm white gold case houses the complex L043.1 calibre with constant-force mechanism ensuring precise digit transitions.",
+    "specs": {
+      "movement": "L043.1",
+      "movementType": "Manual",
+      "caseMaterial": "18K White Gold",
+      "caseDiameter": "41.9mm",
+      "caseThickness": "12.6mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver with black numerals",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "36 hours",
+      "frequency": "18,000 vph",
+      "complications": [
+        "Jumping hours",
+        "Jumping minutes",
+        "Constant force mechanism",
+        "Power reserve indicator"
+      ],
+      "price": "~$92,000",
+      "yearIntroduced": 2009
+    },
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/zeitwerk/140-029-54.jpg"
+  },
+  {
+    "reference": "363.068",
+    "slug": "363-068",
+    "brandSlug": "a-lange-sohne",
+    "name": "Odysseus",
+    "collection": "Odysseus",
+    "description": "A. Lange & Sohne's first-ever stainless steel sports watch with integrated bracelet. The 40.5mm case houses the automatic L155.1 calibre with oversized date and day display, combining Saxon finishing with a contemporary sporty aesthetic.",
+    "specs": {
+      "movement": "L155.1 DATOMATIC",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "caseDiameter": "40.5mm",
+      "caseThickness": "11.1mm",
+      "waterResistance": "120m",
+      "crystal": "Sapphire",
+      "dialColor": "Gray-blue",
+      "strapMaterial": "Stainless Steel bracelet",
+      "powerReserve": "50 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Oversized date",
+        "Day display"
+      ],
+      "price": "~$36,600",
+      "yearIntroduced": 2019
+    },
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/odysseus/3630-68-e8.jpg"
+  },
+  {
+    "reference": "405.035",
+    "slug": "405-035",
+    "brandSlug": "a-lange-sohne",
+    "name": "Datograph Up/Down",
+    "collection": "Datograph",
+    "description": "Widely considered one of the greatest chronographs ever made, featuring a flyback mechanism and oversized date. The 41mm platinum case showcases the legendary L951.6 calibre with exquisite Glashutte finishing and column-wheel chronograph.",
+    "specs": {
+      "movement": "L951.6",
+      "movementType": "Manual",
+      "caseMaterial": "Platinum",
+      "caseDiameter": "41mm",
+      "caseThickness": "13.1mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "60 hours",
+      "frequency": "18,000 vph",
+      "complications": [
+        "Flyback chronograph",
+        "Oversized date",
+        "Power reserve indicator"
+      ],
+      "price": "~$106,000",
+      "yearIntroduced": 2012
+    },
+    "image": "https://cdn.swisswatchexpo.com/productphotos/3/27/a-lange-and-sohne-datograph-updown-platinum-mens-watch-405035-box-papers-60415_f305b_md.jpg"
+  },
+  {
+    "reference": "252.032",
+    "slug": "252-032",
+    "brandSlug": "a-lange-sohne",
+    "name": "Richard Lange Jumping Seconds",
+    "collection": "Richard Lange",
+    "description": "A precision instrument inspired by scientific observatory watches, featuring dead-beat jumping seconds for precise time reading. The 39.9mm white gold case houses the L094.1 calibre with hacking seconds, zero-reset mechanism, and constant-force escapement.",
+    "specs": {
+      "movement": "L094.1",
+      "movementType": "Manual",
+      "caseMaterial": "18K White Gold",
+      "caseDiameter": "39.9mm",
+      "caseThickness": "10.6mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Alligator leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Jumping seconds",
+        "Constant force escapement",
+        "Zero-reset mechanism",
+        "Power reserve indicator"
+      ],
+      "price": "~$74,500",
+      "yearIntroduced": 2016
+    },
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/richard-lange/252-032-62.jpg"
   }
 ]

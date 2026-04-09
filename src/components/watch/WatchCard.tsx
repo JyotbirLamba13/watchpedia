@@ -19,7 +19,7 @@ export default function WatchCard({ watch }: { watch: Watch }) {
             fill
             className="object-contain p-6 group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 384px"
-            quality={90}
+            quality={100}
           />
         ) : (
           <span className="text-7xl opacity-30 group-hover:opacity-50 transition-opacity duration-500">⌚</span>

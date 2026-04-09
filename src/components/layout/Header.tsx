@@ -8,7 +8,6 @@ const navLinks = [
   { href: '/brands', label: 'Brands' },
   { href: '/groups', label: 'Groups' },
   { href: '/countries', label: 'Countries' },
-  { href: '/search', label: 'Search' },
 ];
 
 export default function Header() {
@@ -88,12 +87,28 @@ export default function Header() {
               ))}
             </nav>
 
+            {/* Search bar */}
+            <form onSubmit={handleSearch} className="hidden md:flex items-center flex-1 max-w-md mx-6">
+              <div className="relative w-full">
+                <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-wp-muted/60" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+                <input
+                  type="search"
+                  placeholder="Search watches, brands, collections..."
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  className="w-full pl-9 pr-4 py-2 text-sm bg-wp-cream border border-wp-border rounded-full focus:outline-none focus:border-wp-dark placeholder:text-wp-muted/50 transition-colors"
+                />
+              </div>
+            </form>
+
             {/* Right side */}
             <div className="flex items-center gap-3">
-              {/* Search toggle */}
+              {/* Mobile search toggle */}
               <button
                 onClick={() => setSearchOpen(!searchOpen)}
-                className="p-2 text-wp-muted hover:text-wp-dark transition-colors"
+                className="md:hidden p-2 text-wp-muted hover:text-wp-dark transition-colors"
                 aria-label="Search"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
@@ -119,11 +134,11 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Search overlay */}
+        {/* Mobile search overlay */}
         {searchOpen && (
-          <div className="absolute inset-x-0 top-full bg-white border-b border-wp-border shadow-lg">
-            <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-6">
-              <form onSubmit={handleSearch} className="max-w-2xl mx-auto">
+          <div className="md:hidden absolute inset-x-0 top-full bg-white border-b border-wp-border shadow-lg">
+            <div className="px-4 py-4">
+              <form onSubmit={handleSearch}>
                 <div className="relative">
                   <input
                     type="search"
@@ -131,11 +146,11 @@ export default function Header() {
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     autoFocus
-                    className="w-full px-5 py-3.5 text-lg bg-wp-cream border border-wp-border rounded-full focus:outline-none focus:border-wp-dark placeholder:text-wp-muted/60"
+                    className="w-full px-5 py-3 bg-wp-cream border border-wp-border rounded-full focus:outline-none focus:border-wp-dark placeholder:text-wp-muted/60"
                   />
                   <button
                     type="submit"
-                    className="absolute right-2 top-1/2 -translate-y-1/2 p-2.5 bg-wp-dark text-white rounded-full hover:bg-wp-charcoal transition-colors"
+                    className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-wp-dark text-white rounded-full hover:bg-wp-charcoal transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
