@@ -161,7 +161,8 @@
       "WebFetch(domain:www.watchit.ca)",
       "WebFetch(domain:discover-diamonds.com)",
       "WebFetch(domain:www.vintagepluswatches.in)",
-      "WebFetch(domain:watchtopia.in)"
+      "WebFetch(domain:watchtopia.in)",
+      "WebFetch(domain:upload.wikimedia.org)"
     ]
   }
 }
