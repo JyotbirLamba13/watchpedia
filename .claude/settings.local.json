@@ -162,7 +162,16 @@
       "WebFetch(domain:discover-diamonds.com)",
       "WebFetch(domain:www.vintagepluswatches.in)",
       "WebFetch(domain:watchtopia.in)",
-      "WebFetch(domain:upload.wikimedia.org)"
+      "WebFetch(domain:upload.wikimedia.org)",
+      "WebFetch(domain:rapidapi.com)",
+      "WebFetch(domain:apify.com)",
+      "WebFetch(domain:www.thewatchapi.com)",
+      "Bash(curl -s \"https://api.thewatchapi.com/v1/brand/list?api_token=xLsiQTIvLEY6Oij8TuLGa3eN6eiHyAdT2kdsg1gQ\")",
+      "Bash(curl -s \"https://api.thewatchapi.com/v1/model/search?api_token=xLsiQTIvLEY6Oij8TuLGa3eN6eiHyAdT2kdsg1gQ&brand=Rolex&search=Submariner\")",
+      "Bash(curl -s \"https://api.thewatchapi.com/v1/reference/list?api_token=xLsiQTIvLEY6Oij8TuLGa3eN6eiHyAdT2kdsg1gQ&brand=Rolex\")",
+      "Bash(curl -s \"https://api.thewatchapi.com/v1/model/list?api_token=xLsiQTIvLEY6Oij8TuLGa3eN6eiHyAdT2kdsg1gQ&brand=Rolex\")",
+      "Bash(curl -s \"https://api.thewatchapi.com/v1/model/search?api_token=xLsiQTIvLEY6Oij8TuLGa3eN6eiHyAdT2kdsg1gQ&brand=Rolex&model=Rolex+Daytona&search=116500\")",
+      "Bash(curl -s \"https://api.thewatchapi.com/v1/reference/list?api_token=xLsiQTIvLEY6Oij8TuLGa3eN6eiHyAdT2kdsg1gQ&brand=Omega\")"
     ]
   }
 }

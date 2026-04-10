@@ -5,7 +5,18 @@
     "country": "switzerland",
     "description": "The Swatch Group Ltd is a Swiss manufacturer of watches and jewellery. It is the world's largest watch company, owning brands across every price segment from luxury to affordable.",
     "website": "https://www.swatchgroup.com",
-    "brandSlugs": ["omega", "longines", "tissot", "hamilton", "rado", "mido", "certina", "swatch"]
+    "brandSlugs": [
+      "omega",
+      "longines",
+      "tissot",
+      "hamilton",
+      "rado",
+      "mido",
+      "certina",
+      "swatch",
+      "blancpain",
+      "breguet"
+    ]
   },
   {
     "slug": "richemont",
@@ -13,7 +24,15 @@
     "country": "switzerland",
     "description": "Compagnie Financière Richemont SA is a Swiss luxury goods conglomerate. Its watch brands span the highest tiers of horology, known for exceptional craftsmanship and heritage.",
     "website": "https://www.richemont.com",
-    "brandSlugs": ["cartier", "iwc", "jaeger-lecoultre", "panerai", "vacheron-constantin", "piaget", "a-lange-sohne"]
+    "brandSlugs": [
+      "cartier",
+      "iwc",
+      "jaeger-lecoultre",
+      "panerai",
+      "vacheron-constantin",
+      "piaget",
+      "a-lange-sohne"
+    ]
   },
   {
     "slug": "lvmh",
@@ -21,7 +40,12 @@
     "country": "france",
     "description": "LVMH Moët Hennessy Louis Vuitton is a French luxury conglomerate. Its watch division includes some of the most prestigious names in haute horlogerie alongside fashion-forward timepieces.",
     "website": "https://www.lvmh.com",
-    "brandSlugs": ["tag-heuer", "hublot", "zenith", "bulgari"]
+    "brandSlugs": [
+      "tag-heuer",
+      "hublot",
+      "zenith",
+      "bulgari"
+    ]
   },
   {
     "slug": "seiko-group",
@@ -29,7 +53,11 @@
     "country": "japan",
     "description": "Seiko Group Corporation is a Japanese conglomerate and one of the world's most vertically integrated watch manufacturers. The group produces everything from movements to crystals in-house.",
     "website": "https://www.seiko.co.jp",
-    "brandSlugs": ["seiko", "grand-seiko", "orient"]
+    "brandSlugs": [
+      "seiko",
+      "grand-seiko",
+      "orient"
+    ]
   },
   {
     "slug": "citizen-group",
@@ -37,7 +65,11 @@
     "country": "japan",
     "description": "Citizen Watch Co. is a Japanese electronics and watch company. Known for pioneering Eco-Drive solar technology, the group also owns several Swiss and Japanese watch brands.",
     "website": "https://www.citizenwatch-global.com",
-    "brandSlugs": ["citizen", "bulova", "frederique-constant"]
+    "brandSlugs": [
+      "citizen",
+      "bulova",
+      "frederique-constant"
+    ]
   },
   {
     "slug": "casio",
@@ -45,7 +77,10 @@
     "country": "japan",
     "description": "Casio Computer Co., Ltd. is a Japanese multinational electronics company. In watchmaking, Casio is renowned for the virtually indestructible G-Shock line and affordable digital timepieces.",
     "website": "https://www.casio.com",
-    "brandSlugs": ["casio", "g-shock"]
+    "brandSlugs": [
+      "casio",
+      "g-shock"
+    ]
   },
   {
     "slug": "titan-group",
@@ -53,6 +88,8 @@
     "country": "india",
     "description": "Titan Company Limited is an Indian luxury goods company and a subsidiary of the Tata Group, headquartered in Bengaluru. Founded in 1984, Titan is the fifth-largest integrated own-brand watch manufacturer in the world. The company operates over 2,000 retail stores across India and owns multiple watch brands including Titan, Fastrack, and Sonata.",
     "website": "https://www.titancompany.in",
-    "brandSlugs": ["titan"]
+    "brandSlugs": [
+      "titan"
+    ]
   }
 ]

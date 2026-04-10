@@ -304,5 +304,32 @@
     "founded": 2024,
     "description": "Coromandel Watch Co. is an Indian microbrand founded in 2024 that manufactures high-quality handcrafted watches blending traditional South Indian heritage with modern design. Named after the Coromandel Coast, the brand has released collections including the Blue Mountain Edition (tribute to the Nilgiris), Tanjore Edition (inspired by Thanjavur art), and the Varnam Collection featuring dials inspired by the Western Ghats.",
     "website": "https://coromandelwatchco.com"
+  },
+  {
+    "slug": "blancpain",
+    "name": "Blancpain",
+    "country": "switzerland",
+    "founded": 1735,
+    "description": "Blancpain is the oldest surviving watchmaking brand in the world. Known for the iconic Fifty Fathoms diver and the elegant Villeret collection, Blancpain has never produced a quartz watch.",
+    "website": "https://www.blancpain.com",
+    "groupSlug": "swatch-group"
+  },
+  {
+    "slug": "breguet",
+    "name": "Breguet",
+    "country": "switzerland",
+    "founded": 1775,
+    "description": "Founded by Abraham-Louis Breguet, one of the most important horologists in history. Breguet invented the tourbillon, perpetual calendar, and many other complications. The brand remains synonymous with haute horlogerie.",
+    "website": "https://www.breguet.com",
+    "groupSlug": "swatch-group"
+  },
+  {
+    "slug": "oris",
+    "name": "Oris",
+    "country": "switzerland",
+    "founded": 1904,
+    "description": "Oris is one of the few remaining independent Swiss watch manufacturers. Known for accessible mechanical watches, particularly the Aquis dive watch and vintage-inspired Divers Sixty-Five.",
+    "website": "https://www.oris.ch",
+    "groupSlug": null
   }
 ]
