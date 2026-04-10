@@ -1,0 +1,462 @@
+'use client';
+
+import { useState, useEffect, useCallback } from 'react';
+import { createClient, type SupabaseClient } from '@supabase/supabase-js';
+
+function getSupabaseClient(): SupabaseClient | null {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) return null;
+  return createClient(url, key);
+}
+
+type Tab = 'watches' | 'brands' | 'groups' | 'blog';
+
+interface Watch {
+  id?: number;
+  slug: string;
+  name: string;
+  brand_slug: string;
+  collection: string;
+  reference: string;
+  image: string;
+  featured: boolean;
+  description: string;
+  case_diameter: string;
+  case_material: string;
+  case_thickness: string;
+  movement: string;
+  movement_type: string;
+  crystal: string;
+  dial_color: string;
+  water_resistance: string;
+  power_reserve: string;
+  price: string;
+  year_introduced: number | null;
+}
+
+interface Brand {
+  slug: string;
+  name: string;
+  country: string;
+  founded: number;
+  description: string;
+  website: string;
+  group_slug: string | null;
+  logo_url: string | null;
+}
+
+const emptyWatch: Watch = {
+  slug: '', name: '', brand_slug: '', collection: '', reference: '', image: '',
+  featured: false, description: '', case_diameter: '', case_material: '',
+  case_thickness: '', movement: '', movement_type: 'Automatic', crystal: 'Sapphire',
+  dial_color: '', water_resistance: '', power_reserve: '', price: '', year_introduced: null,
+};
+
+const emptyBrand: Brand = {
+  slug: '', name: '', country: 'switzerland', founded: 2000,
+  description: '', website: '', group_slug: null, logo_url: null,
+};
+
+export default function AdminPage() {
+  const [tab, setTab] = useState<Tab>('watches');
+  const [authed, setAuthed] = useState(false);
+  const [password, setPassword] = useState('');
+  const [watches, setWatches] = useState<Watch[]>([]);
+  const [brands, setBrands] = useState<Brand[]>([]);
+  const [editing, setEditing] = useState<Watch | null>(null);
+  const [editingBrand, setEditingBrand] = useState<Brand | null>(null);
+  const [search, setSearch] = useState('');
+  const [message, setMessage] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  const showMessage = (msg: string) => {
+    setMessage(msg);
+    setTimeout(() => setMessage(''), 3000);
+  };
+
+  const loadData = useCallback(async () => {
+    const client = getSupabaseClient();
+    if (!client) return showMessage('Supabase not configured. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY.');
+    setLoading(true);
+    const [{ data: w }, { data: b }] = await Promise.all([
+      client.from('watches').select('*').order('brand_slug').order('name'),
+      client.from('brands').select('*').order('name'),
+    ]);
+    if (w) setWatches(w);
+    if (b) setBrands(b);
+    setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    if (authed) loadData();
+  }, [authed, loadData]);
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (password === process.env.NEXT_PUBLIC_ADMIN_PASSWORD || password === 'watchpedia2026') {
+      setAuthed(true);
+    } else {
+      showMessage('Wrong password');
+    }
+  };
+
+  const saveWatch = async (watch: Watch) => {
+    const client = getSupabaseClient();
+    if (!client) return;
+    const { id, ...data } = watch;
+    if (id) {
+      const { error } = await client.from('watches').update(data).eq('id', id);
+      if (error) return showMessage('Error: ' + error.message);
+    } else {
+      const { error } = await client.from('watches').insert(data);
+      if (error) return showMessage('Error: ' + error.message);
+    }
+    showMessage('Watch saved!');
+    setEditing(null);
+    loadData();
+  };
+
+  const deleteWatch = async (id: number) => {
+    const client = getSupabaseClient();
+    if (!client || !confirm('Delete this watch?')) return;
+    await client.from('watches').delete().eq('id', id);
+    showMessage('Watch deleted');
+    loadData();
+  };
+
+  const saveBrand = async (brand: Brand) => {
+    const client = getSupabaseClient();
+    if (!client) return;
+    const { error } = await client.from('brands').upsert(brand, { onConflict: 'slug' });
+    if (error) return showMessage('Error: ' + error.message);
+    showMessage('Brand saved!');
+    setEditingBrand(null);
+    loadData();
+  };
+
+  if (!authed) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <form onSubmit={handleLogin} className="bg-white p-8 rounded-xl shadow-lg w-80">
+          <h1 className="text-xl font-bold mb-4 text-center">Watchpedia Admin</h1>
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            className="w-full px-4 py-2 border rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            autoFocus
+          />
+          <button type="submit" className="w-full bg-gray-900 text-white py-2 rounded-lg hover:bg-gray-800">
+            Login
+          </button>
+          {message && <p className="text-red-500 text-sm mt-2 text-center">{message}</p>}
+        </form>
+      </div>
+    );
+  }
+
+  const filteredWatches = watches.filter(w =>
+    `${w.name} ${w.brand_slug} ${w.reference} ${w.collection}`.toLowerCase().includes(search.toLowerCase())
+  );
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <div className="bg-gray-900 text-white px-6 py-4 flex items-center justify-between">
+        <h1 className="text-lg font-bold">Watchpedia Admin</h1>
+        <div className="flex items-center gap-4">
+          <span className="text-sm text-gray-400">{watches.length} watches &middot; {brands.length} brands</span>
+          <button onClick={() => setAuthed(false)} className="text-sm text-gray-400 hover:text-white">Logout</button>
+        </div>
+      </div>
+
+      {/* Message toast */}
+      {message && (
+        <div className="fixed top-4 right-4 z-50 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg text-sm">
+          {message}
+        </div>
+      )}
+
+      {/* Tabs */}
+      <div className="border-b bg-white px-6">
+        <div className="flex gap-6">
+          {(['watches', 'brands', 'groups', 'blog'] as Tab[]).map(t => (
+            <button
+              key={t}
+              onClick={() => setTab(t)}
+              className={`py-3 text-sm font-medium border-b-2 transition-colors capitalize ${
+                tab === t ? 'border-gray-900 text-gray-900' : 'border-transparent text-gray-400 hover:text-gray-600'
+              }`}
+            >
+              {t}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-6 py-6">
+        {loading && <p className="text-gray-400 text-sm">Loading...</p>}
+
+        {/* === WATCHES TAB === */}
+        {tab === 'watches' && !editing && (
+          <div>
+            <div className="flex items-center justify-between mb-4">
+              <input
+                type="text"
+                placeholder="Search watches..."
+                value={search}
+                onChange={e => setSearch(e.target.value)}
+                className="px-4 py-2 border rounded-lg w-80 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <button
+                onClick={() => setEditing({ ...emptyWatch })}
+                className="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-800"
+              >
+                + Add Watch
+              </button>
+            </div>
+            <div className="bg-white rounded-xl border overflow-hidden">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-50 border-b">
+                  <tr>
+                    <th className="text-left px-4 py-3 font-medium text-gray-500">Brand</th>
+                    <th className="text-left px-4 py-3 font-medium text-gray-500">Name</th>
+                    <th className="text-left px-4 py-3 font-medium text-gray-500">Ref</th>
+                    <th className="text-left px-4 py-3 font-medium text-gray-500">Collection</th>
+                    <th className="text-left px-4 py-3 font-medium text-gray-500">Image</th>
+                    <th className="text-left px-4 py-3 font-medium text-gray-500">Actions</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y">
+                  {filteredWatches.map(w => (
+                    <tr key={w.id} className="hover:bg-gray-50">
+                      <td className="px-4 py-2.5 font-medium">{w.brand_slug}</td>
+                      <td className="px-4 py-2.5">{w.name}</td>
+                      <td className="px-4 py-2.5 text-gray-500">{w.reference}</td>
+                      <td className="px-4 py-2.5 text-gray-500">{w.collection}</td>
+                      <td className="px-4 py-2.5">
+                        {w.image ? (
+                          <span className="text-green-600 text-xs">Has image</span>
+                        ) : (
+                          <span className="text-red-500 text-xs">Missing</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-2.5">
+                        <button onClick={() => setEditing(w)} className="text-blue-600 hover:underline text-xs mr-3">Edit</button>
+                        <button onClick={() => w.id && deleteWatch(w.id)} className="text-red-500 hover:underline text-xs">Delete</button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {/* === WATCH EDIT FORM === */}
+        {tab === 'watches' && editing && (
+          <WatchForm
+            watch={editing}
+            brands={brands}
+            onSave={saveWatch}
+            onCancel={() => setEditing(null)}
+          />
+        )}
+
+        {/* === BRANDS TAB === */}
+        {tab === 'brands' && !editingBrand && (
+          <div>
+            <div className="flex justify-end mb-4">
+              <button
+                onClick={() => setEditingBrand({ ...emptyBrand })}
+                className="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm hover:bg-gray-800"
+              >
+                + Add Brand
+              </button>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {brands.map(b => (
+                <div key={b.slug} className="bg-white p-4 rounded-xl border hover:shadow-md transition-shadow">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="font-semibold">{b.name}</h3>
+                      <p className="text-xs text-gray-500">{b.country} &middot; Est. {b.founded}</p>
+                    </div>
+                    <button onClick={() => setEditingBrand(b)} className="text-blue-600 text-xs hover:underline">Edit</button>
+                  </div>
+                  <p className="text-xs text-gray-400 mt-2 line-clamp-2">{b.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* === BRAND EDIT FORM === */}
+        {tab === 'brands' && editingBrand && (
+          <BrandForm brand={editingBrand} onSave={saveBrand} onCancel={() => setEditingBrand(null)} />
+        )}
+
+        {/* === GROUPS & BLOG placeholders === */}
+        {tab === 'groups' && (
+          <div className="text-center py-16 text-gray-400">
+            <p className="text-lg font-medium">Groups management</p>
+            <p className="text-sm mt-1">Coming soon — groups are auto-populated from brand relationships</p>
+          </div>
+        )}
+        {tab === 'blog' && (
+          <div className="text-center py-16 text-gray-400">
+            <p className="text-lg font-medium">Blog editor</p>
+            <p className="text-sm mt-1">Coming soon — write SEO-optimized posts about watches</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// === WATCH FORM COMPONENT ===
+function WatchForm({ watch, brands, onSave, onCancel }: {
+  watch: Watch;
+  brands: Brand[];
+  onSave: (w: Watch) => void;
+  onCancel: () => void;
+}) {
+  const [form, setForm] = useState(watch);
+  const set = (field: string, value: string | number | boolean | null) =>
+    setForm(prev => ({ ...prev, [field]: value }));
+
+  return (
+    <div className="bg-white p-6 rounded-xl border max-w-3xl">
+      <h2 className="text-lg font-bold mb-4">{watch.id ? 'Edit Watch' : 'Add Watch'}</h2>
+      <div className="grid grid-cols-2 gap-4">
+        <Field label="Name" value={form.name} onChange={v => set('name', v)} />
+        <div>
+          <label className="block text-xs font-medium text-gray-500 mb-1">Brand</label>
+          <select
+            value={form.brand_slug}
+            onChange={e => set('brand_slug', e.target.value)}
+            className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="">Select brand...</option>
+            {brands.map(b => <option key={b.slug} value={b.slug}>{b.name}</option>)}
+          </select>
+        </div>
+        <Field label="Slug" value={form.slug} onChange={v => set('slug', v)} />
+        <Field label="Reference" value={form.reference} onChange={v => set('reference', v)} />
+        <Field label="Collection" value={form.collection} onChange={v => set('collection', v)} />
+        <Field label="Image URL" value={form.image} onChange={v => set('image', v)} />
+        <Field label="Case Diameter" value={form.case_diameter} onChange={v => set('case_diameter', v)} />
+        <Field label="Case Material" value={form.case_material} onChange={v => set('case_material', v)} />
+        <Field label="Case Thickness" value={form.case_thickness} onChange={v => set('case_thickness', v)} />
+        <Field label="Movement" value={form.movement} onChange={v => set('movement', v)} />
+        <div>
+          <label className="block text-xs font-medium text-gray-500 mb-1">Movement Type</label>
+          <select
+            value={form.movement_type}
+            onChange={e => set('movement_type', e.target.value)}
+            className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="Automatic">Automatic</option>
+            <option value="Manual">Manual</option>
+            <option value="Quartz">Quartz</option>
+            <option value="Solar">Solar</option>
+            <option value="Spring Drive">Spring Drive</option>
+          </select>
+        </div>
+        <Field label="Crystal" value={form.crystal} onChange={v => set('crystal', v)} />
+        <Field label="Dial Color" value={form.dial_color} onChange={v => set('dial_color', v)} />
+        <Field label="Water Resistance" value={form.water_resistance} onChange={v => set('water_resistance', v)} />
+        <Field label="Power Reserve" value={form.power_reserve} onChange={v => set('power_reserve', v)} />
+        <Field label="Price" value={form.price} onChange={v => set('price', v)} />
+        <Field label="Year Introduced" value={form.year_introduced?.toString() || ''} onChange={v => set('year_introduced', v ? parseInt(v) : null)} />
+      </div>
+      <div className="mt-4">
+        <label className="block text-xs font-medium text-gray-500 mb-1">Description</label>
+        <textarea
+          value={form.description}
+          onChange={e => set('description', e.target.value)}
+          rows={3}
+          className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div className="mt-4 flex items-center gap-3">
+        <label className="flex items-center gap-2 text-sm">
+          <input type="checkbox" checked={form.featured} onChange={e => set('featured', e.target.checked)} />
+          Featured
+        </label>
+      </div>
+      {form.image && (
+        <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+          <p className="text-xs text-gray-500 mb-2">Image Preview</p>
+          <img src={form.image} alt="Preview" className="h-32 object-contain mix-blend-multiply" />
+        </div>
+      )}
+      <div className="flex gap-3 mt-6">
+        <button onClick={() => onSave(form)} className="bg-gray-900 text-white px-6 py-2 rounded-lg text-sm hover:bg-gray-800">
+          Save
+        </button>
+        <button onClick={onCancel} className="px-6 py-2 rounded-lg text-sm border hover:bg-gray-50">
+          Cancel
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// === BRAND FORM COMPONENT ===
+function BrandForm({ brand, onSave, onCancel }: {
+  brand: Brand;
+  onSave: (b: Brand) => void;
+  onCancel: () => void;
+}) {
+  const [form, setForm] = useState(brand);
+  const set = (field: string, value: string | number | null) =>
+    setForm(prev => ({ ...prev, [field]: value }));
+
+  return (
+    <div className="bg-white p-6 rounded-xl border max-w-2xl">
+      <h2 className="text-lg font-bold mb-4">{brand.slug ? 'Edit Brand' : 'Add Brand'}</h2>
+      <div className="grid grid-cols-2 gap-4">
+        <Field label="Name" value={form.name} onChange={v => set('name', v)} />
+        <Field label="Slug" value={form.slug} onChange={v => set('slug', v)} />
+        <Field label="Country" value={form.country} onChange={v => set('country', v)} />
+        <Field label="Founded" value={form.founded.toString()} onChange={v => set('founded', parseInt(v) || 2000)} />
+        <Field label="Website" value={form.website} onChange={v => set('website', v)} />
+        <Field label="Group Slug" value={form.group_slug || ''} onChange={v => set('group_slug', v || null)} />
+      </div>
+      <div className="mt-4">
+        <label className="block text-xs font-medium text-gray-500 mb-1">Description</label>
+        <textarea
+          value={form.description}
+          onChange={e => set('description', e.target.value)}
+          rows={3}
+          className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div className="flex gap-3 mt-6">
+        <button onClick={() => onSave(form)} className="bg-gray-900 text-white px-6 py-2 rounded-lg text-sm hover:bg-gray-800">
+          Save
+        </button>
+        <button onClick={onCancel} className="px-6 py-2 rounded-lg text-sm border hover:bg-gray-50">
+          Cancel
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function Field({ label, value, onChange }: { label: string; value: string; onChange: (v: string) => void }) {
+  return (
+    <div>
+      <label className="block text-xs font-medium text-gray-500 mb-1">{label}</label>
+      <input
+        type="text"
+        value={value}
+        onChange={e => onChange(e.target.value)}
+        className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+    </div>
+  );
+}
