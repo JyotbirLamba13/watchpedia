@@ -53,6 +53,7 @@ CREATE TABLE watches (
   strap_material TEXT,
   price TEXT,
   year_introduced INTEGER,
+  image_source TEXT,
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW(),
   UNIQUE(brand_slug, slug)

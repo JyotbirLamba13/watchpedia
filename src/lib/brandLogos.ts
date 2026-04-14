@@ -29,4 +29,12 @@ export const brandLogos: Record<string, string> = {
   'certina': 'https://upload.wikimedia.org/wikipedia/commons/5/57/Certina-Logo.png',
   'bulova': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Bulova_logo.svg/250px-Bulova_logo.svg.png',
   'nomos': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nomos_Glash%C3%BCtte.svg/250px-Nomos_Glash%C3%BCtte.svg.png',
+  'nomos-glashutte': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nomos_Glash%C3%BCtte.svg/250px-Nomos_Glash%C3%BCtte.svg.png',
+  'a-lange-sohne': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Alange_soehne_logo.svg/250px-Alange_soehne_logo.svg.png',
+  'blancpain': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Blancpain_logo.svg/250px-Blancpain_logo.svg.png',
+  'breguet': 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Breguet_logo.png/250px-Breguet_logo.png',
+  'g-shock': 'https://upload.wikimedia.org/wikipedia/commons/a/ae/G-Shock_logo.png',
+  'oris': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Oris_logo.svg/250px-Oris_logo.svg.png',
+  'piaget': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Piaget_logo.svg/250px-Piaget_logo.svg.png',
+  'zenith': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Zenith_logo.svg/250px-Zenith_logo.svg.png',
 };

@@ -33,6 +33,7 @@ interface Watch {
   power_reserve: string;
   price: string;
   year_introduced: number | null;
+  image_source: string;
 }
 
 interface Brand {
@@ -51,6 +52,7 @@ const emptyWatch: Watch = {
   featured: false, description: '', case_diameter: '', case_material: '',
   case_thickness: '', movement: '', movement_type: 'Automatic', crystal: 'Sapphire',
   dial_color: '', water_resistance: '', power_reserve: '', price: '', year_introduced: null,
+  image_source: '',
 };
 
 const emptyBrand: Brand = {
@@ -324,8 +326,57 @@ function WatchForm({ watch, brands, onSave, onCancel }: {
   onCancel: () => void;
 }) {
   const [form, setForm] = useState(watch);
+  const [uploading, setUploading] = useState(false);
+  const [uploadMsg, setUploadMsg] = useState('');
   const set = (field: string, value: string | number | boolean | null) =>
     setForm(prev => ({ ...prev, [field]: value }));
+
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    // Validate file type
+    const validTypes = ['image/png', 'image/jpeg', 'image/webp'];
+    if (!validTypes.includes(file.type)) {
+      setUploadMsg('Only PNG, JPG, or WebP files allowed');
+      return;
+    }
+
+    // Validate file size (max 2MB)
+    if (file.size > 2 * 1024 * 1024) {
+      setUploadMsg('File too large. Max 2MB.');
+      return;
+    }
+
+    const client = getSupabaseClient();
+    if (!client) return;
+
+    setUploading(true);
+    setUploadMsg('');
+
+    // Generate a clean filename: brand-slug/watch-slug.ext
+    const ext = file.name.split('.').pop()?.toLowerCase() || 'png';
+    const filePath = `${form.brand_slug || 'unknown'}/${form.slug || Date.now()}.${ext}`;
+
+    const { error } = await client.storage
+      .from('watch-images')
+      .upload(filePath, file, { upsert: true, contentType: file.type });
+
+    if (error) {
+      setUploadMsg('Upload failed: ' + error.message);
+      setUploading(false);
+      return;
+    }
+
+    const { data: urlData } = client.storage
+      .from('watch-images')
+      .getPublicUrl(filePath);
+
+    set('image', urlData.publicUrl);
+    setUploadMsg('Uploaded successfully!');
+    setUploading(false);
+    setTimeout(() => setUploadMsg(''), 3000);
+  };
 
   return (
     <div className="bg-white p-6 rounded-xl border max-w-3xl">
@@ -346,7 +397,6 @@ function WatchForm({ watch, brands, onSave, onCancel }: {
         <Field label="Slug" value={form.slug} onChange={v => set('slug', v)} />
         <Field label="Reference" value={form.reference} onChange={v => set('reference', v)} />
         <Field label="Collection" value={form.collection} onChange={v => set('collection', v)} />
-        <Field label="Image URL" value={form.image} onChange={v => set('image', v)} />
         <Field label="Case Diameter" value={form.case_diameter} onChange={v => set('case_diameter', v)} />
         <Field label="Case Material" value={form.case_material} onChange={v => set('case_material', v)} />
         <Field label="Case Thickness" value={form.case_thickness} onChange={v => set('case_thickness', v)} />
@@ -372,6 +422,7 @@ function WatchForm({ watch, brands, onSave, onCancel }: {
         <Field label="Price" value={form.price} onChange={v => set('price', v)} />
         <Field label="Year Introduced" value={form.year_introduced?.toString() || ''} onChange={v => set('year_introduced', v ? parseInt(v) : null)} />
       </div>
+
       <div className="mt-4">
         <label className="block text-xs font-medium text-gray-500 mb-1">Description</label>
         <textarea
@@ -381,18 +432,67 @@ function WatchForm({ watch, brands, onSave, onCancel }: {
           className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
+
       <div className="mt-4 flex items-center gap-3">
         <label className="flex items-center gap-2 text-sm">
           <input type="checkbox" checked={form.featured} onChange={e => set('featured', e.target.checked)} />
           Featured
         </label>
       </div>
-      {form.image && (
-        <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-          <p className="text-xs text-gray-500 mb-2">Image Preview</p>
-          <img src={form.image} alt="Preview" className="h-32 object-contain mix-blend-multiply" />
+
+      {/* === IMAGE SECTION === */}
+      <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-dashed border-gray-300">
+        <h3 className="text-sm font-semibold text-gray-700 mb-3">Watch Image</h3>
+
+        {/* Upload area */}
+        <div className="flex items-start gap-4">
+          <div className="flex-1">
+            <label className="block cursor-pointer">
+              <div className="flex items-center gap-2 px-4 py-2.5 bg-white border rounded-lg hover:bg-gray-50 transition-colors w-fit">
+                <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                </svg>
+                <span className="text-sm text-gray-600">{uploading ? 'Uploading...' : 'Upload Image'}</span>
+              </div>
+              <input
+                type="file"
+                accept="image/png,image/jpeg,image/webp"
+                onChange={handleImageUpload}
+                disabled={uploading}
+                className="hidden"
+              />
+            </label>
+            <p className="text-xs text-gray-400 mt-2">
+              Recommended: <strong>500x500px</strong> PNG with transparent background. Max 2MB.
+              <br />JPG/WebP also accepted. Images display at 300x300 on cards, 500x500 on detail pages.
+            </p>
+            {uploadMsg && (
+              <p className={`text-xs mt-1 ${uploadMsg.includes('failed') || uploadMsg.includes('too') || uploadMsg.includes('Only') ? 'text-red-500' : 'text-green-600'}`}>
+                {uploadMsg}
+              </p>
+            )}
+          </div>
+
+          {/* Preview */}
+          {form.image && (
+            <div className="w-32 h-32 bg-white rounded-lg border flex items-center justify-center p-2 shrink-0">
+              <img src={form.image} alt="Preview" className="max-h-full max-w-full object-contain mix-blend-multiply" />
+            </div>
+          )}
         </div>
-      )}
+
+        {/* Image URL field */}
+        <div className="mt-3">
+          <Field label="Image URL (or paste external URL)" value={form.image} onChange={v => set('image', v)} />
+        </div>
+
+        {/* Image source / copyright */}
+        <div className="mt-3">
+          <Field label="Image Source / Copyright" value={form.image_source} onChange={v => set('image_source', v)} />
+          <p className="text-xs text-gray-400 mt-1">e.g. &quot;Official Rolex press kit&quot;, &quot;Wikimedia Commons CC BY-SA 4.0&quot;, &quot;Brand website&quot;</p>
+        </div>
+      </div>
+
       <div className="flex gap-3 mt-6">
         <button onClick={() => onSave(form)} className="bg-gray-900 text-white px-6 py-2 rounded-lg text-sm hover:bg-gray-800">
           Save
