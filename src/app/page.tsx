@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { getFeaturedWatches, getAllBrands, getAllGroups, getAllCountries, getAllWatches } from '@/lib/data';
 import WatchCard from '@/components/watch/WatchCard';
 import { brandLogos } from '@/lib/brandLogos';
+import HeroWatchCarousel from '@/components/hero/HeroWatchCarousel';
 
 export default function HomePage() {
   const featured = getFeaturedWatches();
@@ -66,35 +67,9 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right - Watch showcase */}
+            {/* Right - Watch carousel with word cloud */}
             <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-              <div className="relative">
-                {/* Glow ring behind watch */}
-                <div className="absolute inset-0 -m-8 rounded-full bg-gradient-to-br from-wp-gold/10 via-transparent to-wp-gold/5 blur-3xl" />
-                {/* Rotating ring decoration */}
-                <div className="absolute inset-0 -m-6 rounded-full border border-wp-gold/10 hero-rotate" />
-                <div className="absolute inset-0 -m-12 rounded-full border border-dashed border-white/5 hero-rotate-reverse" />
-                {/* Main watch image */}
-                <div className="relative w-[280px] h-[280px] sm:w-[360px] sm:h-[360px] lg:w-[440px] lg:h-[440px]">
-                  <Image
-                    src="https://ksrvqrkkhmzzxwhwhvnr.supabase.co/storage/v1/object/public/watch-images/hero/hero-speedmaster.jpg"
-                    alt="Omega Speedmaster - iconic luxury chronograph"
-                    fill
-                    className="object-contain drop-shadow-[0_0_80px_rgba(201,169,110,0.15)] hero-float"
-                    priority
-                    unoptimized
-                  />
-                </div>
-                {/* Floating brand badges */}
-                <div className="absolute -left-4 top-1/4 hidden lg:flex items-center gap-2 px-3 py-2 bg-wp-charcoal/80 backdrop-blur-sm border border-white/10 rounded-lg hero-float-delayed">
-                  <div className="w-2 h-2 rounded-full bg-green-400" />
-                  <span className="text-[11px] text-white/70 font-medium">{totalWatches} watches indexed</span>
-                </div>
-                <div className="absolute -right-2 bottom-1/4 hidden lg:flex items-center gap-2 px-3 py-2 bg-wp-charcoal/80 backdrop-blur-sm border border-white/10 rounded-lg hero-float-delayed-2">
-                  <span className="text-[11px] text-wp-gold font-medium">{brands.length} brands</span>
-                  <span className="text-[11px] text-white/40">catalogued</span>
-                </div>
-              </div>
+              <HeroWatchCarousel />
             </div>
           </div>
         </div>
