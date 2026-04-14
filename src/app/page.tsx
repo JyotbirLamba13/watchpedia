@@ -38,12 +38,12 @@ export default function HomePage() {
                 </p>
               </div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-[1.05] mb-6">
-                Every Watch.<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-wp-gold to-wp-gold-light">Every Brand.</span><br />
-                One Place.
+                Every Watch<br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-wp-gold to-wp-gold-light">Every Brand</span><br />
+                One Place
               </h1>
               <p className="text-white/50 text-lg md:text-xl leading-relaxed mb-10 max-w-md">
-                Explore {brands.length} brands and {totalWatches} references from the world&apos;s finest watchmakers.
+                Explore {brands.length} brands and {totalWatches.toLocaleString()} references from the world&apos;s finest watchmakers.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/search" className="group relative inline-flex items-center gap-2 px-7 py-3.5 bg-wp-gold text-white text-sm font-medium rounded-full overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(201,169,110,0.3)]">

@@ -8446,5 +8446,25 @@
       "powerReserve": "38 hours",
       "yearIntroduced": 2014
     }
+  },
+  {
+    "reference": "DWC-EVEREST-II",
+    "slug": "dwc-everest-ii",
+    "brandSlug": "delhi-watch-company",
+    "name": "Everest II",
+    "collection": "Everest",
+    "description": "The DWC Everest II is a limited edition automatic watch from Delhi Watch Company. Featuring a honeycomb textured black dial, Superluminova lume, screw-down engraved crown, 316L stainless steel case, and a solid Jubilee bracelet. Built to honor the spirit of high-altitude exploration.",
+    "image": "https://delhiwatchcompany.com/cdn/shop/files/Screenshot2025-06-24at5.52.25PM.png?v=1750767845&width=1200",
+    "specs": {
+      "movement": "Seiko NH35",
+      "movementType": "Automatic",
+      "caseMaterial": "316L Stainless Steel",
+      "caseDiameter": "36mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black Honeycomb",
+      "price": "₹6,999",
+      "yearIntroduced": 2024
+    }
   }
 ]
