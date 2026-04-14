@@ -43,7 +43,7 @@ export default function HomePage() {
                 One Place
               </h1>
               <p className="text-white/50 text-lg md:text-xl leading-relaxed mb-10 max-w-md">
-                Explore {brands.length} brands and {totalWatches.toLocaleString()} references from the world&apos;s finest watchmakers.
+                Explore {brands.length} brands and{' '}{totalWatches}{' '}references from the world&apos;s finest watchmakers.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/search" className="group relative inline-flex items-center gap-2 px-7 py-3.5 bg-wp-gold text-white text-sm font-medium rounded-full overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(201,169,110,0.3)]">

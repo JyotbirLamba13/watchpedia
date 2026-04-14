@@ -6,16 +6,10 @@ import { useState, useEffect, useRef } from 'react';
 
 const heroWatches = [
   {
-    name: 'Everest III',
-    brand: 'Delhi Watch Company',
-    image: 'https://delhiwatchcompany.com/cdn/shop/files/Screenshot2025-06-24at5.52.25PM.png?v=1750767845&width=800',
-    href: '/brands/delhi-watch-company',
-  },
-  {
-    name: 'Submariner Date',
+    name: 'Cosmograph Daytona',
     brand: 'Rolex',
-    image: 'https://cdn.watchbase.com/watch/lg/origin:png/rolex/submariner/126610ln-0001-78.png',
-    href: '/watches/rolex/126610ln',
+    image: 'https://cdn.watchbase.com/watch/lg/origin:jpg/rolex/daytona/126500ln-0001-83.png',
+    href: '/watches/rolex/126500ln',
   },
   {
     name: 'Speedmaster Racing',
@@ -34,6 +28,12 @@ const heroWatches = [
     brand: 'Patek Philippe',
     image: 'https://cdn.watchbase.com/watch/lg/origin:png/patek-philippe/nautilus/5711-1a-010-fa.png',
     href: '/watches/patek-philippe/5711-1a-010',
+  },
+  {
+    name: 'Portugieser Chronograph',
+    brand: 'IWC',
+    image: 'https://cdn.watchbase.com/watch/lg/origin:jpg/iwc/portugieser/iw3716-05-79.png',
+    href: '/watches/iwc/iw371605',
   },
 ];
 
