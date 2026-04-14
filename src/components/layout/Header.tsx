@@ -8,6 +8,7 @@ const navLinks = [
   { href: '/brands', label: 'Brands' },
   { href: '/groups', label: 'Groups' },
   { href: '/countries', label: 'Countries' },
+  { href: '/blog', label: 'Blog' },
 ];
 
 export default function Header() {

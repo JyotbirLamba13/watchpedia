@@ -35,6 +35,7 @@ export default function Footer() {
               <FooterLink href="/groups">Watch Groups</FooterLink>
               <FooterLink href="/countries">By Country</FooterLink>
               <FooterLink href="/search">Search</FooterLink>
+              <FooterLink href="/blog">Blog</FooterLink>
             </ul>
           </div>
           <div>

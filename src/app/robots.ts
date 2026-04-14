@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
+        disallow: ['/admin', '/instagram-proto', '/instagram-monetization', '/api/'],
       },
     ],
     sitemap: 'https://watchpedia.org/sitemap.xml',
