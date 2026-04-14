@@ -5900,33 +5900,6 @@
     "image": "https://content.thewosgroup.com/productimage/17532562/17532562_1.jpg?impolicy=hero&imwidth=700"
   },
   {
-    "reference": "A10370121B1A1",
-    "slug": "a10370121b1a1",
-    "brandSlug": "breitling",
-    "name": "Superocean Heritage '57",
-    "collection": "Superocean Heritage",
-    "description": "A refined vintage-inspired dive watch celebrating the original 1957 Superocean. Features a slim 42mm case with mesh bracelet and COSC-certified movement, combining heritage design with modern performance.",
-    "specs": {
-      "movement": "Breitling Calibre 10",
-      "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
-      "caseDiameter": "42mm",
-      "caseThickness": "11.9mm",
-      "waterResistance": "100m",
-      "crystal": "Sapphire with anti-reflective coating",
-      "dialColor": "Black",
-      "strapMaterial": "Stainless Steel mesh bracelet",
-      "powerReserve": "42 hours",
-      "frequency": "28,800 vph",
-      "complications": [
-        "Date"
-      ],
-      "price": "~$5,800",
-      "yearIntroduced": 2019
-    },
-    "image": "https://www.prestigetime.com/images/watches/a10370121b1a1-superoceanheritage_main.jpg"
-  },
-  {
     "reference": "AB0134101G1A1",
     "slug": "ab0134101g1a1",
     "brandSlug": "breitling",
@@ -6281,33 +6254,6 @@
     "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiai0yJA9XpPuP7UTBUegGPgasCpbhX8INZcfcaPP-HGNPX0gxIPTlPR_cqj2CYGMSwpI6T3MOwJSp7KNK5mwoJLe5-x3Ft-8QOnP_bnOwQlDxIQ7hH16i-zb0-9i4P49jZ8wvROADlU9NwFn1A-xrpP0DRrftkhvDfVIp05oqTLmmADKcU8Vh5O2L73FM/s1600/Bulgari%20Aluminium%20GMT%20103963_001.jpg"
   },
   {
-    "reference": "FC-303S5B6",
-    "slug": "fc-303s5b6",
-    "brandSlug": "frederique-constant",
-    "name": "Highlife Automatic",
-    "collection": "Highlife",
-    "description": "Frederique Constant's modern sports-elegant watch with an integrated bracelet design. The 41mm stainless steel case features a textured blue dial and the in-house FC-303 automatic calibre with 38-hour power reserve.",
-    "specs": {
-      "movement": "FC-303",
-      "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
-      "caseDiameter": "41mm",
-      "caseThickness": "9.4mm",
-      "waterResistance": "50m",
-      "crystal": "Sapphire with anti-reflective coating",
-      "dialColor": "Blue textured",
-      "strapMaterial": "Stainless Steel integrated bracelet",
-      "powerReserve": "38 hours",
-      "frequency": "28,800 vph",
-      "complications": [
-        "Date"
-      ],
-      "price": "~$1,695",
-      "yearIntroduced": 2020
-    },
-    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/index/fc303s5b6-b8.png"
-  },
-  {
     "reference": "FC-310MC5B6",
     "slug": "fc-310mc5b6",
     "brandSlug": "frederique-constant",
@@ -6333,34 +6279,6 @@
       "yearIntroduced": 2004
     },
     "image": "https://www.mastersintime.com/pictures/frederique-constant-fc-310mc5b6-classics-heart-beat-16646615.jpg"
-  },
-  {
-    "reference": "FC-705S4S6",
-    "slug": "fc-705s4s6",
-    "brandSlug": "frederique-constant",
-    "name": "Slimline Moonphase",
-    "collection": "Slimline",
-    "description": "An elegant dress watch featuring a beautifully detailed moon phase display and the in-house FC-705 automatic calibre. The slim 42mm steel case frames a refined silver dial with applied Roman numerals.",
-    "specs": {
-      "movement": "FC-705",
-      "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
-      "caseDiameter": "42mm",
-      "caseThickness": "11.3mm",
-      "waterResistance": "30m",
-      "crystal": "Sapphire with anti-reflective coating",
-      "dialColor": "Silver",
-      "strapMaterial": "Alligator leather strap",
-      "powerReserve": "42 hours",
-      "frequency": "28,800 vph",
-      "complications": [
-        "Moon phase",
-        "Date"
-      ],
-      "price": "~$2,395",
-      "yearIntroduced": 2016
-    },
-    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/slim-line/fc705s4s6-5d.png"
   },
   {
     "reference": "FC-718WM4H6",
@@ -6603,93 +6521,6 @@
       "yearIntroduced": 2018
     },
     "image": "https://ad.kapoorwatch.com/content/images/product/R32259153.jpg"
-  },
-  {
-    "reference": "140.029",
-    "slug": "140-029",
-    "brandSlug": "a-lange-sohne",
-    "name": "Zeitwerk",
-    "collection": "Zeitwerk",
-    "description": "A revolutionary mechanical watch with a digital jumping hours and minutes display, a feat of engineering considered impossible before its creation. The 41.9mm white gold case houses the complex L043.1 calibre with constant-force mechanism ensuring precise digit transitions.",
-    "specs": {
-      "movement": "L043.1",
-      "movementType": "Manual",
-      "caseMaterial": "18K White Gold",
-      "caseDiameter": "41.9mm",
-      "caseThickness": "12.6mm",
-      "waterResistance": "30m",
-      "crystal": "Sapphire",
-      "dialColor": "Silver with black numerals",
-      "strapMaterial": "Alligator leather strap",
-      "powerReserve": "36 hours",
-      "frequency": "18,000 vph",
-      "complications": [
-        "Jumping hours",
-        "Jumping minutes",
-        "Constant force mechanism",
-        "Power reserve indicator"
-      ],
-      "price": "~$92,000",
-      "yearIntroduced": 2009
-    },
-    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/zeitwerk/140-029-54.jpg"
-  },
-  {
-    "reference": "363.068",
-    "slug": "363-068",
-    "brandSlug": "a-lange-sohne",
-    "name": "Odysseus",
-    "collection": "Odysseus",
-    "description": "A. Lange & Sohne's first-ever stainless steel sports watch with integrated bracelet. The 40.5mm case houses the automatic L155.1 calibre with oversized date and day display, combining Saxon finishing with a contemporary sporty aesthetic.",
-    "specs": {
-      "movement": "L155.1 DATOMATIC",
-      "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
-      "caseDiameter": "40.5mm",
-      "caseThickness": "11.1mm",
-      "waterResistance": "120m",
-      "crystal": "Sapphire",
-      "dialColor": "Gray-blue",
-      "strapMaterial": "Stainless Steel bracelet",
-      "powerReserve": "50 hours",
-      "frequency": "28,800 vph",
-      "complications": [
-        "Oversized date",
-        "Day display"
-      ],
-      "price": "~$36,600",
-      "yearIntroduced": 2019
-    },
-    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/odysseus/3630-68-e8.jpg"
-  },
-  {
-    "reference": "405.035",
-    "slug": "405-035",
-    "brandSlug": "a-lange-sohne",
-    "name": "Datograph Up/Down",
-    "collection": "Datograph",
-    "description": "Widely considered one of the greatest chronographs ever made, featuring a flyback mechanism and oversized date. The 41mm platinum case showcases the legendary L951.6 calibre with exquisite Glashutte finishing and column-wheel chronograph.",
-    "specs": {
-      "movement": "L951.6",
-      "movementType": "Manual",
-      "caseMaterial": "Platinum",
-      "caseDiameter": "41mm",
-      "caseThickness": "13.1mm",
-      "waterResistance": "30m",
-      "crystal": "Sapphire",
-      "dialColor": "Black",
-      "strapMaterial": "Alligator leather strap",
-      "powerReserve": "60 hours",
-      "frequency": "18,000 vph",
-      "complications": [
-        "Flyback chronograph",
-        "Oversized date",
-        "Power reserve indicator"
-      ],
-      "price": "~$106,000",
-      "yearIntroduced": 2012
-    },
-    "image": "https://cdn.swisswatchexpo.com/productphotos/3/27/a-lange-and-sohne-datograph-updown-platinum-mens-watch-405035-box-papers-60415_f305b_md.jpg"
   },
   {
     "reference": "252.032",
@@ -7830,52 +7661,6 @@
     }
   },
   {
-    "slug": "t127-407-11-041-01",
-    "name": "Gentleman Powermatic 80",
-    "brandSlug": "tissot",
-    "collection": "Gentleman",
-    "reference": "T127.407.11.041.01",
-    "image": "https://www.tissotwatches.com/media/catalog/product/T/1/T127.407.11.041.01_1.png",
-    "featured": false,
-    "description": "Elegant everyday watch with 80-hour power reserve and silicium hairspring.",
-    "specs": {
-      "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
-      "movement": "Powermatic 80 Silicium",
-      "movementType": "Automatic",
-      "crystal": "Sapphire",
-      "dialColor": "Blue",
-      "waterResistance": "100m",
-      "price": "$695",
-      "caseThickness": "10.6mm",
-      "powerReserve": "80 hours",
-      "yearIntroduced": 2019
-    }
-  },
-  {
-    "slug": "t120-407-11-041-03",
-    "name": "Seastar 1000 Powermatic 80",
-    "brandSlug": "tissot",
-    "collection": "Seastar",
-    "reference": "T120.407.11.041.03",
-    "image": "https://www.tissotwatches.com/media/catalog/product/T/1/T120.407.11.041.03_1.png",
-    "featured": false,
-    "description": "Professional dive watch with ceramic bezel and 300m water resistance.",
-    "specs": {
-      "caseDiameter": "43mm",
-      "caseMaterial": "Stainless Steel",
-      "movement": "Powermatic 80",
-      "movementType": "Automatic",
-      "crystal": "Sapphire",
-      "dialColor": "Blue",
-      "waterResistance": "300m",
-      "price": "$775",
-      "caseThickness": "12.7mm",
-      "powerReserve": "80 hours",
-      "yearIntroduced": 2019
-    }
-  },
-  {
     "slug": "t141-417-11-041-00",
     "name": "PRX Chronograph",
     "brandSlug": "tissot",
@@ -7985,29 +7770,6 @@
       "price": "$350,000",
       "caseThickness": "18.8mm",
       "powerReserve": "1200 hours"
-    }
-  },
-  {
-    "slug": "03-3100-3600-69-m3100",
-    "name": "Chronomaster Sport",
-    "brandSlug": "zenith",
-    "collection": "Chronomaster",
-    "reference": "03.3100.3600/69.M3100",
-    "image": "https://www.zenith-watches.com/media/catalog/product/0/3/03.3100.3600_69.M3100_1.png",
-    "featured": false,
-    "description": "Modern Daytona alternative with 1/10th second chronograph and tri-color subdials.",
-    "specs": {
-      "caseDiameter": "41mm",
-      "caseMaterial": "Stainless Steel",
-      "movement": "El Primero 3600",
-      "movementType": "Automatic",
-      "crystal": "Sapphire",
-      "dialColor": "White",
-      "waterResistance": "100m",
-      "price": "$10,100",
-      "caseThickness": "12.6mm",
-      "powerReserve": "60 hours",
-      "yearIntroduced": 2021
     }
   },
   {
@@ -8146,29 +7908,6 @@
       "caseThickness": "14mm",
       "powerReserve": "72 hours",
       "yearIntroduced": 2019
-    }
-  },
-  {
-    "slug": "pam01535",
-    "name": "Luminor GMT",
-    "brandSlug": "panerai",
-    "collection": "Luminor",
-    "reference": "PAM01535",
-    "image": "https://www.panerai.com/content/dam/panerai/products/watches/collections/luminor/pam01535/pam01535_front.png",
-    "featured": false,
-    "description": "GMT complication with Panerai's signature crown-protecting bridge.",
-    "specs": {
-      "caseDiameter": "44mm",
-      "caseMaterial": "Stainless Steel",
-      "movement": "P.9011",
-      "movementType": "Automatic",
-      "crystal": "Sapphire",
-      "dialColor": "Blue",
-      "waterResistance": "300m",
-      "price": "$11,200",
-      "caseThickness": "15.6mm",
-      "powerReserve": "72 hours",
-      "yearIntroduced": 2022
     }
   },
   {
