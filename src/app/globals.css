@@ -150,18 +150,21 @@ html {
   animation: heroScrollDot 1.5s ease-in-out infinite;
 }
 
-@keyframes heroTermFloat {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+@keyframes orbitSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
-.hero-term {
-  animation: heroTermFloat 5s ease-in-out infinite;
+.orbit-ring {
+  animation: orbitSpin 45s linear infinite;
+}
+.orbit-ring-reverse {
+  animation: orbitSpin 60s linear infinite reverse;
 }
 
 @keyframes heroLabelFade {
-  from { opacity: 0; transform: translateY(6px); }
+  from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
 }
 .hero-label-fade {
-  animation: heroLabelFade 0.6s ease-out;
+  animation: heroLabelFade 0.8s ease-out;
 }
