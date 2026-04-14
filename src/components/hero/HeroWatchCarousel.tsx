@@ -2,11 +2,11 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const heroWatches = [
   {
-    name: 'Everest II',
+    name: 'Everest III',
     brand: 'Delhi Watch Company',
     image: 'https://delhiwatchcompany.com/cdn/shop/files/Screenshot2025-06-24at5.52.25PM.png?v=1750767845&width=800',
     href: '/brands/delhi-watch-company',
@@ -46,7 +46,8 @@ const orbitTerms = [
 
 export default function HeroWatchCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [orbitAngle, setOrbitAngle] = useState(0);
+  const angleRef = useRef(0);
+  const [positions, setPositions] = useState<{ x: number; y: number; opacity: number }[]>([]);
 
   useEffect(() => {
     const watchInterval = setInterval(() => {
@@ -62,7 +63,29 @@ export default function HeroWatchCarousel() {
     const animate = (time: number) => {
       const delta = time - lastTime;
       lastTime = time;
-      setOrbitAngle((prev) => (prev + delta * 0.008) % 360);
+      angleRef.current = (angleRef.current + delta * 0.008) % 360;
+
+      const newPositions = orbitTerms.map((_, i) => {
+        const baseAngle = (i / orbitTerms.length) * 360;
+        const currentAngle = baseAngle + angleRef.current;
+        const radians = (currentAngle * Math.PI) / 180;
+        const radiusX = 220;
+        const radiusY = 240;
+        const x = Math.cos(radians) * radiusX;
+        const y = Math.sin(radians) * radiusY;
+
+        // Hide terms when they're near the bottom label area (y > 200)
+        // and fade terms when near center of watch
+        const absX = Math.abs(x);
+        const absY = Math.abs(y);
+        let opacity = 0.25 + (absX / radiusX) * 0.5;
+        // Fade out near bottom where the label is
+        if (y > 180) opacity = Math.max(0, opacity * (1 - (y - 180) / 80));
+
+        return { x, y, opacity };
+      });
+
+      setPositions(newPositions);
       animFrame = requestAnimationFrame(animate);
     };
 
@@ -77,21 +100,11 @@ export default function HeroWatchCarousel() {
       href={watch.href}
       className="relative flex items-center justify-center w-[300px] h-[400px] sm:w-[360px] sm:h-[480px] lg:w-[440px] lg:h-[560px] group cursor-pointer"
     >
-      {/* Orbiting terms - rendered IN FRONT with z-index, text stays upright */}
+      {/* Orbiting terms - IN FRONT, text always upright, fades near label */}
       <div className="absolute inset-0 z-20 pointer-events-none">
         {orbitTerms.map((term, i) => {
-          const baseAngle = (i / orbitTerms.length) * 360;
-          const currentAngle = baseAngle + orbitAngle;
-          const radians = (currentAngle * Math.PI) / 180;
-          const radiusX = 210;
-          const radiusY = 260;
-          const x = Math.cos(radians) * radiusX;
-          const y = Math.sin(radians) * radiusY;
-
-          // Fade based on position: brighter on sides, dimmer when overlapping watch center
-          const distFromCenter = Math.sqrt(x * x + y * y);
-          const normalizedDist = Math.min(distFromCenter / 180, 1);
-          const opacity = 0.15 + normalizedDist * 0.55;
+          const pos = positions[i];
+          if (!pos) return null;
 
           const size = i % 3 === 0 ? 'text-sm sm:text-base' : i % 3 === 1 ? 'text-xs sm:text-sm' : 'text-[11px] sm:text-xs';
 
@@ -100,11 +113,12 @@ export default function HeroWatchCarousel() {
               key={term}
               className={`absolute ${size} font-display text-white whitespace-nowrap select-none font-medium`}
               style={{
-                left: `calc(50% + ${x}px)`,
-                top: `calc(50% + ${y}px)`,
+                left: `calc(50% + ${pos.x}px)`,
+                top: `calc(50% + ${pos.y}px)`,
                 transform: 'translate(-50%, -50%)',
-                opacity,
-                textShadow: '0 0 20px rgba(201,169,110,0.3)',
+                opacity: pos.opacity,
+                textShadow: '0 2px 12px rgba(0,0,0,0.8), 0 0 20px rgba(201,169,110,0.2)',
+                willChange: 'left, top, opacity',
               }}
             >
               {term}
@@ -113,10 +127,9 @@ export default function HeroWatchCarousel() {
         })}
       </div>
 
-      {/* Subtle orbit path rings */}
+      {/* Subtle orbit path ring */}
       <svg className="absolute inset-0 -m-4 w-[calc(100%+32px)] h-[calc(100%+32px)] z-10 pointer-events-none" viewBox="0 0 500 600">
-        <ellipse cx="250" cy="300" rx="210" ry="260" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="1" strokeDasharray="4 8" />
-        <ellipse cx="250" cy="300" rx="170" ry="220" fill="none" stroke="rgba(201,169,110,0.03)" strokeWidth="1" />
+        <ellipse cx="250" cy="300" rx="220" ry="240" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="1" strokeDasharray="4 8" />
       </svg>
 
       {/* Watch images - crossfade */}
@@ -138,17 +151,17 @@ export default function HeroWatchCarousel() {
         </div>
       ))}
 
-      {/* Watch label - bottom */}
+      {/* Watch label - bottom, high z-index to stay above orbiting text */}
       <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 text-center w-full z-30">
         <p
           key={`name-${activeIndex}`}
-          className="text-white/90 text-sm sm:text-base font-display font-semibold tracking-wide hero-label-fade"
+          className="text-white text-sm sm:text-base font-display font-semibold tracking-wide hero-label-fade drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
         >
           {watch.name}
         </p>
         <p
           key={`brand-${activeIndex}`}
-          className="text-wp-gold/50 text-[10px] sm:text-[11px] uppercase tracking-[0.25em] mt-1 hero-label-fade"
+          className="text-wp-gold/60 text-[10px] sm:text-[11px] uppercase tracking-[0.25em] mt-1 hero-label-fade drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"
         >
           {watch.brand}
         </p>
