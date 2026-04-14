@@ -17,34 +17,95 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero - Cinematic */}
-      <section className="relative bg-wp-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-wp-charcoal via-wp-dark to-black opacity-90" />
-        <div className="relative max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-          <div className="max-w-2xl">
-            <p className="text-wp-gold text-xs font-semibold uppercase tracking-[0.2em] mb-4">
-              The Watch Encyclopedia
-            </p>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-[1.1] mb-6">
-              Every Watch.<br />Every Brand.<br />One Place.
-            </h1>
-            <p className="text-white/60 text-lg md:text-xl leading-relaxed mb-8 max-w-lg">
-              Explore {brands.length} brands and {totalWatches} references from watchmakers around the world.
-            </p>
-            <div className="flex flex-wrap gap-3">
-              <Link href="/search" className="btn-pill btn-gold text-sm">
-                Explore Watches
-              </Link>
-              <Link href="/brands" className="btn-pill border border-white/20 text-white hover:bg-white/10 text-sm transition-colors">
-                Browse Brands
-              </Link>
+      <section className="relative bg-wp-dark overflow-hidden min-h-[90vh] flex items-center">
+        {/* Ambient glow effects */}
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-wp-gold/8 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-wp-charcoal via-wp-dark to-black" />
+          {/* Subtle grid pattern */}
+          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
+        </div>
+
+        <div className="relative w-full max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+            {/* Left - Content */}
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="h-px w-8 bg-wp-gold" />
+                <p className="text-wp-gold text-xs font-semibold uppercase tracking-[0.25em]">
+                  The Watch Encyclopedia
+                </p>
+              </div>
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-[1.05] mb-6">
+                Every Watch.<br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-wp-gold to-wp-gold-light">Every Brand.</span><br />
+                One Place.
+              </h1>
+              <p className="text-white/50 text-lg md:text-xl leading-relaxed mb-10 max-w-md">
+                Explore {brands.length} brands and {totalWatches} references from the world&apos;s finest watchmakers.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link href="/search" className="group relative inline-flex items-center gap-2 px-7 py-3.5 bg-wp-gold text-white text-sm font-medium rounded-full overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(201,169,110,0.3)]">
+                  <span className="relative z-10">Explore Watches</span>
+                  <svg className="relative z-10 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>
+                </Link>
+                <Link href="/brands" className="inline-flex items-center gap-2 px-7 py-3.5 border border-white/15 text-white text-sm font-medium rounded-full hover:bg-white/5 hover:border-white/25 transition-all">
+                  Browse Brands
+                </Link>
+              </div>
+
+              {/* Stats row */}
+              <div className="flex items-center gap-8 mt-14 pt-8 border-t border-white/10">
+                <Stat value={`${brands.length}+`} label="Brands" />
+                <div className="w-px h-10 bg-white/10" />
+                <Stat value={`${totalWatches}`} label="References" />
+                <div className="w-px h-10 bg-white/10" />
+                <Stat value={`${countries.length}`} label="Countries" />
+              </div>
+            </div>
+
+            {/* Right - Watch showcase */}
+            <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+              <div className="relative">
+                {/* Glow ring behind watch */}
+                <div className="absolute inset-0 -m-8 rounded-full bg-gradient-to-br from-wp-gold/10 via-transparent to-wp-gold/5 blur-3xl" />
+                {/* Rotating ring decoration */}
+                <div className="absolute inset-0 -m-6 rounded-full border border-wp-gold/10 hero-rotate" />
+                <div className="absolute inset-0 -m-12 rounded-full border border-dashed border-white/5 hero-rotate-reverse" />
+                {/* Main watch image */}
+                <div className="relative w-[280px] h-[280px] sm:w-[360px] sm:h-[360px] lg:w-[440px] lg:h-[440px]">
+                  <Image
+                    src="https://ksrvqrkkhmzzxwhwhvnr.supabase.co/storage/v1/object/public/watch-images/hero/hero-speedmaster.jpg"
+                    alt="Omega Speedmaster - iconic luxury chronograph"
+                    fill
+                    className="object-contain drop-shadow-[0_0_80px_rgba(201,169,110,0.15)] hero-float"
+                    priority
+                    unoptimized
+                  />
+                </div>
+                {/* Floating brand badges */}
+                <div className="absolute -left-4 top-1/4 hidden lg:flex items-center gap-2 px-3 py-2 bg-wp-charcoal/80 backdrop-blur-sm border border-white/10 rounded-lg hero-float-delayed">
+                  <div className="w-2 h-2 rounded-full bg-green-400" />
+                  <span className="text-[11px] text-white/70 font-medium">{totalWatches} watches indexed</span>
+                </div>
+                <div className="absolute -right-2 bottom-1/4 hidden lg:flex items-center gap-2 px-3 py-2 bg-wp-charcoal/80 backdrop-blur-sm border border-white/10 rounded-lg hero-float-delayed-2">
+                  <span className="text-[11px] text-wp-gold font-medium">{brands.length} brands</span>
+                  <span className="text-[11px] text-white/40">catalogued</span>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-6 mt-16 max-w-lg">
-            <Stat value={`${brands.length}+`} label="Brands" />
-            <Stat value={`${totalWatches}`} label="References" />
-            <Stat value={`${countries.length}`} label="Countries" />
+        {/* Bottom fade to next section */}
+        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-wp-dark to-transparent" />
+        {/* Scroll indicator */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
+          <span className="text-[10px] text-white/50 uppercase tracking-[0.2em]">Scroll</span>
+          <div className="w-5 h-8 border border-white/20 rounded-full flex justify-center pt-1.5">
+            <div className="w-1 h-2 bg-white/40 rounded-full hero-scroll-dot" />
           </div>
         </div>
       </section>
@@ -214,8 +275,8 @@ function SectionHeader({
 function Stat({ value, label }: { value: string; label: string }) {
   return (
     <div>
-      <p className="text-2xl md:text-3xl font-display font-bold text-white">{value}</p>
-      <p className="text-white/40 text-xs uppercase tracking-wider mt-1">{label}</p>
+      <p className="text-2xl md:text-3xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-white/70">{value}</p>
+      <p className="text-white/35 text-[10px] uppercase tracking-[0.15em] mt-1">{label}</p>
     </div>
   );
 }
