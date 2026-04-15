@@ -2,13 +2,13 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const heroWatches = [
   {
-    name: 'Submariner Date',
+    name: 'Milgauss',
     brand: 'Rolex',
-    image: 'https://cdn.watchbase.com/watch/lg/origin:jpg/rolex/submariner/126610ln-0001-78.png',
+    image: 'https://res.cloudinary.com/wc-photo/image/upload/c_fill,w_2000,h_2000,g_center/f_auto/q_auto/v1699416717/product/12a5476a79cadcf6c31f0f28c6312e0f/f3b37da6e3b65357d4b8ea7eaa757bab?_a=BAVAfVDW0',
     href: '/watches/rolex/126610ln',
   },
   {
@@ -31,106 +31,155 @@ const heroWatches = [
   },
 ];
 
-const orbitTerms = [
+const allTerms = [
   'Chronograph', 'Tourbillon', 'Moonphase', 'Perpetual Calendar',
-  'Automatic', 'Swiss Made', 'COSC', 'Skeleton',
-  'Power Reserve', 'Sapphire', 'Luminova', 'GMT',
+  'Automatic', 'Swiss Made', 'COSC', 'Skeleton Dial',
+  'Power Reserve', 'Sapphire Crystal', 'Luminova', 'GMT',
   'Dive Bezel', 'Guilloch\u00e9', 'Tachymeter', 'Spring Drive',
+  'Column Wheel', 'Flyback', 'Retrograde', 'Minute Repeater',
+  'Haute Horlogerie', 'Caliber', 'Complication', 'Exhibition Caseback',
 ];
+
+// Generate a random position that avoids the watch center and bottom label
+function getRandomPosition(): { x: number; y: number } {
+  // Pick random angle and radius — but NOT in the center (watch) or bottom (label)
+  const angle = Math.random() * Math.PI * 2;
+  const minRadius = 0.55; // minimum distance from center (avoid watch)
+  const maxRadius = 0.95;
+  const radius = minRadius + Math.random() * (maxRadius - minRadius);
+
+  let x = Math.cos(angle) * radius * 50; // percentage from center
+  let y = Math.sin(angle) * radius * 50;
+
+  // If landing in the bottom label zone (y > 35%), push it up or to the side
+  if (y > 32) {
+    y = -(10 + Math.random() * 30);
+  }
+
+  return { x, y };
+}
+
+interface FloatingTerm {
+  id: number;
+  term: string;
+  x: number;
+  y: number;
+  phase: 'in' | 'visible' | 'out';
+  size: string;
+}
+
+let nextId = 0;
 
 export default function HeroWatchCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const angleRef = useRef(0);
-  const [positions, setPositions] = useState<{ x: number; y: number; opacity: number }[]>([]);
+  const [terms, setTerms] = useState<FloatingTerm[]>([]);
+  const [termPool, setTermPool] = useState(() => [...allTerms].sort(() => Math.random() - 0.5));
+  const [poolIndex, setPoolIndex] = useState(0);
 
+  // Watch cycling
   useEffect(() => {
-    const watchInterval = setInterval(() => {
+    const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % heroWatches.length);
     }, 5000);
-    return () => clearInterval(watchInterval);
+    return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    let animFrame: number;
-    let lastTime = performance.now();
+  const sizes = ['text-[10px] sm:text-xs', 'text-xs sm:text-sm', 'text-sm sm:text-base'];
 
-    const animate = (time: number) => {
-      const delta = time - lastTime;
-      lastTime = time;
-      angleRef.current = (angleRef.current + delta * 0.008) % 360;
-
-      const newPositions = orbitTerms.map((_, i) => {
-        const baseAngle = (i / orbitTerms.length) * 360;
-        const currentAngle = baseAngle + angleRef.current;
-        const radians = (currentAngle * Math.PI) / 180;
-        const radiusX = 220;
-        const radiusY = 240;
-        const x = Math.cos(radians) * radiusX;
-        const y = Math.sin(radians) * radiusY;
-
-        // Hide terms when they're near the bottom label area (y > 200)
-        // and fade terms when near center of watch
-        const absX = Math.abs(x);
-        const absY = Math.abs(y);
-        let opacity = 0.25 + (absX / radiusX) * 0.5;
-        // Fade out near bottom where the label is
-        if (y > 180) opacity = Math.max(0, opacity * (1 - (y - 180) / 80));
-
-        return { x, y, opacity };
-      });
-
-      setPositions(newPositions);
-      animFrame = requestAnimationFrame(animate);
+  // Spawn a new term every 1 second
+  const spawnTerm = useCallback(() => {
+    const term = termPool[poolIndex % termPool.length];
+    const pos = getRandomPosition();
+    const size = sizes[Math.floor(Math.random() * sizes.length)];
+    const newTerm: FloatingTerm = {
+      id: nextId++,
+      term,
+      x: pos.x,
+      y: pos.y,
+      phase: 'in',
+      size,
     };
 
-    animFrame = requestAnimationFrame(animate);
-    return () => cancelAnimationFrame(animFrame);
-  }, []);
+    setPoolIndex((prev) => {
+      const next = prev + 1;
+      // Reshuffle when we've gone through all terms
+      if (next >= termPool.length) {
+        setTermPool([...allTerms].sort(() => Math.random() - 0.5));
+        return 0;
+      }
+      return next;
+    });
+
+    setTerms((prev) => {
+      // Keep max 6 terms visible at a time
+      const active = [...prev, newTerm];
+      return active.slice(-8);
+    });
+
+    // Transition to visible after fade-in
+    setTimeout(() => {
+      setTerms((prev) =>
+        prev.map((t) => (t.id === newTerm.id ? { ...t, phase: 'visible' } : t))
+      );
+    }, 50);
+
+    // Start fade-out after 2.5s
+    setTimeout(() => {
+      setTerms((prev) =>
+        prev.map((t) => (t.id === newTerm.id ? { ...t, phase: 'out' } : t))
+      );
+    }, 2500);
+
+    // Remove after fade-out completes
+    setTimeout(() => {
+      setTerms((prev) => prev.filter((t) => t.id !== newTerm.id));
+    }, 3500);
+  }, [termPool, poolIndex, sizes]);
+
+  useEffect(() => {
+    // Spawn initial batch staggered
+    const initialTimers = [0, 300, 600, 900, 1200].map((delay) =>
+      setTimeout(spawnTerm, delay)
+    );
+
+    const interval = setInterval(spawnTerm, 1000);
+    return () => {
+      initialTimers.forEach(clearTimeout);
+      clearInterval(interval);
+    };
+  }, [spawnTerm]);
 
   const watch = heroWatches[activeIndex];
 
   return (
     <Link
       href={watch.href}
-      className="relative flex items-center justify-center w-[300px] h-[400px] sm:w-[360px] sm:h-[480px] lg:w-[440px] lg:h-[560px] group cursor-pointer"
+      className="relative flex items-center justify-center w-[280px] h-[370px] sm:w-[360px] sm:h-[480px] lg:w-[440px] lg:h-[560px] group cursor-pointer"
     >
-      {/* Orbiting terms - IN FRONT, text always upright, fades near label */}
-      <div className="absolute inset-0 z-20 pointer-events-none">
-        {orbitTerms.map((term, i) => {
-          const pos = positions[i];
-          if (!pos) return null;
-
-          const size = i % 3 === 0 ? 'text-sm sm:text-base' : i % 3 === 1 ? 'text-xs sm:text-sm' : 'text-[11px] sm:text-xs';
-
-          return (
-            <span
-              key={term}
-              className={`absolute ${size} font-display text-white whitespace-nowrap select-none font-medium`}
-              style={{
-                left: `calc(50% + ${pos.x}px)`,
-                top: `calc(50% + ${pos.y}px)`,
-                transform: 'translate(-50%, -50%)',
-                opacity: pos.opacity,
-                textShadow: '0 2px 12px rgba(0,0,0,0.8), 0 0 20px rgba(201,169,110,0.2)',
-                willChange: 'left, top, opacity',
-              }}
-            >
-              {term}
-            </span>
-          );
-        })}
+      {/* Floating terms - appear and fade at random positions */}
+      <div className="absolute inset-0 z-20 pointer-events-none overflow-visible">
+        {terms.map((t) => (
+          <span
+            key={t.id}
+            className={`absolute ${t.size} font-display text-white/70 whitespace-nowrap select-none font-medium transition-opacity duration-[800ms] ease-in-out`}
+            style={{
+              left: `calc(50% + ${t.x}%)`,
+              top: `calc(50% + ${t.y}%)`,
+              transform: 'translate(-50%, -50%)',
+              opacity: t.phase === 'in' ? 0 : t.phase === 'visible' ? 1 : 0,
+              textShadow: '0 2px 16px rgba(0,0,0,0.9), 0 0 8px rgba(201,169,110,0.15)',
+            }}
+          >
+            {t.term}
+          </span>
+        ))}
       </div>
-
-      {/* Subtle orbit path ring */}
-      <svg className="absolute inset-0 -m-4 w-[calc(100%+32px)] h-[calc(100%+32px)] z-10 pointer-events-none" viewBox="0 0 500 600">
-        <ellipse cx="250" cy="300" rx="220" ry="240" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="1" strokeDasharray="4 8" />
-      </svg>
 
       {/* Watch images - crossfade */}
       {heroWatches.map((w, i) => (
         <div
           key={w.name}
-          className="absolute inset-12 sm:inset-14 lg:inset-16 flex items-center justify-center transition-opacity duration-[1500ms] ease-in-out z-[5]"
+          className="absolute inset-8 sm:inset-10 lg:inset-12 flex items-center justify-center transition-opacity duration-[1500ms] ease-in-out z-[5]"
           style={{ opacity: i === activeIndex ? 1 : 0 }}
         >
           <Image
@@ -145,7 +194,7 @@ export default function HeroWatchCarousel() {
         </div>
       ))}
 
-      {/* Watch label - bottom, high z-index to stay above orbiting text */}
+      {/* Watch label */}
       <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 text-center w-full z-30">
         <p
           key={`name-${activeIndex}`}
