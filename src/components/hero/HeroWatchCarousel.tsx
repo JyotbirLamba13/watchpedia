@@ -42,16 +42,16 @@ const allTerms = [
 
 // Generate a random position that avoids the watch center and bottom label
 function getRandomPosition(): { x: number; y: number } {
-  // Positions are percentages relative to the container
-  // We place terms in zones: top-left, top-right, left, right, top-center
+  // Positions are percentages relative to the container (0-100)
+  // Zones around the watch edges — all within container bounds
   const zones = [
-    { xMin: 2, xMax: 25, yMin: 5, yMax: 30 },   // top-left
-    { xMin: 75, xMax: 98, yMin: 5, yMax: 30 },   // top-right
-    { xMin: 0, xMax: 20, yMin: 30, yMax: 65 },    // left
-    { xMin: 80, xMax: 100, yMin: 30, yMax: 65 },  // right
-    { xMin: 5, xMax: 30, yMin: 65, yMax: 85 },    // bottom-left
-    { xMin: 70, xMax: 95, yMin: 65, yMax: 85 },   // bottom-right
-    { xMin: 25, xMax: 75, yMin: 0, yMax: 12 },    // top-center
+    { xMin: 5, xMax: 30, yMin: 3, yMax: 20 },    // top-left
+    { xMin: 70, xMax: 95, yMin: 3, yMax: 20 },    // top-right
+    { xMin: 0, xMax: 15, yMin: 25, yMax: 55 },    // left
+    { xMin: 85, xMax: 100, yMin: 25, yMax: 55 },  // right
+    { xMin: 0, xMax: 25, yMin: 60, yMax: 78 },    // bottom-left
+    { xMin: 75, xMax: 100, yMin: 60, yMax: 78 },  // bottom-right
+    { xMin: 30, xMax: 70, yMin: 0, yMax: 10 },    // top-center
   ];
 
   const zone = zones[Math.floor(Math.random() * zones.length)];
@@ -159,7 +159,7 @@ export default function HeroWatchCarousel() {
       className="relative flex items-center justify-center w-[280px] h-[370px] sm:w-[360px] sm:h-[480px] lg:w-[440px] lg:h-[560px] group cursor-pointer"
     >
       {/* Floating terms - appear and fade at random positions */}
-      <div className="absolute -inset-8 sm:-inset-12 lg:-inset-16 z-20 pointer-events-none">
+      <div className="absolute inset-0 z-20 pointer-events-none">
         {terms.map((t) => (
           <span
             key={t.id}
