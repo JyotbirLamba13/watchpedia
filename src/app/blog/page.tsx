@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getPublishedPosts } from '@/lib/blog';
 import JsonLd from '@/components/seo/JsonLd';
+import BlogCategoryFilter from '@/components/blog/BlogCategoryFilter';
 
 export const metadata: Metadata = {
   title: 'Blog - Watch News, Guides & Reviews',
@@ -16,8 +17,31 @@ export const metadata: Metadata = {
 
 export const revalidate = 3600; // Revalidate every hour
 
-export default async function BlogPage() {
-  const posts = await getPublishedPosts();
+// Maps category filter values to the tags they match
+const CATEGORY_TAG_MAP: Record<string, string[]> = {
+  'guide': ['guide', 'education'],
+  'buying guide': ['buying guide', 'affordable', 'budget'],
+  'history': ['history', 'heritage'],
+  'comparison': ['comparison'],
+  'event coverage': ['event coverage', 'watches and wonders', 'new releases'],
+  'trends': ['trends', 'industry'],
+};
+
+export default async function BlogPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}) {
+  const { category } = await searchParams;
+  const activeCategory = typeof category === 'string' ? category : '';
+
+  const allPosts = await getPublishedPosts();
+
+  const posts = activeCategory && CATEGORY_TAG_MAP[activeCategory]
+    ? allPosts.filter(post =>
+        post.tags?.some(tag => CATEGORY_TAG_MAP[activeCategory].includes(tag))
+      )
+    : allPosts;
 
   const blogListJsonLd = {
     '@context': 'https://schema.org',
@@ -48,9 +72,10 @@ export default async function BlogPage() {
           <h1 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-4">
             The Watchpedia Blog
           </h1>
-          <p className="text-lg text-gray-500 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-8">
             Expert guides, brand stories, and everything you need to know about the world of watches.
           </p>
+          <BlogCategoryFilter active={activeCategory} />
         </div>
       </section>
 
@@ -58,8 +83,8 @@ export default async function BlogPage() {
       <section className="max-w-6xl mx-auto px-4 py-12">
         {posts.length === 0 ? (
           <div className="text-center py-20 text-gray-400">
-            <p className="text-xl font-medium mb-2">Coming Soon</p>
-            <p className="text-sm">We&apos;re working on our first articles. Check back soon!</p>
+            <p className="text-xl font-medium mb-2">No posts found</p>
+            <p className="text-sm">Try a different category or <Link href="/blog" className="text-amber-700 underline">view all posts</Link>.</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
