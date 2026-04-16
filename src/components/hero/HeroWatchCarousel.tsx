@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const heroWatches = [
   {
@@ -40,45 +40,35 @@ const allTerms = [
   'Haute Horlogerie', 'Caliber', 'Complication', 'Exhibition Caseback',
 ];
 
-// Generate a random position that avoids the watch center and bottom label
-function getRandomPosition(): { x: number; y: number } {
-  // Positions are percentages relative to the container (0-100)
-  // Zones around the watch edges — all within container bounds
-  const zones = [
-    { xMin: 5, xMax: 30, yMin: 3, yMax: 20 },    // top-left
-    { xMin: 70, xMax: 95, yMin: 3, yMax: 20 },    // top-right
-    { xMin: 0, xMax: 15, yMin: 25, yMax: 55 },    // left
-    { xMin: 85, xMax: 100, yMin: 25, yMax: 55 },  // right
-    { xMin: 0, xMax: 25, yMin: 60, yMax: 78 },    // bottom-left
-    { xMin: 75, xMax: 100, yMin: 60, yMax: 78 },  // bottom-right
-    { xMin: 30, xMax: 70, yMin: 0, yMax: 10 },    // top-center
-  ];
+const sizes = ['text-[10px] sm:text-xs', 'text-xs sm:text-sm', 'text-sm sm:text-base'];
 
-  const zone = zones[Math.floor(Math.random() * zones.length)];
-  const x = zone.xMin + Math.random() * (zone.xMax - zone.xMin);
-  const y = zone.yMin + Math.random() * (zone.yMax - zone.yMin);
-
-  return { x, y };
-}
+// Zones around the watch — positions as percentages
+const zones = [
+  { xMin: 2, xMax: 28, yMin: 2, yMax: 18 },
+  { xMin: 72, xMax: 98, yMin: 2, yMax: 18 },
+  { xMin: 0, xMax: 12, yMin: 25, yMax: 55 },
+  { xMin: 88, xMax: 100, yMin: 25, yMax: 55 },
+  { xMin: 0, xMax: 22, yMin: 60, yMax: 78 },
+  { xMin: 78, xMax: 100, yMin: 60, yMax: 78 },
+  { xMin: 28, xMax: 72, yMin: 0, yMax: 8 },
+];
 
 interface FloatingTerm {
   id: number;
   term: string;
   x: number;
   y: number;
-  phase: 'in' | 'visible' | 'out';
+  opacity: number;
   size: string;
 }
-
-let nextId = 0;
 
 export default function HeroWatchCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [terms, setTerms] = useState<FloatingTerm[]>([]);
-  const [termPool, setTermPool] = useState(() => [...allTerms].sort(() => Math.random() - 0.5));
-  const [poolIndex, setPoolIndex] = useState(0);
+  const termIndexRef = useRef(0);
+  const idRef = useRef(0);
 
-  // Watch cycling
+  // Watch cycling — 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % heroWatches.length);
@@ -86,70 +76,57 @@ export default function HeroWatchCarousel() {
     return () => clearInterval(interval);
   }, []);
 
-  const sizes = ['text-[10px] sm:text-xs', 'text-xs sm:text-sm', 'text-sm sm:text-base'];
-
-  // Spawn a new term every 1 second
-  const spawnTerm = useCallback(() => {
-    const term = termPool[poolIndex % termPool.length];
-    const pos = getRandomPosition();
-    const size = sizes[Math.floor(Math.random() * sizes.length)];
-    const newTerm: FloatingTerm = {
-      id: nextId++,
-      term,
-      x: pos.x,
-      y: pos.y,
-      phase: 'in',
-      size,
-    };
-
-    setPoolIndex((prev) => {
-      const next = prev + 1;
-      // Reshuffle when we've gone through all terms
-      if (next >= termPool.length) {
-        setTermPool([...allTerms].sort(() => Math.random() - 0.5));
-        return 0;
-      }
-      return next;
-    });
-
-    setTerms((prev) => {
-      // Keep max 6 terms visible at a time
-      const active = [...prev, newTerm];
-      return active.slice(-8);
-    });
-
-    // Transition to visible after fade-in
-    setTimeout(() => {
-      setTerms((prev) =>
-        prev.map((t) => (t.id === newTerm.id ? { ...t, phase: 'visible' } : t))
-      );
-    }, 50);
-
-    // Start fade-out after 2.5s
-    setTimeout(() => {
-      setTerms((prev) =>
-        prev.map((t) => (t.id === newTerm.id ? { ...t, phase: 'out' } : t))
-      );
-    }, 2500);
-
-    // Remove after fade-out completes
-    setTimeout(() => {
-      setTerms((prev) => prev.filter((t) => t.id !== newTerm.id));
-    }, 3500);
-  }, [termPool, poolIndex, sizes]);
-
+  // Floating terms — spawn every 1s, no dependency on state
   useEffect(() => {
-    // Spawn initial batch staggered
-    const initialTimers = [0, 300, 600, 900, 1200].map((delay) =>
-      setTimeout(spawnTerm, delay)
-    );
+    const shuffled = [...allTerms].sort(() => Math.random() - 0.5);
 
-    const interval = setInterval(spawnTerm, 1000);
-    return () => {
-      initialTimers.forEach(clearTimeout);
-      clearInterval(interval);
-    };
-  }, [spawnTerm]);
+    function spawn() {
+      const idx = termIndexRef.current % shuffled.length;
+      termIndexRef.current++;
+      const zone = zones[Math.floor(Math.random() * zones.length)];
+      const newTerm: FloatingTerm = {
+        id: idRef.current++,
+        term: shuffled[idx],
+        x: zone.xMin + Math.random() * (zone.xMax - zone.xMin),
+        y: zone.yMin + Math.random() * (zone.yMax - zone.yMin),
+        opacity: 0,
+        size: sizes[Math.floor(Math.random() * sizes.length)],
+      };
+
+      // Add with opacity 0
+      setTerms((prev) => [...prev.slice(-7), newTerm]);
+
+      // Fade in
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          setTerms((prev) =>
+            prev.map((t) => (t.id === newTerm.id ? { ...t, opacity: 1 } : t))
+          );
+        });
+      });
+
+      // Fade out after 2.5s
+      setTimeout(() => {
+        setTerms((prev) =>
+          prev.map((t) => (t.id === newTerm.id ? { ...t, opacity: 0 } : t))
+        );
+      }, 2500);
+
+      // Remove after fade completes
+      setTimeout(() => {
+        setTerms((prev) => prev.filter((t) => t.id !== newTerm.id));
+      }, 3500);
+    }
+
+    // Spawn initial batch
+    spawn();
+    setTimeout(spawn, 200);
+    setTimeout(spawn, 400);
+    setTimeout(spawn, 700);
+
+    const interval = setInterval(spawn, 1000);
+    return () => clearInterval(interval);
+  }, []); // No dependencies — stable effect
 
   const watch = heroWatches[activeIndex];
 
@@ -158,17 +135,18 @@ export default function HeroWatchCarousel() {
       href={watch.href}
       className="relative flex items-center justify-center w-[280px] h-[370px] sm:w-[360px] sm:h-[480px] lg:w-[440px] lg:h-[560px] group cursor-pointer"
     >
-      {/* Floating terms - appear and fade at random positions */}
+      {/* Floating terms */}
       <div className="absolute inset-0 z-20 pointer-events-none">
         {terms.map((t) => (
           <span
             key={t.id}
-            className={`absolute ${t.size} font-display text-white/70 whitespace-nowrap select-none font-medium transition-opacity duration-[800ms] ease-in-out`}
+            className={`absolute ${t.size} font-display text-white/80 whitespace-nowrap select-none font-medium`}
             style={{
               left: `${t.x}%`,
               top: `${t.y}%`,
-              opacity: t.phase === 'in' ? 0 : t.phase === 'visible' ? 1 : 0,
-              textShadow: '0 2px 16px rgba(0,0,0,0.9), 0 0 8px rgba(201,169,110,0.15)',
+              opacity: t.opacity,
+              transition: 'opacity 800ms ease-in-out',
+              textShadow: '0 2px 16px rgba(0,0,0,0.9), 0 0 8px rgba(201,169,110,0.2)',
             }}
           >
             {t.term}
