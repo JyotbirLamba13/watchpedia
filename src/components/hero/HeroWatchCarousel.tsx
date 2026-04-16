@@ -42,19 +42,21 @@ const allTerms = [
 
 // Generate a random position that avoids the watch center and bottom label
 function getRandomPosition(): { x: number; y: number } {
-  // Pick random angle and radius — but NOT in the center (watch) or bottom (label)
-  const angle = Math.random() * Math.PI * 2;
-  const minRadius = 0.55; // minimum distance from center (avoid watch)
-  const maxRadius = 0.95;
-  const radius = minRadius + Math.random() * (maxRadius - minRadius);
+  // Positions are percentages relative to the container
+  // We place terms in zones: top-left, top-right, left, right, top-center
+  const zones = [
+    { xMin: 2, xMax: 25, yMin: 5, yMax: 30 },   // top-left
+    { xMin: 75, xMax: 98, yMin: 5, yMax: 30 },   // top-right
+    { xMin: 0, xMax: 20, yMin: 30, yMax: 65 },    // left
+    { xMin: 80, xMax: 100, yMin: 30, yMax: 65 },  // right
+    { xMin: 5, xMax: 30, yMin: 65, yMax: 85 },    // bottom-left
+    { xMin: 70, xMax: 95, yMin: 65, yMax: 85 },   // bottom-right
+    { xMin: 25, xMax: 75, yMin: 0, yMax: 12 },    // top-center
+  ];
 
-  let x = Math.cos(angle) * radius * 50; // percentage from center
-  let y = Math.sin(angle) * radius * 50;
-
-  // If landing in the bottom label zone (y > 35%), push it up or to the side
-  if (y > 32) {
-    y = -(10 + Math.random() * 30);
-  }
+  const zone = zones[Math.floor(Math.random() * zones.length)];
+  const x = zone.xMin + Math.random() * (zone.xMax - zone.xMin);
+  const y = zone.yMin + Math.random() * (zone.yMax - zone.yMin);
 
   return { x, y };
 }
@@ -157,15 +159,14 @@ export default function HeroWatchCarousel() {
       className="relative flex items-center justify-center w-[280px] h-[370px] sm:w-[360px] sm:h-[480px] lg:w-[440px] lg:h-[560px] group cursor-pointer"
     >
       {/* Floating terms - appear and fade at random positions */}
-      <div className="absolute inset-0 z-20 pointer-events-none overflow-visible">
+      <div className="absolute -inset-8 sm:-inset-12 lg:-inset-16 z-20 pointer-events-none">
         {terms.map((t) => (
           <span
             key={t.id}
             className={`absolute ${t.size} font-display text-white/70 whitespace-nowrap select-none font-medium transition-opacity duration-[800ms] ease-in-out`}
             style={{
-              left: `calc(50% + ${t.x}%)`,
-              top: `calc(50% + ${t.y}%)`,
-              transform: 'translate(-50%, -50%)',
+              left: `${t.x}%`,
+              top: `${t.y}%`,
               opacity: t.phase === 'in' ? 0 : t.phase === 'visible' ? 1 : 0,
               textShadow: '0 2px 16px rgba(0,0,0,0.9), 0 0 8px rgba(201,169,110,0.15)',
             }}
