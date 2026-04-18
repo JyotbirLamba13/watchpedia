@@ -46,7 +46,7 @@ export default function HomePage() {
                 Explore {brands.length} brands and{' '}{totalWatches}{' '}references from the world&apos;s finest watchmakers.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="/search" className="group relative inline-flex items-center gap-2 px-7 py-3.5 bg-wp-gold text-white text-sm font-medium rounded-full overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(201,169,110,0.3)]">
+                <Link href="/watches" className="group relative inline-flex items-center gap-2 px-7 py-3.5 bg-wp-gold text-white text-sm font-medium rounded-full overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(201,169,110,0.3)]">
                   <span className="relative z-10">Explore Watches</span>
                   <svg className="relative z-10 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -87,7 +87,7 @@ export default function HomePage() {
 
       {/* Featured Watches */}
       <section className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-        <SectionHeader title="Featured Watches" subtitle="Iconic timepieces from the world's finest manufacturers" href="/search" linkText="View all" />
+        <SectionHeader title="Featured Watches" subtitle="Iconic timepieces from the world's finest manufacturers" href="/watches" linkText="View all" />
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
           {featured.map((watch) => (
             <WatchCard key={`${watch.brandSlug}-${watch.slug}`} watch={watch} />
@@ -210,8 +210,8 @@ export default function HomePage() {
         <p className="text-wp-muted max-w-lg mx-auto mb-8">
           From a $15 Casio to a $500,000 Patek Philippe &mdash; every watch has a story. Start exploring.
         </p>
-        <Link href="/search" className="btn-pill btn-dark">
-          Search the Encyclopedia
+        <Link href="/watches" className="btn-pill btn-dark">
+          Browse the Encyclopedia
         </Link>
       </section>
     </div>
