@@ -144,6 +144,7 @@ function CheckItem({ label, checked, onChange, count }: { label: string; checked
   return (
     <label className="flex items-center justify-between py-1 cursor-pointer group">
       <div className="flex items-center gap-2.5">
+        <input type="checkbox" checked={checked} onChange={onChange} className="sr-only" />
         <div className={`w-3.5 h-3.5 rounded border flex items-center justify-center shrink-0 transition-colors ${checked ? 'bg-wp-dark border-wp-dark' : 'border-wp-border group-hover:border-wp-dark/40'}`}>
           {checked && <svg className="w-2.5 h-2.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="m5 13 4 4L19 7" /></svg>}
         </div>

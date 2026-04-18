@@ -77,7 +77,7 @@ export default function HomePage() {
         {/* Bottom fade to next section */}
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-wp-dark to-transparent" />
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center gap-2 opacity-40">
           <span className="text-[10px] text-white/50 uppercase tracking-[0.2em]">Scroll</span>
           <div className="w-5 h-8 border border-white/20 rounded-full flex justify-center pt-1.5">
             <div className="w-1 h-2 bg-white/40 rounded-full hero-scroll-dot" />
