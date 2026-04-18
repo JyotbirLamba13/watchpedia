@@ -106,15 +106,20 @@ async function main() {
         console.log(`  ⊘ ${label} — no price found`);
         failed++;
       } else {
-        await supabase.from('watch_market_prices').upsert({
+        const { error: dbErr } = await supabase.from('watch_market_prices').upsert({
           reference: watch.reference,
           brand_slug: watch.brandSlug,
           market_price: result.price,
           price_source: result.source,
           refreshed_at: new Date().toISOString(),
         }, { onConflict: 'reference,brand_slug' });
-        console.log(`  ✓ ${label} → ${result.price} (${result.source})`);
-        ok++;
+        if (dbErr) {
+          console.error(`  ✗ ${label} — DB error: ${dbErr.message}`);
+          failed++;
+        } else {
+          console.log(`  ✓ ${label} → ${result.price} (${result.source})`);
+          ok++;
+        }
       }
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);

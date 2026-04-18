@@ -5,6 +5,7 @@ import { useRouter, usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 const navLinks = [
+  { href: '/watches', label: 'Watches' },
   { href: '/brands', label: 'Brands' },
   { href: '/groups', label: 'Groups' },
   { href: '/countries', label: 'Countries' },
