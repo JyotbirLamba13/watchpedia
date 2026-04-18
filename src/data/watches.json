@@ -1204,7 +1204,9 @@
       "strapMaterial": "Leather strap",
       "complications": [],
       "price": "~$3,050",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwfee5c6b5/images/large/eb0002699eeb572f98fd6665d4142cdf.png?sw=750&sh=750&sm=fit&sfrm=png"
   },
@@ -1227,7 +1229,9 @@
       "strapMaterial": "Stainless steel bracelet",
       "complications": [],
       "price": "~$3,800",
-      "yearIntroduced": 2023
+      "yearIntroduced": 2023,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw122bd2a9/images/large/5e4445acbaa35482954052b5fe32db47.png?sw=750&sh=750&sm=fit&sfrm=png"
   },
@@ -1277,7 +1281,9 @@
       "strapMaterial": "Stainless steel bracelet",
       "complications": [],
       "price": "~$4,350",
-      "yearIntroduced": 2017
+      "yearIntroduced": 2017,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw9be79090/images/large/a6f9acd09cc85620a50be7e1f8c48ac5.png?sw=750&sh=750&sm=fit&sfrm=png"
   },
@@ -1380,7 +1386,9 @@
       "strapMaterial": "Leather strap",
       "complications": [],
       "price": "~$2,780",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.prestigetime.com/images/watches/wsrn0031_main.jpg"
   },
@@ -1548,7 +1556,9 @@
         "Date"
       ],
       "price": "~$400",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://seikousa.com/cdn/shop/products/SSC813_1.png?v=1744226798"
   },
@@ -2046,7 +2056,9 @@
         "Tachymetre"
       ],
       "price": "~$1,550",
-      "yearIntroduced": 2016
+      "yearIntroduced": 2016,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://cdn.watchbase.com/watch/lg/origin:png/tag-heuer/formula-1/caz1010ba0842-85.png"
   },
@@ -3016,7 +3028,9 @@
       "strapMaterial": "Alligator leather strap",
       "complications": [],
       "price": "~$1,250",
-      "yearIntroduced": 2018
+      "yearIntroduced": 2018,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://chronexttime.imgix.net/V/8/V80879/V80879_1_det.png"
   },
@@ -3151,7 +3165,9 @@
         "Date"
       ],
       "price": "~$350",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://cdn.watchbase.com/watch/lg/origin:jpg/tissot/prx/t137-410-11-051-00-f6.png"
   },
@@ -3205,7 +3221,8 @@
         "Unidirectional rotating bezel"
       ],
       "price": "~$200",
-      "yearIntroduced": 2014
+      "yearIntroduced": 2014,
+      "frequency": "N/A"
     },
     "image": "https://monicajewelers.com/cdn/shop/products/pro2.png?v=1503955602"
   },
@@ -3286,7 +3303,9 @@
         "Tachymetre"
       ],
       "price": "~$325",
-      "yearIntroduced": 2015
+      "yearIntroduced": 2015,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://watchesofamerica.com/cdn/shop/files/citizen-sapphire-collection-eco-drive-chronograph-blue-dial-mens-459.jpg?v=1774808924"
   },
@@ -3313,7 +3332,9 @@
         "Chronograph"
       ],
       "price": "~$2,500",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://monicajewelers.com/cdn/shop/products/CC4004-58E.jpg?v=1658495443"
   },
@@ -3339,7 +3360,8 @@
         "Date"
       ],
       "price": "~$350",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "frequency": "N/A"
     },
     "image": "https://www.claudiasjewelryinc.com/wp-content/uploads/2022/06/BN0211-50E_1.jpg"
   },
@@ -3367,7 +3389,9 @@
         "LED backlight"
       ],
       "price": "~$15",
-      "yearIntroduced": 1989
+      "yearIntroduced": 1989,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://cdn11.bigcommerce.com/s-uzonwrhn18/images/stencil/original/company-logo_1603368424__90252.original.png"
   },
@@ -3395,7 +3419,9 @@
         "EL backlight"
       ],
       "price": "~$25",
-      "yearIntroduced": 1998
+      "yearIntroduced": 1998,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://ambawatch.com/cdn/shop/files/FullSizeRender_c100650c-8fd4-40b1-b459-c3dfff2b13e0.jpg?v=1735219783"
   },
@@ -3424,7 +3450,9 @@
         "LED backlight"
       ],
       "price": "~$110",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.watchoutz.com/cdn/shop/products/GA-2100-1A1JF_l.png?v=1641519545"
   },
@@ -3450,7 +3478,9 @@
         "Unidirectional rotating bezel"
       ],
       "price": "~$55",
-      "yearIntroduced": 2011
+      "yearIntroduced": 2011,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://s.turbifycdn.com/aah/4-watches/men-s-casio-duro-200-diver-s-watch-mdv106-1av-151.jpg"
   },
@@ -3476,7 +3506,9 @@
         "Date"
       ],
       "price": "~$170",
-      "yearIntroduced": 2022
+      "yearIntroduced": 2022,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.harveystore.com/cdn/shop/files/EFR-S108D-1AVUEF_D1.jpg?v=1768569582"
   },
@@ -3505,7 +3537,9 @@
         "Auto-calendar"
       ],
       "price": "~$25",
-      "yearIntroduced": 2012
+      "yearIntroduced": 2012,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://s.turbifycdn.com/aah/4-watches/men-s-casio-world-time-digital-watch-ae1200wh-1a-115.jpg"
   },
@@ -3533,7 +3567,9 @@
         "EL backlight"
       ],
       "price": "~$55",
-      "yearIntroduced": 1996
+      "yearIntroduced": 1996,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.watchoutz.com/cdn/shop/files/dw-5600e-1vq_1.png?v=1708873591"
   },
@@ -3562,7 +3598,9 @@
         "5 alarms"
       ],
       "price": "~$130",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.watchoutz.com/cdn/shop/products/GWM5610-1_large_c10b4348-119a-4328-bccf-8c1020f53853.png?v=1624074039"
   },
@@ -3592,7 +3630,9 @@
         "5 alarms"
       ],
       "price": "~$500",
-      "yearIntroduced": 2018
+      "yearIntroduced": 2018,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.watchoutz.com/cdn/shop/products/GMW-B5000D-1JF_l.png?v=1646403775"
   },
@@ -3622,7 +3662,9 @@
         "Step counter"
       ],
       "price": "~$150",
-      "yearIntroduced": 2022
+      "yearIntroduced": 2022,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://s.turbifycdn.com/aah/4-watches/casio-g-shock-black-ana-digi-mobile-link-bluetooth-watch-ga-b2100-gab2100-1a1-16.jpg"
   },
@@ -3653,7 +3695,9 @@
         "Multiband 6"
       ],
       "price": "~$300",
-      "yearIntroduced": 2013
+      "yearIntroduced": 2013,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.tqdiamonds.com/media/catalog/product/cache/4ed8b3dcf6398b1ecc42b60b51f302ae/g/w/gw9400-1_1.jpg"
   },
@@ -3683,7 +3727,9 @@
         "Bluetooth"
       ],
       "price": "~$700",
-      "yearIntroduced": 2020
+      "yearIntroduced": 2020,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.watchoutz.com/cdn/shop/products/GWF-A1000-1A_l.png?v=1632988252"
   },
@@ -3712,7 +3758,9 @@
         "Countdown timer"
       ],
       "price": "~$350",
-      "yearIntroduced": 2022
+      "yearIntroduced": 2022,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.claudiasjewelryinc.com/wp-content/uploads/2022/08/GSTB400D-1A_1.jpg"
   },
@@ -5411,7 +5459,9 @@
       "strapMaterial": "High-tech ceramic bracelet",
       "complications": [],
       "price": "~$1,750",
-      "yearIntroduced": 2016
+      "yearIntroduced": 2016,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://www.mastersintime.com/pictures/rado-true-thinline-r27955152-12696330.jpg"
   },
@@ -5602,7 +5652,9 @@
         "Tachymetre"
       ],
       "price": "~$550",
-      "yearIntroduced": 2016
+      "yearIntroduced": 2016,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/w_650,h_800,c_pad/q_auto:best/f_auto/wmmedia/watch_images/large/96b251_1633365484.jpg"
   },
@@ -5629,7 +5681,9 @@
         "Tachymetre"
       ],
       "price": "~$595",
-      "yearIntroduced": 2010
+      "yearIntroduced": 2010,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/96b175_1603005438.jpg"
   },
@@ -5654,7 +5708,9 @@
         "Chronograph"
       ],
       "price": "~$795",
-      "yearIntroduced": 2016
+      "yearIntroduced": 2016,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/c_mfit,h_1200,w_1200/f_auto/q_auto/wmmedia/watch_images/large/98a161_1611074320.jpg"
   },
@@ -5708,7 +5764,9 @@
         "Date"
       ],
       "price": "~$175",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     },
     "image": "https://res.cloudinary.com/dp9dnliwc/image/upload/w_650,h_800,c_pad/q_auto:best/f_auto/wmmedia/watch_images/large/97c110_1615395106.jpg"
   },
@@ -6570,7 +6628,9 @@
       "crystal": "Acrylic",
       "dialColor": "White",
       "price": "₹550",
-      "yearIntroduced": 1961
+      "yearIntroduced": 1961,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6591,7 +6651,9 @@
       "crystal": "Acrylic",
       "dialColor": "Black",
       "price": "₹750",
-      "yearIntroduced": 1963
+      "yearIntroduced": 1963,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6612,7 +6674,9 @@
       "crystal": "Acrylic",
       "dialColor": "Champagne",
       "price": "₹850",
-      "yearIntroduced": 1970
+      "yearIntroduced": 1970,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6633,7 +6697,9 @@
       "crystal": "Acrylic",
       "dialColor": "Silver",
       "price": "₹650",
-      "yearIntroduced": 1975
+      "yearIntroduced": 1975,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6654,7 +6720,9 @@
       "crystal": "Mineral",
       "dialColor": "Silver",
       "price": "₹1,200",
-      "yearIntroduced": 1985
+      "yearIntroduced": 1985,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6675,7 +6743,9 @@
       "crystal": "Sapphire",
       "dialColor": "Dark Green",
       "price": "₹12,999",
-      "yearIntroduced": 2022
+      "yearIntroduced": 2022,
+      "powerReserve": "42 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -6696,7 +6766,9 @@
       "crystal": "Mineral",
       "dialColor": "Cream",
       "price": "₹4,999",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -6717,7 +6789,9 @@
       "crystal": "Mineral",
       "dialColor": "Blue",
       "price": "₹4,999",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -6738,7 +6812,9 @@
       "crystal": "Sapphire",
       "dialColor": "Copper",
       "price": "₹14,999",
-      "yearIntroduced": 2023
+      "yearIntroduced": 2023,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -6759,7 +6835,9 @@
       "crystal": "Sapphire",
       "dialColor": "Blue Gradient",
       "price": "₹14,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -6780,7 +6858,9 @@
       "crystal": "Sapphire",
       "dialColor": "Gold Textured",
       "price": "₹16,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "42 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -6801,7 +6881,9 @@
       "crystal": "Sapphire",
       "dialColor": "Emerald Green",
       "price": "₹12,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "42 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -6822,7 +6904,9 @@
       "crystal": "Sapphire",
       "dialColor": "Deep Blue",
       "price": "₹15,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -6843,7 +6927,9 @@
       "crystal": "Acrylic",
       "dialColor": "Black",
       "price": "₹650",
-      "yearIntroduced": 1965
+      "yearIntroduced": 1965,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6864,7 +6950,9 @@
       "crystal": "Acrylic",
       "dialColor": "White",
       "price": "₹550",
-      "yearIntroduced": 1978
+      "yearIntroduced": 1978,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6885,7 +6973,9 @@
       "crystal": "Mineral",
       "dialColor": "Blue",
       "price": "₹1,100",
-      "yearIntroduced": 1982
+      "yearIntroduced": 1982,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6906,7 +6996,9 @@
       "crystal": "Acrylic",
       "dialColor": "Black",
       "price": "₹700",
-      "yearIntroduced": 1972
+      "yearIntroduced": 1972,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6927,7 +7019,9 @@
       "crystal": "Mineral",
       "dialColor": "Blue Gradient",
       "price": "₹800",
-      "yearIntroduced": 1990
+      "yearIntroduced": 1990,
+      "powerReserve": "40 hours",
+      "frequency": "18,000 vph"
     }
   },
   {
@@ -6948,7 +7042,9 @@
       "crystal": "Mineral",
       "dialColor": "White",
       "price": "₹5,499",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -6969,7 +7065,9 @@
       "crystal": "Sapphire",
       "dialColor": "Black",
       "price": "₹16,999",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph"
     }
   },
   {
@@ -6990,7 +7088,9 @@
       "crystal": "Sapphire",
       "dialColor": "Blue",
       "price": "₹8,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7011,7 +7111,9 @@
       "crystal": "Sapphire",
       "dialColor": "Black",
       "price": "₹11,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7032,7 +7134,9 @@
       "crystal": "Sapphire",
       "dialColor": "White",
       "price": "₹5,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7053,7 +7157,9 @@
       "crystal": "Sapphire",
       "dialColor": "Black",
       "price": "₹10,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "70 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7074,7 +7180,9 @@
       "crystal": "SCHOTT Glass",
       "dialColor": "Black",
       "price": "₹3,999",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7095,7 +7203,9 @@
       "crystal": "Sapphire with AR coating",
       "dialColor": "Silver Sunburst",
       "price": "₹8,000",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7116,7 +7226,9 @@
       "crystal": "Sapphire with AR coating",
       "dialColor": "Blue",
       "price": "₹8,500",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7137,7 +7249,9 @@
       "crystal": "Sapphire",
       "dialColor": "Brown",
       "price": "₹5,000",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7158,7 +7272,9 @@
       "crystal": "Sapphire",
       "dialColor": "Blue",
       "price": "₹9,750",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7179,7 +7295,9 @@
       "crystal": "Sapphire",
       "dialColor": "Black",
       "price": "₹10,500",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7200,7 +7318,9 @@
       "crystal": "Sapphire",
       "dialColor": "Ice Blue",
       "price": "₹10,500",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7221,7 +7341,9 @@
       "crystal": "Sapphire (domed)",
       "dialColor": "Deep Blue",
       "price": "₹11,000",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "50 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7242,7 +7364,9 @@
       "crystal": "Sapphire",
       "dialColor": "Blue",
       "price": "₹9,500",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7263,7 +7387,9 @@
       "crystal": "Sapphire",
       "dialColor": "Earth Tone",
       "price": "₹9,000",
-      "yearIntroduced": 2025
+      "yearIntroduced": 2025,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   },
   {
@@ -7284,7 +7410,9 @@
       "crystal": "Mineral",
       "dialColor": "Emerald Green",
       "price": "₹4,000",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7305,7 +7433,9 @@
       "crystal": "Mineral",
       "dialColor": "Purple",
       "price": "₹4,000",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7326,7 +7456,9 @@
       "crystal": "Mineral",
       "dialColor": "Salmon",
       "price": "₹4,000",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7348,7 +7480,9 @@
       "waterResistance": "30m",
       "price": "₹23,995",
       "caseThickness": "4.4mm",
-      "yearIntroduced": 2020
+      "yearIntroduced": 2020,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7370,7 +7504,9 @@
       "waterResistance": "30m",
       "price": "₹23,995",
       "caseThickness": "4.4mm",
-      "yearIntroduced": 2022
+      "yearIntroduced": 2022,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7392,7 +7528,9 @@
       "waterResistance": "30m",
       "price": "₹23,995",
       "caseThickness": "4.4mm",
-      "yearIntroduced": 2022
+      "yearIntroduced": 2022,
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7412,7 +7550,9 @@
       "crystal": "Mineral",
       "dialColor": "Blue",
       "waterResistance": "50m",
-      "price": "₹7,495"
+      "price": "₹7,495",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7432,7 +7572,9 @@
       "crystal": "Mineral",
       "dialColor": "Blue",
       "waterResistance": "30m",
-      "price": "₹4,495"
+      "price": "₹4,495",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7452,7 +7594,9 @@
       "crystal": "Mineral",
       "dialColor": "Brown",
       "waterResistance": "50m",
-      "price": "₹9,995"
+      "price": "₹9,995",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7472,7 +7616,9 @@
       "crystal": "Mineral",
       "dialColor": "Black",
       "waterResistance": "50m",
-      "price": "₹14,995"
+      "price": "₹14,995",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7492,7 +7638,9 @@
       "crystal": "Mineral",
       "dialColor": "Black",
       "waterResistance": "50m",
-      "price": "₹7,995"
+      "price": "₹7,995",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7512,7 +7660,9 @@
       "crystal": "Mineral",
       "dialColor": "Black",
       "waterResistance": "50m",
-      "price": "₹5,995"
+      "price": "₹5,995",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7533,7 +7683,9 @@
       "dialColor": "Anthracite",
       "waterResistance": "30m",
       "price": "₹11,995",
-      "caseThickness": "5.5mm"
+      "caseThickness": "5.5mm",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7553,7 +7705,9 @@
       "crystal": "Mineral",
       "dialColor": "Anthracite",
       "waterResistance": "100m",
-      "price": "₹11,995"
+      "price": "₹11,995",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7573,7 +7727,9 @@
       "crystal": "Mineral",
       "dialColor": "Green",
       "waterResistance": "100m",
-      "price": "₹9,995"
+      "price": "₹9,995",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7594,7 +7750,9 @@
       "dialColor": "Silver",
       "waterResistance": "30m",
       "price": "₹9,995",
-      "caseThickness": "5.5mm"
+      "caseThickness": "5.5mm",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7614,7 +7772,9 @@
       "crystal": "Mineral",
       "dialColor": "Rose Gold",
       "waterResistance": "30m",
-      "price": "₹4,495"
+      "price": "₹4,495",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7634,7 +7794,9 @@
       "crystal": "Mineral",
       "dialColor": "White",
       "waterResistance": "100m",
-      "price": "₹8,995"
+      "price": "₹8,995",
+      "powerReserve": "N/A",
+      "frequency": "N/A"
     }
   },
   {
@@ -7657,7 +7819,9 @@
       "price": "$650",
       "caseThickness": "10.9mm",
       "powerReserve": "80 hours",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "frequency": "25,200 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -7679,7 +7843,10 @@
       "waterResistance": "100m",
       "price": "$495",
       "caseThickness": "11.75mm",
-      "yearIntroduced": 2023
+      "yearIntroduced": 2023,
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -7702,7 +7869,9 @@
       "price": "$19,300",
       "caseThickness": "14.5mm",
       "powerReserve": "72 hours",
-      "yearIntroduced": 2020
+      "yearIntroduced": 2020,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -7725,7 +7894,9 @@
       "price": "$21,600",
       "caseThickness": "13.7mm",
       "powerReserve": "50 hours",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -7747,7 +7918,9 @@
       "waterResistance": "50m",
       "price": "$9,800",
       "caseThickness": "11.4mm",
-      "powerReserve": "42 hours"
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -7769,7 +7942,9 @@
       "waterResistance": "30m",
       "price": "$350,000",
       "caseThickness": "18.8mm",
-      "powerReserve": "1200 hours"
+      "powerReserve": "1200 hours",
+      "frequency": "28,800 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -7792,7 +7967,9 @@
       "price": "$8,700",
       "caseThickness": "12.1mm",
       "powerReserve": "60 hours",
-      "yearIntroduced": 2022
+      "yearIntroduced": 2022,
+      "frequency": "36,000 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -7815,7 +7992,9 @@
       "price": "$7,900",
       "caseThickness": "13.7mm",
       "powerReserve": "50 hours",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Leather strap"
     }
   },
   {
@@ -7838,7 +8017,9 @@
       "price": "$17,000",
       "caseThickness": "14.5mm",
       "powerReserve": "50 hours",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "frequency": "36,000 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -7861,7 +8042,9 @@
       "price": "$8,400",
       "caseThickness": "10.7mm",
       "powerReserve": "72 hours",
-      "yearIntroduced": 2020
+      "yearIntroduced": 2020,
+      "frequency": "21,600 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -7884,7 +8067,9 @@
       "price": "$10,800",
       "caseThickness": "14.4mm",
       "powerReserve": "72 hours",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "frequency": "21,600 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -7907,7 +8092,9 @@
       "price": "$8,100",
       "caseThickness": "14mm",
       "powerReserve": "72 hours",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "frequency": "21,600 vph",
+      "strapMaterial": "Leather strap"
     }
   },
   {
@@ -7930,7 +8117,9 @@
       "price": "~$15,300",
       "caseThickness": "15.5mm",
       "powerReserve": "120 hours",
-      "yearIntroduced": 2007
+      "yearIntroduced": 2007,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -7953,7 +8142,9 @@
       "price": "~$17,100",
       "caseThickness": "15.5mm",
       "powerReserve": "120 hours",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Titanium bracelet"
     }
   },
   {
@@ -7976,7 +8167,9 @@
       "price": "~$11,500",
       "caseThickness": "10.77mm",
       "powerReserve": "100 hours",
-      "yearIntroduced": 2013
+      "yearIntroduced": 2013,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -7999,7 +8192,9 @@
       "price": "~$18,500",
       "caseThickness": "14.85mm",
       "powerReserve": "50 hours",
-      "yearIntroduced": 2015
+      "yearIntroduced": 2015,
+      "frequency": "36,000 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8022,7 +8217,9 @@
       "price": "~$18,600",
       "caseThickness": "13.23mm",
       "powerReserve": "100 hours",
-      "yearIntroduced": 2019
+      "yearIntroduced": 2019,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8045,7 +8242,9 @@
       "price": "~$15,400",
       "caseThickness": "10.94mm",
       "powerReserve": "72 hours",
-      "yearIntroduced": 2013
+      "yearIntroduced": 2013,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8067,7 +8266,10 @@
       "waterResistance": "30m",
       "price": "~$13,200",
       "caseThickness": "8.55mm",
-      "yearIntroduced": 2011
+      "yearIntroduced": 2011,
+      "powerReserve": "100 hours",
+      "frequency": "21,600 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8089,7 +8291,10 @@
       "waterResistance": "30m",
       "price": "~$26,500",
       "caseThickness": "12.98mm",
-      "yearIntroduced": 2011
+      "yearIntroduced": 2011,
+      "powerReserve": "72 hours",
+      "frequency": "21,600 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8112,7 +8317,9 @@
       "price": "~$34,100",
       "caseThickness": "8.8mm",
       "powerReserve": "55 hours",
-      "yearIntroduced": 2015
+      "yearIntroduced": 2015,
+      "frequency": "21,600 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8134,7 +8341,10 @@
       "waterResistance": "30m",
       "price": "~$16,900",
       "caseThickness": "5.4mm",
-      "yearIntroduced": 2018
+      "yearIntroduced": 2018,
+      "powerReserve": "50 hours",
+      "frequency": "21,600 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8156,7 +8366,10 @@
       "waterResistance": "30m",
       "price": "~$68,000",
       "caseThickness": "9.05mm",
-      "yearIntroduced": 2004
+      "yearIntroduced": 2004,
+      "powerReserve": "50 hours",
+      "frequency": "21,600 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8179,7 +8392,9 @@
       "price": "~$27,200",
       "caseThickness": "11.5mm",
       "powerReserve": "55 hours",
-      "yearIntroduced": 2018
+      "yearIntroduced": 2018,
+      "frequency": "21,600 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -8201,7 +8416,10 @@
       "waterResistance": "100m",
       "price": "~$32,900",
       "caseThickness": "13.85mm",
-      "yearIntroduced": 2018
+      "yearIntroduced": 2018,
+      "powerReserve": "48 hours",
+      "frequency": "28,800 vph",
+      "strapMaterial": "Rubber strap"
     }
   },
   {
@@ -8224,7 +8442,9 @@
       "price": "~$42,500",
       "caseThickness": "11.65mm",
       "powerReserve": "50 hours",
-      "yearIntroduced": 2015
+      "yearIntroduced": 2015,
+      "frequency": "21,600 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8246,7 +8466,10 @@
       "waterResistance": "30m",
       "price": "~$68,600",
       "caseThickness": "13.95mm",
-      "yearIntroduced": 2015
+      "yearIntroduced": 2015,
+      "powerReserve": "50 hours",
+      "frequency": "28,800 vph",
+      "strapMaterial": "Alligator leather strap"
     }
   },
   {
@@ -8269,7 +8492,9 @@
       "price": "~$17,000",
       "caseThickness": "14.1mm",
       "powerReserve": "60 hours",
-      "yearIntroduced": 2023
+      "yearIntroduced": 2023,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8291,7 +8516,9 @@
       "waterResistance": "300m",
       "price": "~$3,700",
       "powerReserve": "120 hours",
-      "yearIntroduced": 2020
+      "yearIntroduced": 2020,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8313,7 +8540,9 @@
       "waterResistance": "300m",
       "price": "~$3,700",
       "powerReserve": "120 hours",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8335,7 +8564,9 @@
       "waterResistance": "300m",
       "price": "~$3,700",
       "powerReserve": "120 hours",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8357,7 +8588,9 @@
       "waterResistance": "100m",
       "price": "~$2,200",
       "powerReserve": "38 hours",
-      "yearIntroduced": 2021
+      "yearIntroduced": 2021,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8379,7 +8612,9 @@
       "waterResistance": "100m",
       "price": "~$2,400",
       "powerReserve": "38 hours",
-      "yearIntroduced": 2018
+      "yearIntroduced": 2018,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8400,7 +8635,10 @@
       "dialColor": "Black",
       "waterResistance": "100m",
       "price": "~$3,600",
-      "yearIntroduced": 2023
+      "yearIntroduced": 2023,
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8422,7 +8660,9 @@
       "waterResistance": "100m",
       "price": "~$2,100",
       "powerReserve": "38 hours",
-      "yearIntroduced": 2020
+      "yearIntroduced": 2020,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8444,7 +8684,9 @@
       "waterResistance": "100m",
       "price": "~$2,690",
       "powerReserve": "38 hours",
-      "yearIntroduced": 2014
+      "yearIntroduced": 2014,
+      "frequency": "28,800 vph",
+      "strapMaterial": "Stainless steel bracelet"
     }
   },
   {
@@ -8464,7 +8706,9 @@
       "crystal": "Sapphire",
       "dialColor": "Black Honeycomb",
       "price": "₹6,999",
-      "yearIntroduced": 2024
+      "yearIntroduced": 2024,
+      "powerReserve": "41.5 hours",
+      "frequency": "21,600 vph"
     }
   }
 ]

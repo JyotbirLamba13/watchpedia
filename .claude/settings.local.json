@@ -203,7 +203,8 @@
       "Bash(whois watchpedia.co)",
       "Bash(whois -h whois.publicinterestregistry.org watchpedia.org)",
       "Bash(supabase --version)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Read(//private/tmp/**)"
     ]
   }
 }
