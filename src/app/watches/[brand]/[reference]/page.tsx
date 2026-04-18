@@ -5,6 +5,7 @@ import { getAllWatches, getWatchByBrandAndRef, getBrandBySlug, getWatchesByBrand
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import WatchInfobox from '@/components/watch/WatchInfobox';
 import WatchSpecs from '@/components/watch/WatchSpecs';
+import SpotMistake from '@/components/watch/SpotMistake';
 import WatchCard from '@/components/watch/WatchCard';
 import JsonLd from '@/components/seo/JsonLd';
 
@@ -113,6 +114,7 @@ export default async function WatchPage({ params }: Props) {
                 Full Specifications
               </h2>
               <WatchSpecs specs={watch.specs} />
+              <SpotMistake watch={watch} brand={brand} />
             </section>
           </div>
         </div>

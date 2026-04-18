@@ -316,7 +316,7 @@
     "featured": true,
     "specs": {
       "movement": "Calibre 3861",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "13.18mm",
@@ -539,7 +539,7 @@
     "featured": true,
     "specs": {
       "movement": "Calibre 3861",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "13.18mm",
@@ -713,7 +713,7 @@
     "description": "The pinnacle of Patek Philippe's Grand Complications. Combines a perpetual calendar with chronograph in the first PP perpetual calendar chrono with in-house movement.",
     "specs": {
       "movement": "Calibre CH 29-535 PS Q",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Platinum",
       "caseDiameter": "41mm",
       "caseThickness": "12.67mm",
@@ -1290,7 +1290,7 @@
     "description": "A thin, elegant version of the Santos paying tribute to the aviator. Hand-wound calibre 430 MC in a refined large model case.",
     "specs": {
       "movement": "Calibre 430 MC",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "31.4mm x 43.5mm",
       "caseThickness": "7.3mm",
@@ -1701,12 +1701,12 @@
     "description": "Masterclass in understated refinement with hand-wound calibre 9S64. Zaratsu-polished case with pristine ivory dial and Grand Seiko grammar of design.",
     "specs": {
       "movement": "Calibre 9S64",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "37.3mm",
       "caseThickness": "11.6mm",
       "waterResistance": "30m",
-      "crystal": "Sapphire (dual-curved)",
+      "crystal": "Sapphire (double-curved)",
       "dialColor": "Ivory",
       "strapMaterial": "Crocodile leather strap",
       "powerReserve": "72 hours",
@@ -1896,12 +1896,12 @@
     "description": "Features a lacquered urushi dial handcrafted by master artisans. Traditional Japanese lacquerware art combined with Grand Seiko's mechanical excellence.",
     "specs": {
       "movement": "Calibre 9S63",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "39mm",
       "caseThickness": "10.9mm",
       "waterResistance": "30m",
-      "crystal": "Sapphire (dual-curved)",
+      "crystal": "Sapphire (double-curved)",
       "dialColor": "Black urushi lacquer",
       "strapMaterial": "Crocodile leather strap",
       "powerReserve": "72 hours",
@@ -1923,7 +1923,7 @@
     "description": "Tribute to the historic 44GS from 1967, which established the Grand Seiko design grammar. Features the hand-wound 9S64 in a refined 36.5mm case.",
     "specs": {
       "movement": "Calibre 9S64",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "36.5mm",
       "caseThickness": "11.6mm",
@@ -2120,7 +2120,7 @@
       "caseDiameter": "39mm",
       "caseThickness": "15.3mm",
       "waterResistance": "100m",
-      "crystal": "Domed sapphire",
+      "crystal": "Sapphire (domed)",
       "dialColor": "Silver-blue",
       "strapMaterial": "Leather strap",
       "powerReserve": "80 hours",
@@ -2397,7 +2397,7 @@
     "description": "One of watchmaking's most distinctive designs. Created in 1931 for polo players with a reversible case that is an Art Deco masterpiece.",
     "specs": {
       "movement": "Calibre 657",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "24.4mm x 40mm",
       "caseThickness": "7.6mm",
@@ -2478,7 +2478,7 @@
     "description": "Tribute to the original 1931 Reverso with small seconds at 6 o'clock. Manual-wound calibre 822/2 visible through the caseback.",
     "specs": {
       "movement": "Calibre 822/2",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "29.2mm x 49mm",
       "caseThickness": "8.5mm",
@@ -2561,7 +2561,7 @@
     "description": "Innovative dual-wing concept with two independent gear trains sharing one regulating organ. One of JLC's most technically accomplished complications.",
     "specs": {
       "movement": "Calibre 380",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "18k white gold",
       "caseDiameter": "42mm",
       "caseThickness": "14.3mm",
@@ -3808,7 +3808,7 @@
     "description": "Architecture-inspired skeleton watch with an incredible 10-day power reserve. Visible rack-and-pinion power reserve indicator.",
     "specs": {
       "movement": "HUB1201",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Titanium",
       "caseDiameter": "45mm",
       "caseThickness": "14.9mm",
@@ -4081,7 +4081,7 @@
     "description": "The more historically faithful Panerai design without the crown bridge. Wire lugs and a domed sapphire crystal recall the original WWII instruments.",
     "specs": {
       "movement": "P.6000",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "45mm",
       "caseThickness": "14mm",
@@ -4194,7 +4194,7 @@
     "description": "Manual-wound Luminor with the in-house P.3000 calibre. Three-day power reserve with the classic 1950s case design.",
     "specs": {
       "movement": "P.3000",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "47mm",
       "caseThickness": "16.8mm",
@@ -4359,7 +4359,7 @@
     "description": "One of the most important watch designs of the 20th century. Asymmetric dial with outsize date, power reserve indicator, and subsidiary seconds. Hand-finished German silver movement.",
     "specs": {
       "movement": "Calibre L121.1",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "18k rose gold",
       "caseDiameter": "38.5mm",
       "caseThickness": "9.8mm",
@@ -4388,7 +4388,7 @@
     "description": "The thinnest A. Lange & Söhne at just 5.9mm. Minimalist two-hand design showcasing the brand's impeccable finishing in its purest form.",
     "specs": {
       "movement": "Calibre L093.1",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "18k rose gold",
       "caseDiameter": "40mm",
       "caseThickness": "5.9mm",
@@ -4413,7 +4413,7 @@
     "description": "Classic chronograph named after Ferdinand Adolph Lange's birth year. Features a flyback function and pulsimeter scale. Quintessential German chronograph.",
     "specs": {
       "movement": "Calibre L951.5",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "18k white gold",
       "caseDiameter": "39.5mm",
       "caseThickness": "11mm",
@@ -4441,7 +4441,7 @@
     "description": "Revolutionary digital display using mechanical jumping numerals. Patented constant-force mechanism ensures each jump happens with identical energy. One of the most innovative watches ever made.",
     "specs": {
       "movement": "Calibre L043.1",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "18k white gold",
       "caseDiameter": "41.9mm",
       "caseThickness": "12.2mm",
@@ -4498,7 +4498,7 @@
     "description": "One of the greatest chronographs ever made. Flyback function, outsize date, and power reserve indicator with a hand-engraved balance cock.",
     "specs": {
       "movement": "Calibre L951.6",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Platinum",
       "caseDiameter": "41mm",
       "caseThickness": "13.1mm",
@@ -4695,7 +4695,7 @@
     "description": "The quintessential Bauhaus watch. Clean, minimal, and perfectly proportioned. In-house Alpha calibre with Glashütte striping and blued screws.",
     "specs": {
       "movement": "Alpha",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "37.5mm",
       "caseThickness": "6.8mm",
@@ -4722,7 +4722,7 @@
     "description": "Minimalist dress watch from NOMOS with clean dial and slim profile. Alpha hand-wound movement visible through sapphire caseback.",
     "specs": {
       "movement": "Alpha",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "38mm",
       "caseThickness": "8.3mm",
@@ -4747,7 +4747,7 @@
     "description": "NOMOS's most casual and youthful collection. Superluminova numerals and hands with the in-house Alpha movement at an accessible price.",
     "specs": {
       "movement": "Alpha",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "38.5mm",
       "caseThickness": "8.2mm",
@@ -5001,7 +5001,7 @@
       "caseDiameter": "38.7mm",
       "caseThickness": "12.3mm",
       "waterResistance": "50m",
-      "crystal": "Sapphire (dual-curved)",
+      "crystal": "Sapphire (double-curved)",
       "dialColor": "Ivory",
       "strapMaterial": "Leather strap",
       "powerReserve": "50 hours",
@@ -5158,7 +5158,7 @@
     "description": "Direct descendant of Hamilton's WWII military watches. Hand-wound H-50 movement with 80-hour power reserve, clean 38mm case, and military dial.",
     "specs": {
       "movement": "Calibre H-50",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "Stainless steel",
       "caseDiameter": "38mm",
       "caseThickness": "9.5mm",
@@ -5829,7 +5829,7 @@
     "description": "Classic ultra-thin dress watch with the hand-wound calibre 430P at just 2.1mm thick. The Altiplano has defined slim elegance since 1957.",
     "specs": {
       "movement": "Calibre 430P",
-      "movementType": "Manual-winding",
+      "movementType": "Manual winding",
       "caseMaterial": "18k white gold",
       "caseDiameter": "38mm",
       "caseThickness": "5.25mm",
@@ -5880,7 +5880,7 @@
     "specs": {
       "movement": "Breitling Calibre B01",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "46mm",
       "caseThickness": "14.25mm",
       "waterResistance": "30m",
@@ -5909,13 +5909,13 @@
     "specs": {
       "movement": "Breitling Calibre B01",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "15.1mm",
       "waterResistance": "200m",
       "crystal": "Sapphire with anti-reflective coating",
       "dialColor": "Copper",
-      "strapMaterial": "Stainless Steel Rouleaux bracelet",
+      "strapMaterial": "Stainless steel Rouleaux bracelet",
       "powerReserve": "70 hours",
       "frequency": "28,800 vph",
       "complications": [
@@ -5966,7 +5966,7 @@
     "specs": {
       "movement": "Breitling Calibre B01",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "13.65mm",
       "waterResistance": "100m",
@@ -5994,13 +5994,13 @@
     "specs": {
       "movement": "Calibre 5110 DT",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "41mm",
       "caseThickness": "12.8mm",
       "waterResistance": "150m",
       "crystal": "Sapphire with anti-reflective coating",
       "dialColor": "Blue",
-      "strapMaterial": "Stainless Steel bracelet",
+      "strapMaterial": "Stainless steel bracelet",
       "powerReserve": "60 hours",
       "frequency": "28,800 vph",
       "complications": [
@@ -6023,7 +6023,7 @@
     "specs": {
       "movement": "Calibre 2460 R31R7",
       "movementType": "Automatic",
-      "caseMaterial": "18K Rose Gold",
+      "caseMaterial": "18k rose gold",
       "caseDiameter": "42.5mm",
       "caseThickness": "9.7mm",
       "waterResistance": "30m",
@@ -6050,8 +6050,8 @@
     "description": "A purist's dress watch showcasing traditional haute horlogerie finishing. The slim 38mm rose gold case frames a silvered dial with applied hour markers and hand-finished dauphine hands, powered by hand-wound Calibre 4400.",
     "specs": {
       "movement": "Calibre 4400",
-      "movementType": "Manual",
-      "caseMaterial": "18K Rose Gold",
+      "movementType": "Manual winding",
+      "caseMaterial": "18k rose gold",
       "caseDiameter": "38mm",
       "caseThickness": "8.06mm",
       "waterResistance": "30m",
@@ -6075,8 +6075,8 @@
     "description": "A faithful reissue of Vacheron Constantin's legendary 1921 driver's watch with its distinctively tilted dial. The cushion-shaped 40mm rose gold case features a diagonal crown and Art Deco-inspired sector dial.",
     "specs": {
       "movement": "Calibre 4400 AS",
-      "movementType": "Manual",
-      "caseMaterial": "18K Rose Gold",
+      "movementType": "Manual winding",
+      "caseMaterial": "18k rose gold",
       "caseDiameter": "40mm",
       "caseThickness": "8.06mm",
       "waterResistance": "30m",
@@ -6101,7 +6101,7 @@
     "specs": {
       "movement": "Calibre 2460 QCL/1",
       "movementType": "Automatic",
-      "caseMaterial": "18K Rose Gold",
+      "caseMaterial": "18k rose gold",
       "caseDiameter": "40mm",
       "caseThickness": "11mm",
       "waterResistance": "30m",
@@ -6131,13 +6131,13 @@
     "specs": {
       "movement": "BVL 191",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "41mm",
       "caseThickness": "10.5mm",
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Blue sunburst",
-      "strapMaterial": "Stainless Steel bracelet",
+      "strapMaterial": "Stainless steel bracelet",
       "powerReserve": "42 hours",
       "frequency": "28,800 vph",
       "complications": [
@@ -6158,13 +6158,13 @@
     "specs": {
       "movement": "Calibre B043",
       "movementType": "Quartz",
-      "caseMaterial": "18K Rose Gold",
+      "caseMaterial": "18k rose gold",
       "caseDiameter": "33mm",
       "caseThickness": "7.5mm",
       "waterResistance": "30m",
       "crystal": "Sapphire",
       "dialColor": "White lacquered",
-      "strapMaterial": "18K Rose Gold bracelet",
+      "strapMaterial": "18k rose gold bracelet",
       "powerReserve": "N/A",
       "frequency": "N/A",
       "complications": [],
@@ -6208,7 +6208,7 @@
     "specs": {
       "movement": "BVL 191",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "41mm",
       "caseThickness": "9.35mm",
       "waterResistance": "50m",
@@ -6290,7 +6290,7 @@
     "specs": {
       "movement": "FC-718",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "12.1mm",
       "waterResistance": "30m",
@@ -6317,7 +6317,7 @@
     "description": "The world's thinnest mechanical watch at just 2mm thick, a revolutionary feat of micro-engineering. The case itself serves as the mainplate in this groundbreaking hand-wound movement, pushing the boundaries of ultra-thin watchmaking.",
     "specs": {
       "movement": "Calibre 900P-UC",
-      "movementType": "Manual",
+      "movementType": "Manual winding",
       "caseMaterial": "Cobalt alloy",
       "caseDiameter": "41mm",
       "caseThickness": "2mm",
@@ -6343,13 +6343,13 @@
     "specs": {
       "movement": "Calibre 1160P",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "11.2mm",
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Slate gray",
-      "strapMaterial": "Stainless Steel bracelet",
+      "strapMaterial": "Stainless steel bracelet",
       "powerReserve": "50 hours",
       "frequency": "28,800 vph",
       "complications": [
@@ -6371,7 +6371,7 @@
     "specs": {
       "movement": "Calibre 690P",
       "movementType": "Quartz",
-      "caseMaterial": "18K Rose Gold",
+      "caseMaterial": "18k rose gold",
       "caseDiameter": "34mm",
       "caseThickness": "7.45mm",
       "waterResistance": "30m",
@@ -6396,7 +6396,7 @@
     "specs": {
       "movement": "Calibre 690P",
       "movementType": "Quartz",
-      "caseMaterial": "18K White Gold",
+      "caseMaterial": "18k white gold",
       "caseDiameter": "32mm",
       "caseThickness": "7.1mm",
       "waterResistance": "30m",
@@ -6421,13 +6421,13 @@
     "specs": {
       "movement": "R808",
       "movementType": "Automatic",
-      "caseMaterial": "High-Tech Ceramic",
+      "caseMaterial": "High-tech ceramic",
       "caseDiameter": "38mm",
       "caseThickness": "10.8mm",
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Black",
-      "strapMaterial": "High-Tech Ceramic bracelet",
+      "strapMaterial": "High-tech ceramic bracelet",
       "powerReserve": "80 hours",
       "frequency": "21,600 vph",
       "complications": [
@@ -6448,13 +6448,13 @@
     "specs": {
       "movement": "R819",
       "movementType": "Automatic",
-      "caseMaterial": "High-Tech Ceramic",
+      "caseMaterial": "High-tech ceramic",
       "caseDiameter": "43mm",
       "caseThickness": "12.8mm",
       "waterResistance": "300m",
       "crystal": "Sapphire with anti-reflective coating",
       "dialColor": "Green",
-      "strapMaterial": "High-Tech Ceramic bracelet",
+      "strapMaterial": "High-tech ceramic bracelet",
       "powerReserve": "80 hours",
       "frequency": "21,600 vph",
       "complications": [
@@ -6476,7 +6476,7 @@
     "specs": {
       "movement": "R764",
       "movementType": "Automatic",
-      "caseMaterial": "High-Tech Ceramic and Stainless Steel",
+      "caseMaterial": "High-tech ceramic and stainless steel",
       "caseDiameter": "38mm",
       "caseThickness": "12.1mm",
       "waterResistance": "100m",
@@ -6531,8 +6531,8 @@
     "description": "A precision instrument inspired by scientific observatory watches, featuring dead-beat jumping seconds for precise time reading. The 39.9mm white gold case houses the L094.1 calibre with hacking seconds, zero-reset mechanism, and constant-force escapement.",
     "specs": {
       "movement": "L094.1",
-      "movementType": "Manual",
-      "caseMaterial": "18K White Gold",
+      "movementType": "Manual winding",
+      "caseMaterial": "18k white gold",
       "caseDiameter": "39.9mm",
       "caseThickness": "10.6mm",
       "waterResistance": "30m",
@@ -6562,7 +6562,7 @@
     "image": "https://cdn.dotpe.in/longtail/store-items/6336523/IJQ1rr66.jpeg",
     "specs": {
       "movement": "HMT 0231",
-      "movementType": "Manual Wind",
+      "movementType": "Manual winding",
       "caseMaterial": "Chrome-Plated Brass",
       "caseDiameter": "36mm",
       "caseThickness": "10mm",
@@ -6583,8 +6583,8 @@
     "image": "https://cdn.dotpe.in/longtail/store-items/6336523/jOEFCdC1.jpeg",
     "specs": {
       "movement": "HMT 0231",
-      "movementType": "Manual Wind",
-      "caseMaterial": "Stainless Steel",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "37mm",
       "caseThickness": "11mm",
       "waterResistance": "None",
@@ -6604,7 +6604,7 @@
     "image": "https://watchtopia.in/cdn/shop/files/B7BFFFF8-A7F1-44FB-ADFF-00BB36F9CF0E.jpg?v=1735381545&width=1200",
     "specs": {
       "movement": "HMT 6401",
-      "movementType": "Manual Wind",
+      "movementType": "Manual winding",
       "caseMaterial": "Gold-Plated Brass",
       "caseDiameter": "35mm",
       "caseThickness": "8mm",
@@ -6625,8 +6625,8 @@
     "image": "https://watchtopia.in/cdn/shop/files/hmt-kohinoor.jpg?v=1735381545&width=1200",
     "specs": {
       "movement": "HMT 0231",
-      "movementType": "Manual Wind",
-      "caseMaterial": "Stainless Steel",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "38.5mm",
       "caseThickness": "10mm",
       "waterResistance": "None",
@@ -6647,7 +6647,7 @@
     "specs": {
       "movement": "HMT 2809",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "37mm",
       "caseThickness": "12mm",
       "waterResistance": "30m",
@@ -6668,7 +6668,7 @@
     "specs": {
       "movement": "Miyota 8215",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "40mm",
       "caseThickness": "11mm",
       "waterResistance": "50m",
@@ -6689,7 +6689,7 @@
     "specs": {
       "movement": "Miyota 2035",
       "movementType": "Quartz",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "38mm",
       "caseThickness": "9mm",
       "waterResistance": "30m",
@@ -6710,7 +6710,7 @@
     "specs": {
       "movement": "Miyota 2035",
       "movementType": "Quartz",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "38mm",
       "caseThickness": "9mm",
       "waterResistance": "30m",
@@ -6731,7 +6731,7 @@
     "specs": {
       "movement": "Seiko VK63",
       "movementType": "Meca-Quartz",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "12mm",
       "waterResistance": "50m",
@@ -6752,7 +6752,7 @@
     "specs": {
       "movement": "Seiko VK64",
       "movementType": "Meca-Quartz",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "40mm",
       "caseThickness": "12mm",
       "waterResistance": "50m",
@@ -6773,7 +6773,7 @@
     "specs": {
       "movement": "Miyota 8215",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "40mm",
       "caseThickness": "12mm",
       "waterResistance": "50m",
@@ -6794,7 +6794,7 @@
     "specs": {
       "movement": "Miyota 8215",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "39mm",
       "caseThickness": "11mm",
       "waterResistance": "50m",
@@ -6815,7 +6815,7 @@
     "specs": {
       "movement": "Seiko NH35",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "42mm",
       "caseThickness": "13mm",
       "waterResistance": "100m",
@@ -6835,8 +6835,8 @@
     "image": "https://watchtopia.in/cdn/shop/files/hmt-jawan.jpg?v=1735381545&width=1200",
     "specs": {
       "movement": "HMT 0231",
-      "movementType": "Manual Wind",
-      "caseMaterial": "Stainless Steel",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "37mm",
       "caseThickness": "11mm",
       "waterResistance": "None",
@@ -6856,7 +6856,7 @@
     "image": "https://watchtopia.in/cdn/shop/files/hmt-chirag.jpg?v=1735381545&width=1200",
     "specs": {
       "movement": "HMT 0231",
-      "movementType": "Manual Wind",
+      "movementType": "Manual winding",
       "caseMaterial": "Chrome-Plated Brass",
       "caseDiameter": "36mm",
       "caseThickness": "9mm",
@@ -6878,7 +6878,7 @@
     "specs": {
       "movement": "HMT 2809",
       "movementType": "Automatic",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "38mm",
       "caseThickness": "12mm",
       "waterResistance": "30m",
@@ -6898,8 +6898,8 @@
     "image": "https://watchtopia.in/cdn/shop/files/hmt-sainik.jpg?v=1735381545&width=1200",
     "specs": {
       "movement": "HMT 0231",
-      "movementType": "Manual Wind",
-      "caseMaterial": "Stainless Steel",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "37mm",
       "caseThickness": "11mm",
       "waterResistance": "None",
@@ -6919,8 +6919,8 @@
     "image": "https://watchtopia.in/cdn/shop/files/hmt-tareeq.jpg?v=1735381545&width=1200",
     "specs": {
       "movement": "HMT 6401",
-      "movementType": "Manual Wind",
-      "caseMaterial": "Stainless Steel",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
       "caseDiameter": "36mm",
       "caseThickness": "9mm",
       "waterResistance": "None",
@@ -7092,7 +7092,7 @@
       "caseDiameter": "42mm",
       "caseThickness": "12mm",
       "waterResistance": "100m",
-      "crystal": "Sapphire (AR-coated)",
+      "crystal": "Sapphire with AR coating",
       "dialColor": "Silver Sunburst",
       "price": "₹8,000",
       "yearIntroduced": 2024
@@ -7113,7 +7113,7 @@
       "caseDiameter": "40mm",
       "caseThickness": "12mm",
       "waterResistance": "50m",
-      "crystal": "Sapphire (AR-coated)",
+      "crystal": "Sapphire with AR coating",
       "dialColor": "Blue",
       "price": "₹8,500",
       "yearIntroduced": 2024
@@ -7218,7 +7218,7 @@
       "caseDiameter": "42mm",
       "caseThickness": "13mm",
       "waterResistance": "200m",
-      "crystal": "Curved Sapphire",
+      "crystal": "Sapphire (domed)",
       "dialColor": "Deep Blue",
       "price": "₹11,000",
       "yearIntroduced": 2025
@@ -7406,7 +7406,7 @@
     "description": "Titan Octane Blue Chronograph from the Octane collection.",
     "specs": {
       "caseDiameter": "44mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz Chronograph",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7426,7 +7426,7 @@
     "description": "Titan Raga Viva Blue from the Raga collection.",
     "specs": {
       "caseDiameter": "30mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7446,7 +7446,7 @@
     "description": "Titan Grandmaster Brown from the Grandmaster collection.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz Multifunction",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7466,7 +7466,7 @@
     "description": "Titan Grandmaster Chronograph from the Grandmaster collection.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz Chronograph",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7486,7 +7486,7 @@
     "description": "Titan Neo Black from the Neo collection.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz Multifunction",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7506,7 +7506,7 @@
     "description": "Titan Neo Splash Black from the Neo collection.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7526,7 +7526,7 @@
     "description": "Titan Edge Anthracite from the Edge collection.",
     "specs": {
       "caseDiameter": "38mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Titan Slim Quartz",
       "movementType": "Quartz",
       "crystal": "Sapphire",
@@ -7547,7 +7547,7 @@
     "description": "Titan Maritime Anthracite Chronograph from the Maritime collection.",
     "specs": {
       "caseDiameter": "43mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz Chronograph",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7567,7 +7567,7 @@
     "description": "Titan Maritime Green from the Maritime collection.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz Multifunction",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7587,7 +7587,7 @@
     "description": "Titan Edge Baseline Silver from the Edge collection.",
     "specs": {
       "caseDiameter": "38mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Titan Slim Quartz",
       "movementType": "Quartz",
       "crystal": "Sapphire",
@@ -7608,7 +7608,7 @@
     "description": "Titan Raga Viva Rose Gold from the Raga collection.",
     "specs": {
       "caseDiameter": "30mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7628,7 +7628,7 @@
     "description": "Titan Maritime White Day-Date from the Maritime collection.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Quartz",
       "movementType": "Quartz",
       "crystal": "Mineral",
@@ -7648,7 +7648,7 @@
     "description": "The viral sensation combining 1970s integrated-bracelet design with modern automatic movement.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Powermatic 80",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -7671,7 +7671,7 @@
     "description": "Quartz chronograph variant of the hugely popular PRX collection.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "ETA G10.212",
       "movementType": "Quartz",
       "crystal": "Sapphire",
@@ -7763,7 +7763,7 @@
       "caseDiameter": "51mm",
       "caseMaterial": "Sapphire Crystal",
       "movement": "HUB9005.H1.PN.1",
-      "movementType": "Manual",
+      "movementType": "Manual winding",
       "crystal": "Sapphire",
       "dialColor": "Skeleton",
       "waterResistance": "30m",
@@ -7783,7 +7783,7 @@
     "description": "Integrated bracelet sports watch with 1/10th second accuracy.",
     "specs": {
       "caseDiameter": "41mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "El Primero 3620",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -7852,7 +7852,7 @@
     "description": "Thinner, more elegant version of the Luminor at just 10.7mm thick.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "P.900",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -7875,7 +7875,7 @@
     "description": "Panerai's dedicated dive watch with rotating bezel and 300m water resistance.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "P.900",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -7898,9 +7898,9 @@
     "description": "Historic California dial with mixed Arabic and Roman numerals.",
     "specs": {
       "caseDiameter": "45mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "P.6000",
-      "movementType": "Manual",
+      "movementType": "Manual winding",
       "crystal": "Sapphire",
       "dialColor": "Black",
       "waterResistance": "100m",
@@ -7921,7 +7921,7 @@
     "description": "The signature Blancpain diver, first introduced in 1953 for the French Navy. In-house caliber 1315 with 5-day power reserve.",
     "specs": {
       "caseDiameter": "45mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre 1315",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -7967,7 +7967,7 @@
     "description": "Sleeker 38mm Bathyscaphe with ceramic bezel and 100-hour power reserve.",
     "specs": {
       "caseDiameter": "38mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre 1150",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -7990,7 +7990,7 @@
     "description": "Column-wheel flyback chronograph in 43mm steel case.",
     "specs": {
       "caseDiameter": "43mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre F385",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8013,7 +8013,7 @@
     "description": "Limited re-edition of the 1970s Barakuda diver with vintage Tropic strap.",
     "specs": {
       "caseDiameter": "40.3mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre 1151",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8036,7 +8036,7 @@
     "description": "Complete calendar with moonphase in classical Villeret style.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre 6654",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8059,9 +8059,9 @@
     "description": "Ultra-thin hand-wound dress watch with power reserve indicator.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre 11C5",
-      "movementType": "Manual",
+      "movementType": "Manual winding",
       "crystal": "Sapphire",
       "dialColor": "White",
       "waterResistance": "30m",
@@ -8081,7 +8081,7 @@
     "description": "Single-pusher chronograph with complete calendar and moonphase on enamel dial.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre 66CM8",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8103,7 +8103,7 @@
     "description": "The quintessential Breguet dress watch with hand-guilloched silver dial and Breguet hands.",
     "specs": {
       "caseDiameter": "38mm",
-      "caseMaterial": "18K Yellow Gold",
+      "caseMaterial": "18k yellow gold",
       "movement": "Calibre 777Q",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8126,7 +8126,7 @@
     "description": "Exceptionally thin dress watch at just 5.4mm in rose gold.",
     "specs": {
       "caseDiameter": "38mm",
-      "caseMaterial": "18K Rose Gold",
+      "caseMaterial": "18k rose gold",
       "movement": "Calibre 502.3",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8148,7 +8148,7 @@
     "description": "Grand complication perpetual calendar with moonphase in white gold.",
     "specs": {
       "caseDiameter": "39mm",
-      "caseMaterial": "18K White Gold",
+      "caseMaterial": "18k white gold",
       "movement": "Calibre 502.3 DRP1",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8215,7 +8215,7 @@
     "description": "Open-worked timepiece with retrograde seconds, inspired by subscription watches.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "18K White Gold",
+      "caseMaterial": "18k white gold",
       "movement": "Calibre 505 SR1",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8238,9 +8238,9 @@
     "description": "Hand-wound chronograph with independently mounted mechanism visible through dial.",
     "specs": {
       "caseDiameter": "44mm",
-      "caseMaterial": "18K Rose Gold",
+      "caseMaterial": "18k rose gold",
       "movement": "Calibre 580DR",
-      "movementType": "Manual",
+      "movementType": "Manual winding",
       "crystal": "Sapphire",
       "dialColor": "Silver Guilloché",
       "waterResistance": "30m",
@@ -8260,7 +8260,7 @@
     "description": "Modern reinterpretation of the legendary military chronograph for the French Naval Aviation.",
     "specs": {
       "caseDiameter": "42mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Calibre 728",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8283,7 +8283,7 @@
     "description": "Flagship diver with in-house Calibre 400, 5-day power reserve and 10-year warranty.",
     "specs": {
       "caseDiameter": "43.5mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Oris Calibre 400",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8305,7 +8305,7 @@
     "description": "Mid-size Aquis with in-house Calibre 400 in a wearable 41.5mm case.",
     "specs": {
       "caseDiameter": "41.5mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Oris Calibre 400",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8327,7 +8327,7 @@
     "description": "Black-dial Aquis Calibre 400 with ceramic bezel insert.",
     "specs": {
       "caseDiameter": "41.5mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Oris Calibre 400",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8349,7 +8349,7 @@
     "description": "Vintage-inspired 40mm diver based on the original 1965 design with domed crystal.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Oris Calibre 733",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8393,7 +8393,7 @@
     "description": "Chronograph variant with bi-compax layout and vintage diver styling.",
     "specs": {
       "caseDiameter": "40mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Oris Calibre 771",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8414,7 +8414,7 @@
     "description": "Aviation watch with oversized date and coin-edged bezel.",
     "specs": {
       "caseDiameter": "41mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Oris Calibre 751",
       "movementType": "Automatic",
       "crystal": "Sapphire",
@@ -8436,7 +8436,7 @@
     "description": "Flagship ProPilot with oversized day and date windows.",
     "specs": {
       "caseDiameter": "45mm",
-      "caseMaterial": "Stainless Steel",
+      "caseMaterial": "Stainless steel",
       "movement": "Oris Calibre 752",
       "movementType": "Automatic",
       "crystal": "Sapphire",

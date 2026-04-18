@@ -10,7 +10,7 @@ function getSupabaseClient(): SupabaseClient | null {
   return createClient(url, key);
 }
 
-type Tab = 'watches' | 'brands' | 'groups' | 'blog';
+type Tab = 'watches' | 'brands' | 'groups' | 'blog' | 'corrections';
 
 interface Watch {
   id?: number;
@@ -34,6 +34,19 @@ interface Watch {
   price: string;
   year_introduced: number | null;
   image_source: string;
+}
+
+interface Correction {
+  id: number;
+  brand_slug: string;
+  watch_reference: string;
+  watch_name: string;
+  field_name: string;
+  current_value: string | null;
+  correct_value: string;
+  reporter_note: string | null;
+  status: string;
+  created_at: string;
 }
 
 interface Brand {
@@ -68,6 +81,7 @@ export default function AdminPage() {
   const [brands, setBrands] = useState<Brand[]>([]);
   const [editing, setEditing] = useState<Watch | null>(null);
   const [editingBrand, setEditingBrand] = useState<Brand | null>(null);
+  const [corrections, setCorrections] = useState<Correction[]>([]);
   const [search, setSearch] = useState('');
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
@@ -81,12 +95,14 @@ export default function AdminPage() {
     const client = getSupabaseClient();
     if (!client) return showMessage('Supabase not configured. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY.');
     setLoading(true);
-    const [{ data: w }, { data: b }] = await Promise.all([
+    const [{ data: w }, { data: b }, { data: c }] = await Promise.all([
       client.from('watches').select('*').order('brand_slug').order('name'),
       client.from('brands').select('*').order('name'),
+      client.from('watch_corrections').select('*').order('created_at', { ascending: false }),
     ]);
     if (w) setWatches(w);
     if (b) setBrands(b);
+    if (c) setCorrections(c);
     setLoading(false);
   }, []);
 
@@ -169,7 +185,7 @@ export default function AdminPage() {
       <div className="bg-gray-900 text-white px-6 py-4 flex items-center justify-between">
         <h1 className="text-lg font-bold">Watchpedia Admin</h1>
         <div className="flex items-center gap-4">
-          <span className="text-sm text-gray-400">{watches.length} watches &middot; {brands.length} brands</span>
+          <span className="text-sm text-gray-400">{watches.length} watches &middot; {brands.length} brands &middot; {corrections.filter(c => c.status === 'pending').length} pending corrections</span>
           <button onClick={() => setAuthed(false)} className="text-sm text-gray-400 hover:text-white">Logout</button>
         </div>
       </div>
@@ -184,7 +200,7 @@ export default function AdminPage() {
       {/* Tabs */}
       <div className="border-b bg-white px-6">
         <div className="flex gap-6">
-          {(['watches', 'brands', 'groups', 'blog'] as Tab[]).map(t => (
+          {(['watches', 'brands', 'groups', 'blog', 'corrections'] as Tab[]).map(t => (
             <button
               key={t}
               onClick={() => setTab(t)}
@@ -313,6 +329,11 @@ export default function AdminPage() {
             <p className="text-sm mt-1">Coming soon — write SEO-optimized posts about watches</p>
           </div>
         )}
+
+        {/* === CORRECTIONS TAB === */}
+        {tab === 'corrections' && (
+          <CorrectionsPanel corrections={corrections} onUpdate={loadData} showMessage={showMessage} />
+        )}
       </div>
     </div>
   );
@@ -409,10 +430,12 @@ function WatchForm({ watch, brands, onSave, onCancel }: {
             className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="Automatic">Automatic</option>
-            <option value="Manual">Manual</option>
+            <option value="Manual winding">Manual winding</option>
             <option value="Quartz">Quartz</option>
-            <option value="Solar">Solar</option>
+            <option value="Solar quartz">Solar quartz</option>
             <option value="Spring Drive">Spring Drive</option>
+            <option value="Meca-Quartz">Meca-Quartz</option>
+            <option value="Quartz (digital)">Quartz (digital)</option>
           </select>
         </div>
         <Field label="Crystal" value={form.crystal} onChange={v => set('crystal', v)} />
@@ -557,6 +580,114 @@ function Field({ label, value, onChange }: { label: string; value: string; onCha
         onChange={e => onChange(e.target.value)}
         className="w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
+    </div>
+  );
+}
+
+// === CORRECTIONS PANEL ===
+function CorrectionsPanel({ corrections, onUpdate, showMessage }: {
+  corrections: Correction[];
+  onUpdate: () => void;
+  showMessage: (msg: string) => void;
+}) {
+  const client = getSupabaseClient();
+  const pending = corrections.filter(c => c.status === 'pending');
+  const reviewed = corrections.filter(c => c.status !== 'pending');
+
+  async function updateStatus(id: number, status: string) {
+    if (!client) return;
+    const { error } = await client.from('watch_corrections').update({ status }).eq('id', id);
+    if (error) return showMessage('Error: ' + error.message);
+    showMessage('Correction marked as ' + status);
+    onUpdate();
+  }
+
+  if (corrections.length === 0) {
+    return (
+      <div className="text-center py-16 text-gray-400">
+        <p className="text-lg font-medium">No corrections yet</p>
+        <p className="text-sm mt-1">User-submitted spec corrections will appear here</p>
+      </div>
+    );
+  }
+
+  function CorrectionRow({ c }: { c: Correction }) {
+    return (
+      <tr className="hover:bg-gray-50">
+        <td className="px-4 py-3">
+          <p className="font-medium text-sm">{c.watch_name}</p>
+          <p className="text-xs text-gray-400">{c.brand_slug} &middot; {c.watch_reference}</p>
+        </td>
+        <td className="px-4 py-3 text-sm text-gray-600">{c.field_name}</td>
+        <td className="px-4 py-3">
+          {c.current_value && <p className="text-xs text-gray-400 line-through">{c.current_value}</p>}
+          <p className="text-sm font-medium text-green-700">{c.correct_value}</p>
+        </td>
+        <td className="px-4 py-3 text-xs text-gray-500 max-w-xs">{c.reporter_note || '—'}</td>
+        <td className="px-4 py-3 text-xs text-gray-400">{new Date(c.created_at).toLocaleDateString()}</td>
+        <td className="px-4 py-3">
+          {c.status === 'pending' ? (
+            <div className="flex gap-2">
+              <button onClick={() => updateStatus(c.id, 'applied')} className="text-xs text-green-600 hover:underline">Applied</button>
+              <button onClick={() => updateStatus(c.id, 'dismissed')} className="text-xs text-red-500 hover:underline">Dismiss</button>
+            </div>
+          ) : (
+            <span className={`text-xs px-2 py-0.5 rounded-full ${c.status === 'applied' ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-500'}`}>
+              {c.status}
+            </span>
+          )}
+        </td>
+      </tr>
+    );
+  }
+
+  return (
+    <div>
+      {pending.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-sm font-semibold text-gray-700 mb-3">Pending ({pending.length})</h2>
+          <div className="bg-white rounded-xl border overflow-hidden">
+            <table className="w-full text-sm">
+              <thead className="bg-gray-50 border-b">
+                <tr>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Watch</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Field</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Correction</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Note</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Date</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Action</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y">
+                {pending.map(c => <CorrectionRow key={c.id} c={c} />)}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {reviewed.length > 0 && (
+        <div>
+          <h2 className="text-sm font-semibold text-gray-400 mb-3">Reviewed ({reviewed.length})</h2>
+          <div className="bg-white rounded-xl border overflow-hidden opacity-60">
+            <table className="w-full text-sm">
+              <thead className="bg-gray-50 border-b">
+                <tr>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Watch</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Field</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Correction</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Note</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Date</th>
+                  <th className="text-left px-4 py-3 font-medium text-gray-500">Status</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y">
+                {reviewed.map(c => <CorrectionRow key={c.id} c={c} />)}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
