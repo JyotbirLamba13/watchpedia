@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import type { Watch, Brand } from '@/types';
 import ImageZoom from './ImageZoom';
+import MarketPrice from './MarketPrice';
 
 export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Brand }) {
   const { specs } = watch;
@@ -46,13 +47,12 @@ export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Br
         <InfoRow label="Dial" value={specs.dialColor} />
         {specs.waterResistance && <InfoRow label="Water Res." value={specs.waterResistance} />}
         {specs.powerReserve && <InfoRow label="Power Reserve" value={specs.powerReserve} />}
-        {specs.price && (
-          <div className="flex justify-between items-center px-5 py-2.5 bg-wp-cream">
-            <span className="text-xs text-wp-muted">Approx. Price</span>
-            <span className="text-sm font-semibold text-wp-dark">{specs.price}</span>
-          </div>
-        )}
         {specs.yearIntroduced && <InfoRow label="Introduced" value={String(specs.yearIntroduced)} />}
+      </div>
+
+      {/* Dynamic market price */}
+      <div className="p-3 border-t border-wp-border/40">
+        <MarketPrice reference={watch.reference} msrp={specs.price} />
       </div>
     </div>
   );

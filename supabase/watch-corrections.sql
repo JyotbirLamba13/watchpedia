@@ -23,3 +23,18 @@ CREATE POLICY "Service read corrections" ON watch_corrections
 
 CREATE POLICY "Service update corrections" ON watch_corrections
   FOR UPDATE USING (true);
+
+
+-- Market prices table (run this too)
+CREATE TABLE IF NOT EXISTS watch_market_prices (
+  reference TEXT NOT NULL,
+  brand_slug TEXT NOT NULL,
+  market_price TEXT,
+  price_source TEXT,
+  refreshed_at TIMESTAMPTZ DEFAULT NOW(),
+  PRIMARY KEY (reference, brand_slug)
+);
+
+ALTER TABLE watch_market_prices ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Public read prices" ON watch_market_prices FOR SELECT USING (true);
+CREATE POLICY "Service write prices" ON watch_market_prices FOR ALL USING (true);
