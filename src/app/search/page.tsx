@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, Suspense } from 'react';
+import { useState, useMemo, Suspense, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
@@ -9,15 +9,22 @@ import watchesData from '@/data/watches.json';
 import groupsData from '@/data/groups.json';
 import countriesData from '@/data/countries.json';
 
+interface BlogEntry {
+  slug: string;
+  title: string;
+  excerpt: string | null;
+  tags: string[];
+}
+
 interface SearchEntry {
   title: string;
   subtitle: string;
   url: string;
-  type: 'brand' | 'watch' | 'group' | 'country';
+  type: 'brand' | 'watch' | 'group' | 'country' | 'blog';
   keywords: string;
 }
 
-function buildSearchIndex(): SearchEntry[] {
+function buildSearchIndex(blogs: BlogEntry[]): SearchEntry[] {
   const index: SearchEntry[] = [];
 
   for (const brand of brandsData) {
@@ -61,6 +68,16 @@ function buildSearchIndex(): SearchEntry[] {
     });
   }
 
+  for (const post of blogs) {
+    index.push({
+      title: post.title,
+      subtitle: post.tags.join(' · ') || 'Blog',
+      url: `/blog/${post.slug}`,
+      type: 'blog',
+      keywords: `${post.title} ${post.excerpt ?? ''} ${post.tags.join(' ')}`.toLowerCase(),
+    });
+  }
+
   return index;
 }
 
@@ -69,14 +86,23 @@ const typeBadge: Record<string, { label: string; class: string }> = {
   watch: { label: 'Watch', class: 'bg-wp-gold text-white' },
   group: { label: 'Group', class: 'bg-wp-charcoal text-white' },
   country: { label: 'Country', class: 'bg-wp-muted text-white' },
+  blog: { label: 'Blog', class: 'bg-blue-600 text-white' },
 };
 
 function SearchContent() {
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get('q') ?? '';
   const [query, setQuery] = useState(initialQuery);
+  const [blogs, setBlogs] = useState<BlogEntry[]>([]);
 
-  const searchIndex = useMemo(() => buildSearchIndex(), []);
+  useEffect(() => {
+    fetch('/api/blog-search')
+      .then((r) => r.json())
+      .then((data) => setBlogs(data))
+      .catch(() => {});
+  }, []);
+
+  const searchIndex = useMemo(() => buildSearchIndex(blogs), [blogs]);
 
   const results = useMemo(() => {
     const q = query.toLowerCase().trim();
@@ -94,7 +120,7 @@ function SearchContent() {
       <div className="relative mb-8">
         <input
           type="search"
-          placeholder="Search watches, brands, collections..."
+          placeholder="Search watches, brands, blogs..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           autoFocus
@@ -145,7 +171,7 @@ function SearchContent() {
         <div className="text-center py-20">
           <p className="font-display text-xl text-wp-dark mb-2">Start typing to search</p>
           <p className="text-sm text-wp-muted">
-            {searchIndex.length} entries across brands, watches, groups, and countries.
+            {searchIndex.length} entries across brands, watches, groups, countries and blogs.
           </p>
         </div>
       )}
