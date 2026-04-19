@@ -312,7 +312,7 @@
     "brandSlug": "omega",
     "name": "Speedmaster Moonwatch Professional",
     "collection": "Speedmaster",
-    "description": "The legendary Moonwatch — first watch worn on the Moon during Apollo 11. Features the manually wound calibre 3861, Master Chronometer certified with Hesalite crystal.",
+    "description": "The legendary Moonwatch \u2014 first watch worn on the Moon during Apollo 11. Features the manually wound calibre 3861, Master Chronometer certified with Hesalite crystal.",
     "featured": true,
     "specs": {
       "movement": "Calibre 3861",
@@ -741,7 +741,7 @@
     "brandSlug": "patek-philippe",
     "name": "World Time",
     "collection": "Complications",
-    "description": "Displays all 24 time zones simultaneously with cloisonné enamel dial depicting a map of the world. One of the most beautiful complications in the Patek collection.",
+    "description": "Displays all 24 time zones simultaneously with cloisonn\u00e9 enamel dial depicting a map of the world. One of the most beautiful complications in the Patek collection.",
     "specs": {
       "movement": "Calibre 240 HU",
       "movementType": "Automatic",
@@ -750,7 +750,7 @@
       "caseThickness": "10.23mm",
       "waterResistance": "30m",
       "crystal": "Sapphire",
-      "dialColor": "Cloisonné enamel",
+      "dialColor": "Cloisonn\u00e9 enamel",
       "strapMaterial": "Alligator leather strap",
       "powerReserve": "48 hours",
       "frequency": "21,600 vph",
@@ -1250,7 +1250,7 @@
       "caseThickness": "12.1mm",
       "waterResistance": "30m",
       "crystal": "Sapphire",
-      "dialColor": "Silver guilloché",
+      "dialColor": "Silver guilloch\u00e9",
       "strapMaterial": "Stainless steel bracelet",
       "powerReserve": "40 hours",
       "frequency": "28,800 vph",
@@ -1266,9 +1266,9 @@
     "reference": "WSPN0007",
     "slug": "wspn0007",
     "brandSlug": "cartier",
-    "name": "Panthère de Cartier",
-    "collection": "Panthère",
-    "description": "Relaunched in 2017, the Panthère is a jewelry watch icon from the 1980s. Art Deco-inspired square case with soft chain-link bracelet.",
+    "name": "Panth\u00e8re de Cartier",
+    "collection": "Panth\u00e8re",
+    "description": "Relaunched in 2017, the Panth\u00e8re is a jewelry watch icon from the 1980s. Art Deco-inspired square case with soft chain-link bracelet.",
     "specs": {
       "movement": "Quartz",
       "movementType": "Quartz",
@@ -1789,7 +1789,7 @@
     "brandSlug": "grand-seiko",
     "name": "Heritage Spring Drive GMT",
     "collection": "Heritage",
-    "description": "GMT function with Spring Drive accuracy of ±1 second per day. Features the 9R66 calibre with independent hour hand for easy timezone changes.",
+    "description": "GMT function with Spring Drive accuracy of \u00b11 second per day. Features the 9R66 calibre with independent hour hand for easy timezone changes.",
     "specs": {
       "movement": "Calibre 9R66 Spring Drive",
       "movementType": "Spring Drive",
@@ -3204,7 +3204,7 @@
     "brandSlug": "citizen",
     "name": "Promaster Diver Eco-Drive",
     "collection": "Promaster",
-    "description": "One of the most popular affordable dive watches. Eco-Drive technology converts any light into energy — never needs a battery change. ISO 6425 certified.",
+    "description": "One of the most popular affordable dive watches. Eco-Drive technology converts any light into energy \u2014 never needs a battery change. ISO 6425 certified.",
     "specs": {
       "movement": "Eco-Drive E168",
       "movementType": "Solar quartz",
@@ -3933,7 +3933,7 @@
     "brandSlug": "zenith",
     "name": "Chronomaster Original",
     "collection": "Chronomaster",
-    "description": "Houses the legendary El Primero — world's first automatic chronograph, beating at 36,000 vph for 1/10th second precision. Tri-color dial homage to 1969 original.",
+    "description": "Houses the legendary El Primero \u2014 world's first automatic chronograph, beating at 36,000 vph for 1/10th second precision. Tri-color dial homage to 1969 original.",
     "specs": {
       "movement": "El Primero 3600",
       "movementType": "Automatic",
@@ -4413,7 +4413,7 @@
       "caseThickness": "9.8mm",
       "waterResistance": "30m",
       "crystal": "Sapphire",
-      "dialColor": "Silver argenté",
+      "dialColor": "Silver argent\u00e9",
       "strapMaterial": "Alligator leather strap",
       "powerReserve": "72 hours",
       "frequency": "21,600 vph",
@@ -4433,7 +4433,7 @@
     "brandSlug": "a-lange-sohne",
     "name": "Saxonia Thin",
     "collection": "Saxonia",
-    "description": "The thinnest A. Lange & Söhne at just 5.9mm. Minimalist two-hand design showcasing the brand's impeccable finishing in its purest form.",
+    "description": "The thinnest A. Lange & S\u00f6hne at just 5.9mm. Minimalist two-hand design showcasing the brand's impeccable finishing in its purest form.",
     "specs": {
       "movement": "Calibre L093.1",
       "movementType": "Manual winding",
@@ -4740,7 +4740,7 @@
     "brandSlug": "nomos-glashutte",
     "name": "Tangente 38",
     "collection": "Tangente",
-    "description": "The quintessential Bauhaus watch. Clean, minimal, and perfectly proportioned. In-house Alpha calibre with Glashütte striping and blued screws.",
+    "description": "The quintessential Bauhaus watch. Clean, minimal, and perfectly proportioned. In-house Alpha calibre with Glash\u00fctte striping and blued screws.",
     "specs": {
       "movement": "Alpha",
       "movementType": "Manual winding",
@@ -5805,7 +5805,7 @@
     "brandSlug": "piaget",
     "name": "Altiplano Ultimate Automatic",
     "collection": "Altiplano",
-    "description": "The benchmark for ultra-thin watchmaking. Just 4.30mm total thickness — the movement and case are integrated as one, with the caseback serving as the mainplate.",
+    "description": "The benchmark for ultra-thin watchmaking. Just 4.30mm total thickness \u2014 the movement and case are integrated as one, with the caseback serving as the mainplate.",
     "specs": {
       "movement": "Calibre 910P",
       "movementType": "Automatic",
@@ -6627,7 +6627,7 @@
       "waterResistance": "None",
       "crystal": "Acrylic",
       "dialColor": "White",
-      "price": "₹550",
+      "price": "\u20b9550",
       "yearIntroduced": 1961,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6650,7 +6650,7 @@
       "waterResistance": "None",
       "crystal": "Acrylic",
       "dialColor": "Black",
-      "price": "₹750",
+      "price": "\u20b9750",
       "yearIntroduced": 1963,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6673,7 +6673,7 @@
       "waterResistance": "None",
       "crystal": "Acrylic",
       "dialColor": "Champagne",
-      "price": "₹850",
+      "price": "\u20b9850",
       "yearIntroduced": 1970,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6696,7 +6696,7 @@
       "waterResistance": "None",
       "crystal": "Acrylic",
       "dialColor": "Silver",
-      "price": "₹650",
+      "price": "\u20b9650",
       "yearIntroduced": 1975,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6719,7 +6719,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "Silver",
-      "price": "₹1,200",
+      "price": "\u20b91,200",
       "yearIntroduced": 1985,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6742,7 +6742,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Dark Green",
-      "price": "₹12,999",
+      "price": "\u20b912,999",
       "yearIntroduced": 2022,
       "powerReserve": "42 hours",
       "frequency": "21,600 vph"
@@ -6765,7 +6765,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "Cream",
-      "price": "₹4,999",
+      "price": "\u20b94,999",
       "yearIntroduced": 2021,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -6788,7 +6788,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "Blue",
-      "price": "₹4,999",
+      "price": "\u20b94,999",
       "yearIntroduced": 2021,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -6811,7 +6811,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Copper",
-      "price": "₹14,999",
+      "price": "\u20b914,999",
       "yearIntroduced": 2023,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -6834,7 +6834,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Blue Gradient",
-      "price": "₹14,999",
+      "price": "\u20b914,999",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -6857,7 +6857,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Gold Textured",
-      "price": "₹16,999",
+      "price": "\u20b916,999",
       "yearIntroduced": 2024,
       "powerReserve": "42 hours",
       "frequency": "21,600 vph"
@@ -6869,7 +6869,7 @@
     "brandSlug": "coromandel-watch-company",
     "name": "Varnam Emerald Green",
     "collection": "Varnam",
-    "description": "The Varnam (\"Color\") collection features dials inspired by South Indian nature. The Emerald Green variant draws from the lush forests of the Western Ghats, with a rich green fumé dial and polished applied indices.",
+    "description": "The Varnam (\"Color\") collection features dials inspired by South Indian nature. The Emerald Green variant draws from the lush forests of the Western Ghats, with a rich green fum\u00e9 dial and polished applied indices.",
     "image": "https://coromandelwatchco.com/cdn/shop/files/IMG_3141.jpg?v=1760073740&width=1200",
     "specs": {
       "movement": "Miyota 8215",
@@ -6880,7 +6880,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Emerald Green",
-      "price": "₹12,999",
+      "price": "\u20b912,999",
       "yearIntroduced": 2024,
       "powerReserve": "42 hours",
       "frequency": "21,600 vph"
@@ -6903,7 +6903,7 @@
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Deep Blue",
-      "price": "₹15,999",
+      "price": "\u20b915,999",
       "yearIntroduced": 2024,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -6926,7 +6926,7 @@
       "waterResistance": "None",
       "crystal": "Acrylic",
       "dialColor": "Black",
-      "price": "₹650",
+      "price": "\u20b9650",
       "yearIntroduced": 1965,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6949,7 +6949,7 @@
       "waterResistance": "None",
       "crystal": "Acrylic",
       "dialColor": "White",
-      "price": "₹550",
+      "price": "\u20b9550",
       "yearIntroduced": 1978,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6972,7 +6972,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "Blue",
-      "price": "₹1,100",
+      "price": "\u20b91,100",
       "yearIntroduced": 1982,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -6995,7 +6995,7 @@
       "waterResistance": "None",
       "crystal": "Acrylic",
       "dialColor": "Black",
-      "price": "₹700",
+      "price": "\u20b9700",
       "yearIntroduced": 1972,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -7018,7 +7018,7 @@
       "waterResistance": "None",
       "crystal": "Mineral",
       "dialColor": "Blue Gradient",
-      "price": "₹800",
+      "price": "\u20b9800",
       "yearIntroduced": 1990,
       "powerReserve": "40 hours",
       "frequency": "18,000 vph"
@@ -7041,7 +7041,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "White",
-      "price": "₹5,499",
+      "price": "\u20b95,499",
       "yearIntroduced": 2025,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7064,7 +7064,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Black",
-      "price": "₹16,999",
+      "price": "\u20b916,999",
       "yearIntroduced": 2025,
       "powerReserve": "42 hours",
       "frequency": "28,800 vph"
@@ -7087,7 +7087,7 @@
       "waterResistance": "200m",
       "crystal": "Sapphire",
       "dialColor": "Blue",
-      "price": "₹8,999",
+      "price": "\u20b98,999",
       "yearIntroduced": 2024,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -7110,7 +7110,7 @@
       "waterResistance": "200m",
       "crystal": "Sapphire",
       "dialColor": "Black",
-      "price": "₹11,999",
+      "price": "\u20b911,999",
       "yearIntroduced": 2024,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -7122,7 +7122,7 @@
     "brandSlug": "delhi-watch-company",
     "name": "Triple Crown",
     "collection": "Triple Crown",
-    "description": "A motorsport-inspired chronograph celebrating the Triple Crown of racing — the F1 Championship, Indianapolis 500, and Le Mans 24 Hours. Features a meca-quartz chronograph on a rally leather strap.",
+    "description": "A motorsport-inspired chronograph celebrating the Triple Crown of racing \u2014 the F1 Championship, Indianapolis 500, and Le Mans 24 Hours. Features a meca-quartz chronograph on a rally leather strap.",
     "image": "https://delhiwatchcompany.com/cdn/shop/files/Screenshot2025-11-11at8.33.12PM.png?v=1762873439&width=1200",
     "specs": {
       "movement": "Seiko VK63",
@@ -7133,7 +7133,7 @@
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "White",
-      "price": "₹5,999",
+      "price": "\u20b95,999",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7156,7 +7156,7 @@
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Black",
-      "price": "₹10,999",
+      "price": "\u20b910,999",
       "yearIntroduced": 2024,
       "powerReserve": "70 hours",
       "frequency": "21,600 vph"
@@ -7179,7 +7179,7 @@
       "waterResistance": "30m",
       "crystal": "SCHOTT Glass",
       "dialColor": "Black",
-      "price": "₹3,999",
+      "price": "\u20b93,999",
       "yearIntroduced": 2025,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7202,7 +7202,7 @@
       "waterResistance": "100m",
       "crystal": "Sapphire with AR coating",
       "dialColor": "Silver Sunburst",
-      "price": "₹8,000",
+      "price": "\u20b98,000",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7225,7 +7225,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire with AR coating",
       "dialColor": "Blue",
-      "price": "₹8,500",
+      "price": "\u20b98,500",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7248,7 +7248,7 @@
       "waterResistance": "30m",
       "crystal": "Sapphire",
       "dialColor": "Brown",
-      "price": "₹5,000",
+      "price": "\u20b95,000",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7271,7 +7271,7 @@
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Blue",
-      "price": "₹9,750",
+      "price": "\u20b99,750",
       "yearIntroduced": 2025,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -7294,7 +7294,7 @@
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Black",
-      "price": "₹10,500",
+      "price": "\u20b910,500",
       "yearIntroduced": 2025,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -7317,7 +7317,7 @@
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Ice Blue",
-      "price": "₹10,500",
+      "price": "\u20b910,500",
       "yearIntroduced": 2025,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -7340,7 +7340,7 @@
       "waterResistance": "200m",
       "crystal": "Sapphire (domed)",
       "dialColor": "Deep Blue",
-      "price": "₹11,000",
+      "price": "\u20b911,000",
       "yearIntroduced": 2025,
       "powerReserve": "50 hours",
       "frequency": "21,600 vph"
@@ -7363,7 +7363,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Blue",
-      "price": "₹9,500",
+      "price": "\u20b99,500",
       "yearIntroduced": 2024,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -7386,7 +7386,7 @@
       "waterResistance": "50m",
       "crystal": "Sapphire",
       "dialColor": "Earth Tone",
-      "price": "₹9,000",
+      "price": "\u20b99,000",
       "yearIntroduced": 2025,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
@@ -7409,7 +7409,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "Emerald Green",
-      "price": "₹4,000",
+      "price": "\u20b94,000",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7432,7 +7432,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "Purple",
-      "price": "₹4,000",
+      "price": "\u20b94,000",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7455,7 +7455,7 @@
       "waterResistance": "30m",
       "crystal": "Mineral",
       "dialColor": "Salmon",
-      "price": "₹4,000",
+      "price": "\u20b94,000",
       "yearIntroduced": 2024,
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7478,7 +7478,7 @@
       "crystal": "Sapphire",
       "dialColor": "Black",
       "waterResistance": "30m",
-      "price": "₹23,995",
+      "price": "\u20b923,995",
       "caseThickness": "4.4mm",
       "yearIntroduced": 2020,
       "powerReserve": "N/A",
@@ -7502,7 +7502,7 @@
       "crystal": "Sapphire",
       "dialColor": "Green",
       "waterResistance": "30m",
-      "price": "₹23,995",
+      "price": "\u20b923,995",
       "caseThickness": "4.4mm",
       "yearIntroduced": 2022,
       "powerReserve": "N/A",
@@ -7526,7 +7526,7 @@
       "crystal": "Sapphire",
       "dialColor": "Blue",
       "waterResistance": "30m",
-      "price": "₹23,995",
+      "price": "\u20b923,995",
       "caseThickness": "4.4mm",
       "yearIntroduced": 2022,
       "powerReserve": "N/A",
@@ -7550,7 +7550,7 @@
       "crystal": "Mineral",
       "dialColor": "Blue",
       "waterResistance": "50m",
-      "price": "₹7,495",
+      "price": "\u20b97,495",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7572,7 +7572,7 @@
       "crystal": "Mineral",
       "dialColor": "Blue",
       "waterResistance": "30m",
-      "price": "₹4,495",
+      "price": "\u20b94,495",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7594,7 +7594,7 @@
       "crystal": "Mineral",
       "dialColor": "Brown",
       "waterResistance": "50m",
-      "price": "₹9,995",
+      "price": "\u20b99,995",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7616,7 +7616,7 @@
       "crystal": "Mineral",
       "dialColor": "Black",
       "waterResistance": "50m",
-      "price": "₹14,995",
+      "price": "\u20b914,995",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7638,7 +7638,7 @@
       "crystal": "Mineral",
       "dialColor": "Black",
       "waterResistance": "50m",
-      "price": "₹7,995",
+      "price": "\u20b97,995",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7660,7 +7660,7 @@
       "crystal": "Mineral",
       "dialColor": "Black",
       "waterResistance": "50m",
-      "price": "₹5,995",
+      "price": "\u20b95,995",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7682,7 +7682,7 @@
       "crystal": "Sapphire",
       "dialColor": "Anthracite",
       "waterResistance": "30m",
-      "price": "₹11,995",
+      "price": "\u20b911,995",
       "caseThickness": "5.5mm",
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7705,7 +7705,7 @@
       "crystal": "Mineral",
       "dialColor": "Anthracite",
       "waterResistance": "100m",
-      "price": "₹11,995",
+      "price": "\u20b911,995",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7727,7 +7727,7 @@
       "crystal": "Mineral",
       "dialColor": "Green",
       "waterResistance": "100m",
-      "price": "₹9,995",
+      "price": "\u20b99,995",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7749,7 +7749,7 @@
       "crystal": "Sapphire",
       "dialColor": "Silver",
       "waterResistance": "30m",
-      "price": "₹9,995",
+      "price": "\u20b99,995",
       "caseThickness": "5.5mm",
       "powerReserve": "N/A",
       "frequency": "N/A"
@@ -7772,7 +7772,7 @@
       "crystal": "Mineral",
       "dialColor": "Rose Gold",
       "waterResistance": "30m",
-      "price": "₹4,495",
+      "price": "\u20b94,495",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -7794,7 +7794,7 @@
       "crystal": "Mineral",
       "dialColor": "White",
       "waterResistance": "100m",
-      "price": "₹8,995",
+      "price": "\u20b98,995",
       "powerReserve": "N/A",
       "frequency": "N/A"
     }
@@ -8312,7 +8312,7 @@
       "movement": "Calibre 777Q",
       "movementType": "Automatic",
       "crystal": "Sapphire",
-      "dialColor": "Silver Guilloché",
+      "dialColor": "Silver Guilloch\u00e9",
       "waterResistance": "30m",
       "price": "~$34,100",
       "caseThickness": "8.8mm",
@@ -8337,7 +8337,7 @@
       "movement": "Calibre 502.3",
       "movementType": "Automatic",
       "crystal": "Sapphire",
-      "dialColor": "Silver Guilloché",
+      "dialColor": "Silver Guilloch\u00e9",
       "waterResistance": "30m",
       "price": "~$16,900",
       "caseThickness": "5.4mm",
@@ -8362,7 +8362,7 @@
       "movement": "Calibre 502.3 DRP1",
       "movementType": "Automatic",
       "crystal": "Sapphire",
-      "dialColor": "Silver Guilloché",
+      "dialColor": "Silver Guilloch\u00e9",
       "waterResistance": "30m",
       "price": "~$68,000",
       "caseThickness": "9.05mm",
@@ -8437,7 +8437,7 @@
       "movement": "Calibre 505 SR1",
       "movementType": "Automatic",
       "crystal": "Sapphire",
-      "dialColor": "Silver Guilloché",
+      "dialColor": "Silver Guilloch\u00e9",
       "waterResistance": "30m",
       "price": "~$42,500",
       "caseThickness": "11.65mm",
@@ -8462,7 +8462,7 @@
       "movement": "Calibre 580DR",
       "movementType": "Manual winding",
       "crystal": "Sapphire",
-      "dialColor": "Silver Guilloché",
+      "dialColor": "Silver Guilloch\u00e9",
       "waterResistance": "30m",
       "price": "~$68,600",
       "caseThickness": "13.95mm",
@@ -8705,10 +8705,4903 @@
       "waterResistance": "100m",
       "crystal": "Sapphire",
       "dialColor": "Black Honeycomb",
-      "price": "₹6,999",
+      "price": "\u20b96,999",
       "yearIntroduced": 2024,
       "powerReserve": "41.5 hours",
       "frequency": "21,600 vph"
     }
+  },
+  {
+    "reference": "126200",
+    "slug": "126200",
+    "brandSlug": "rolex",
+    "name": "Datejust 36",
+    "collection": "Datejust",
+    "description": "The classic 36mm Datejust in Oystersteel with fluted bezel and jubilee bracelet.",
+    "image": "https://cdn.watchbase.com/watch/lg/rolex/datejust/126200-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3235",
+      "movementType": "Automatic",
+      "caseMaterial": "Oystersteel",
+      "caseDiameter": "36mm",
+      "caseThickness": "12mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Jubilee bracelet",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$7,150",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "326934",
+    "slug": "326934",
+    "brandSlug": "rolex",
+    "name": "Sky-Dweller Rolesor",
+    "collection": "Sky-Dweller",
+    "description": "World traveller watch with annual calendar and dual time zone on Rolesor case.",
+    "image": "https://cdn.watchbase.com/watch/lg/rolex/sky-dweller/326934-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 9001",
+      "movementType": "Automatic",
+      "caseMaterial": "Rolesor (Oystersteel and yellow gold)",
+      "caseDiameter": "42mm",
+      "caseThickness": "14.3mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Oyster bracelet",
+      "powerReserve": "72 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Annual calendar",
+        "Dual time zone",
+        "Month indicator"
+      ],
+      "price": "~$19,500",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "50505",
+    "slug": "50505",
+    "brandSlug": "rolex",
+    "name": "Cellini Time",
+    "collection": "Cellini",
+    "description": "Elegant dress watch in 18ct white gold with clean dial and leather strap.",
+    "image": "https://cdn.watchbase.com/watch/lg/rolex/cellini/50505-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3132",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "39mm",
+      "caseThickness": "11mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire (double dome)",
+      "dialColor": "White",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "55 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$21,000",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "126711CHNR",
+    "slug": "126711chnr",
+    "brandSlug": "rolex",
+    "name": "GMT-Master II Sprite",
+    "collection": "GMT-Master II",
+    "description": "Two-tone GMT with green and black ceramic Cerachrom bezel on Rolesor.",
+    "image": "https://cdn.watchbase.com/watch/lg/rolex/gmt-master/126711chnr-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3285",
+      "movementType": "Automatic",
+      "caseMaterial": "Rolesor (Oystersteel and yellow gold)",
+      "caseDiameter": "40mm",
+      "caseThickness": "12mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Jubilee bracelet",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "GMT",
+        "Date"
+      ],
+      "price": "~$16,450",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "124300",
+    "slug": "124300",
+    "brandSlug": "rolex",
+    "name": "Oyster Perpetual 41",
+    "collection": "Oyster Perpetual",
+    "description": "Pure, no-complications Rolex in Oystersteel with vivid lacquer dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/rolex/oyster-perpetual/124300-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3230",
+      "movementType": "Automatic",
+      "caseMaterial": "Oystersteel",
+      "caseDiameter": "41mm",
+      "caseThickness": "11.7mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Turquoise",
+      "strapMaterial": "Oyster bracelet",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$6,150",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "116400GV",
+    "slug": "116400gv",
+    "brandSlug": "rolex",
+    "name": "Milgauss GV",
+    "collection": "Milgauss",
+    "description": "Antimagnetic watch with Z-blue dial and green sapphire crystal.",
+    "image": "https://cdn.watchbase.com/watch/lg/rolex/milgauss/116400gv-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3131",
+      "movementType": "Automatic",
+      "caseMaterial": "Oystersteel",
+      "caseDiameter": "40mm",
+      "caseThickness": "12.9mm",
+      "waterResistance": "100m",
+      "crystal": "Green sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Oyster bracelet",
+      "powerReserve": "48 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$9,550",
+      "yearIntroduced": 2007
+    }
+  },
+  {
+    "reference": "131.10.39.20.01.001",
+    "slug": "131-10-39-20-01-001",
+    "brandSlug": "omega",
+    "name": "Constellation 39mm",
+    "collection": "Constellation",
+    "description": "Precision dress watch with distinctive claws and coaxial escapement.",
+    "image": "https://cdn.watchbase.com/watch/lg/omega/constellation/131-10-39-20-01-001-7e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 8800",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "39mm",
+      "caseThickness": "11.65mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "55 hours",
+      "frequency": "25,200 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$5,200",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "435.53.40.21.02.001",
+    "slug": "435-53-40-21-02-001",
+    "brandSlug": "omega",
+    "name": "De Ville Tr\u00e9sor",
+    "collection": "De Ville",
+    "description": "Ultra-slim manual-winding dress watch with guilloch\u00e9 dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/omega/de-ville/435-53-40-21-02-001-e7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 8928",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct Sedna gold",
+      "caseDiameter": "40mm",
+      "caseThickness": "8.04mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "60 hours",
+      "frequency": "25,200 vph",
+      "complications": [],
+      "price": "~$14,500",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "220.10.38.20.01.001",
+    "slug": "220-10-38-20-01-001",
+    "brandSlug": "omega",
+    "name": "Seamaster Aqua Terra 38mm",
+    "collection": "Seamaster",
+    "description": "Elegant water-resistant dress watch with teak pattern dial and bracelet.",
+    "image": "https://cdn.watchbase.com/watch/lg/omega/seamaster/220-10-38-20-01-001-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 8800",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "38mm",
+      "caseThickness": "11.4mm",
+      "waterResistance": "150m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "55 hours",
+      "frequency": "25,200 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$5,500",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "220.12.40.20.01.001",
+    "slug": "220-12-40-20-01-001",
+    "brandSlug": "omega",
+    "name": "Railmaster",
+    "collection": "Railmaster",
+    "description": "Anti-magnetic tool watch resistant to 15,000 gauss.",
+    "image": "https://cdn.watchbase.com/watch/lg/omega/railmaster/220-12-40-20-01-001-f5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 8806",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "11.5mm",
+      "waterResistance": "150m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "NATO strap",
+      "powerReserve": "55 hours",
+      "frequency": "25,200 vph",
+      "complications": [],
+      "price": "~$5,300",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "5107R-001",
+    "slug": "5107r-001",
+    "brandSlug": "patek-philippe",
+    "name": "Gondolo",
+    "collection": "Gondolo",
+    "description": "Art Deco rectangular dress watch in rose gold.",
+    "image": "https://cdn.watchbase.com/watch/lg/patek-philippe/gondolo/5107r-001-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 315",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct rose gold",
+      "caseDiameter": "41mm x 30mm",
+      "caseThickness": "8mm",
+      "waterResistance": "25m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "45 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$28,000",
+      "yearIntroduced": 1993
+    }
+  },
+  {
+    "reference": "4910/10A-011",
+    "slug": "4910-10a-011",
+    "brandSlug": "patek-philippe",
+    "name": "Twenty~4 Automatic",
+    "collection": "Twenty~4",
+    "description": "Ladies automatic in stainless steel with diamond set bezel.",
+    "image": "https://cdn.watchbase.com/watch/lg/patek-philippe/twenty-4/4910-10a-011-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 324 S C",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "36mm",
+      "caseThickness": "8.7mm",
+      "waterResistance": "25m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "45 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$22,000",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "5230G-010",
+    "slug": "5230g-010",
+    "brandSlug": "patek-philippe",
+    "name": "World Time",
+    "collection": "Complications",
+    "description": "Displays all 24 world time zones simultaneously with enamelled map of the world.",
+    "image": "https://cdn.watchbase.com/watch/lg/patek-philippe/complications/5230g-010-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 240 HU",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "38.5mm",
+      "caseThickness": "10.4mm",
+      "waterResistance": "25m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "48 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "World time",
+        "24-hour indicator"
+      ],
+      "price": "~$54,000",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "5396G-011",
+    "slug": "5396g-011",
+    "brandSlug": "patek-philippe",
+    "name": "Annual Calendar",
+    "collection": "Complications",
+    "description": "Annual calendar requiring one correction per year, in 18ct white gold.",
+    "image": "https://cdn.watchbase.com/watch/lg/patek-philippe/complications/5396g-011-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 324 S QA LU 24H",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "38.5mm",
+      "caseThickness": "10.26mm",
+      "waterResistance": "25m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "45 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Annual calendar",
+        "Moon phase",
+        "24-hour indicator"
+      ],
+      "price": "~$56,000",
+      "yearIntroduced": 2007
+    }
+  },
+  {
+    "reference": "15180OR.OO.A088CR.01",
+    "slug": "15180or-oo-a088cr-01",
+    "brandSlug": "audemars-piguet",
+    "name": "Jules Audemars Automatic",
+    "collection": "Jules Audemars",
+    "description": "Classic round dress watch in 18ct pink gold.",
+    "image": "https://cdn.watchbase.com/watch/lg/audemars-piguet/jules-audemars/15180or-oo-a088cr-01-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3120",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct pink gold",
+      "caseDiameter": "39mm",
+      "caseThickness": "9.6mm",
+      "waterResistance": "20m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "60 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$28,000",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "15350ST.OO.D002CR.01",
+    "slug": "15350st-oo-d002cr-01",
+    "brandSlug": "audemars-piguet",
+    "name": "Millenary 4101",
+    "collection": "Millenary",
+    "description": "Oval-cased watch with off-centre dial showing the movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/audemars-piguet/millenary/15350st-oo-d002cr-01-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4101",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "47mm x 42mm",
+      "caseThickness": "13.35mm",
+      "waterResistance": "20m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "70 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$43,000",
+      "yearIntroduced": 2011
+    }
+  },
+  {
+    "reference": "15210BC.OO.A002KB.01",
+    "slug": "15210bc-oo-a002kb-01",
+    "brandSlug": "audemars-piguet",
+    "name": "Code 11.59 Automatic",
+    "collection": "Code 11.59",
+    "description": "Contemporary round watch with multi-layered dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/audemars-piguet/code-11-59/15210bc-oo-a002kb-01-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4302",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "41mm",
+      "caseThickness": "10.7mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$36,900",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "W6920100",
+    "slug": "w6920100",
+    "brandSlug": "cartier",
+    "name": "Ballon Bleu 33mm",
+    "collection": "Ballon Bleu",
+    "description": "Feminine 33mm version of Cartier's iconic balloon-shaped watch.",
+    "image": "https://cdn.watchbase.com/watch/lg/cartier/ballon-bleu/w6920100-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 076",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "33mm",
+      "caseThickness": "9.48mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$4,200",
+      "yearIntroduced": 2007
+    }
+  },
+  {
+    "reference": "WSNM0004",
+    "slug": "wsnm0004",
+    "brandSlug": "cartier",
+    "name": "Drive de Cartier",
+    "collection": "Drive de Cartier",
+    "description": "Cushion-shaped dress watch with elegant pillow case.",
+    "image": "https://cdn.watchbase.com/watch/lg/cartier/drive-de-cartier/wsnm0004-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1847 MC",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "11.05mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$5,500",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "W7100041",
+    "slug": "w7100041",
+    "brandSlug": "cartier",
+    "name": "Calibre de Cartier",
+    "collection": "Calibre de Cartier",
+    "description": "Boldly designed sports watch with in-house movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/cartier/calibre-de-cartier/w7100041-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1904-PS MC",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "48 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$6,100",
+      "yearIntroduced": 2010
+    }
+  },
+  {
+    "reference": "WGCL0003",
+    "slug": "wgcl0003",
+    "brandSlug": "cartier",
+    "name": "Cl\u00e9 de Cartier",
+    "collection": "Cl\u00e9 de Cartier",
+    "description": "Distinctive watch with key-shaped crown at 9 o'clock.",
+    "image": "https://cdn.watchbase.com/watch/lg/cartier/cle-de-cartier/wgcl0003-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1847 MC",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "40mm",
+      "caseThickness": "11.07mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$18,500",
+      "yearIntroduced": 2015
+    }
+  },
+  {
+    "reference": "W6700255",
+    "slug": "w6700255",
+    "brandSlug": "cartier",
+    "name": "Ronde Solo de Cartier",
+    "collection": "Ronde Solo",
+    "description": "Elegant round quartz watch with Roman numeral dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/cartier/ronde-solo/w6700255-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 690",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "36mm",
+      "caseThickness": "7.05mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$3,300",
+      "yearIntroduced": 2007
+    }
+  },
+  {
+    "reference": "W2009451",
+    "slug": "w2009451",
+    "brandSlug": "cartier",
+    "name": "Santos-Dumont",
+    "collection": "Santos",
+    "description": "Ultra-thin manual wind version of Cartier's first men's wristwatch.",
+    "image": "https://cdn.watchbase.com/watch/lg/cartier/santos/w2009451-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 430 MC",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct yellow gold",
+      "caseDiameter": "46.6mm x 33.9mm",
+      "caseThickness": "7mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "72 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$14,200",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "CRWA0030",
+    "slug": "crwa0030",
+    "brandSlug": "cartier",
+    "name": "Pasha de Cartier",
+    "collection": "Pasha",
+    "description": "Bold round watch with screwed crown cover and chain.",
+    "image": "https://cdn.watchbase.com/watch/lg/cartier/pasha/crwa0030-70.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1847 MC",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "11.5mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$5,350",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "SPB169J1",
+    "slug": "spb169j1",
+    "brandSlug": "seiko",
+    "name": "Presage Sharp Edged",
+    "collection": "Presage",
+    "description": "Sharp angular dial inspired by Japanese katana blade, with high-beat movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/presage/spb169j1-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 6R55",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40.2mm",
+      "caseThickness": "13mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "72 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$700",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "SSA405J1",
+    "slug": "ssa405j1",
+    "brandSlug": "seiko",
+    "name": "Presage Cocktail Automatic",
+    "collection": "Presage",
+    "description": "Cocktail-inspired dial with Japanese lacquer technique and open heart display.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/presage/ssa405j1-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4R38",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40.5mm",
+      "caseThickness": "12.3mm",
+      "waterResistance": "50m",
+      "crystal": "Hardlex",
+      "dialColor": "White",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "41 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Day",
+        "Date",
+        "Power reserve",
+        "Open heart"
+      ],
+      "price": "~$350",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "SRPD51K1",
+    "slug": "srpd51k1",
+    "brandSlug": "seiko",
+    "name": "5 Sports Automatic",
+    "collection": "5 Sports",
+    "description": "Affordable sports automatic with day-date and 100m water resistance.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/5-sports/srpd51k1-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4R36",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42.5mm",
+      "caseThickness": "13.3mm",
+      "waterResistance": "100m",
+      "crystal": "Hardlex",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "41 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Day",
+        "Date"
+      ],
+      "price": "~$260",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "SRPD71K1",
+    "slug": "srpd71k1",
+    "brandSlug": "seiko",
+    "name": "5 Sports Blue Automatic",
+    "collection": "5 Sports",
+    "description": "Blue dial variant of the versatile 5 Sports with stainless steel case.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/5-sports/srpd71k1-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4R36",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42.5mm",
+      "caseThickness": "13.3mm",
+      "waterResistance": "100m",
+      "crystal": "Hardlex",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "41 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Day",
+        "Date"
+      ],
+      "price": "~$260",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "SSH023J1",
+    "slug": "ssh023j1",
+    "brandSlug": "seiko",
+    "name": "Astron GPS Solar",
+    "collection": "Astron",
+    "description": "GPS solar watch that syncs to satellites for exact time anywhere in the world.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/astron/ssh023j1-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3X62",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "42.7mm",
+      "caseThickness": "11.8mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Titanium bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "GPS time sync",
+        "World time",
+        "Dual time zone",
+        "Perpetual calendar"
+      ],
+      "price": "~$2,200",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "SRPE41J1",
+    "slug": "srpe41j1",
+    "brandSlug": "seiko",
+    "name": "Presage Enamel Automatic",
+    "collection": "Presage",
+    "description": "Presage with traditional Japanese enamel dial technique, cloisonn\u00e9 artisan craftsmanship.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/presage/srpe41j1-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4R57",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40.5mm",
+      "caseThickness": "12.9mm",
+      "waterResistance": "50m",
+      "crystal": "Hardlex",
+      "dialColor": "Blue",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "41 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Day",
+        "Date",
+        "Power reserve"
+      ],
+      "price": "~$400",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "SPB107J1",
+    "slug": "spb107j1",
+    "brandSlug": "seiko",
+    "name": "Presage Automatic Open Heart",
+    "collection": "Presage",
+    "description": "Cocktail Time open heart with visible balance wheel and automatic movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/presage/spb107j1-70.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 6R27",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40.5mm",
+      "caseThickness": "13.3mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "45 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Open heart",
+        "Date"
+      ],
+      "price": "~$600",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "SNE435P1",
+    "slug": "sne435p1",
+    "brandSlug": "seiko",
+    "name": "Prospex Solar Diver",
+    "collection": "Prospex",
+    "description": "Eco-friendly solar powered dive watch with 200m water resistance and rotating bezel.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/prospex/sne435p1-e7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. V157",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "12.9mm",
+      "waterResistance": "200m",
+      "crystal": "Hardlex",
+      "dialColor": "Blue",
+      "strapMaterial": "Silicone strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$300",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "SRPG37K1",
+    "slug": "srpg37k1",
+    "brandSlug": "seiko",
+    "name": "5 Sports Field Watch",
+    "collection": "5 Sports",
+    "description": "Military-inspired field variant of the 5 Sports with camouflage dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/5-sports/srpg37k1-a3.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4R36",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42.5mm",
+      "caseThickness": "13.3mm",
+      "waterResistance": "100m",
+      "crystal": "Hardlex",
+      "dialColor": "Green",
+      "strapMaterial": "Silicone strap",
+      "powerReserve": "41 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Day",
+        "Date"
+      ],
+      "price": "~$260",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "SNE573P1",
+    "slug": "sne573p1",
+    "brandSlug": "seiko",
+    "name": "Prospex Solar Black Series",
+    "collection": "Prospex",
+    "description": "Blacked-out all-black solar diver with 200m water resistance and invisible bezel insert.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/prospex/sne573p1-f3.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. V157",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Stainless steel with black ion plating",
+      "caseDiameter": "44mm",
+      "caseThickness": "12.5mm",
+      "waterResistance": "200m",
+      "crystal": "Hardlex",
+      "dialColor": "Black",
+      "strapMaterial": "Silicone strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$320",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "SUR307P1",
+    "slug": "sur307p1",
+    "brandSlug": "seiko",
+    "name": "Classic Quartz",
+    "collection": "Classic",
+    "description": "Slim, elegant quartz dress watch with mineral crystal and stainless steel bracelet.",
+    "image": "https://cdn.watchbase.com/watch/lg/seiko/classic/sur307p1-c1.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 7N42",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "7.5mm",
+      "waterResistance": "50m",
+      "crystal": "Mineral",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$120",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "WAZ1110.BA0875",
+    "slug": "waz1110-ba0875",
+    "brandSlug": "tag-heuer",
+    "name": "Formula 1 Quartz",
+    "collection": "Formula 1",
+    "description": "Motorsport-inspired quartz watch with ceramic bezel and 200m water resistance.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/formula-1/waz1110-ba0875-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 6",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "43mm",
+      "caseThickness": "11mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$1,600",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "WBP201A.BA0632",
+    "slug": "wbp201a-ba0632",
+    "brandSlug": "tag-heuer",
+    "name": "Aquaracer Professional 300",
+    "collection": "Aquaracer",
+    "description": "Renewed Aquaracer with shark-fin bezel, 300m water resistance, and improved proportions.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/aquaracer/wbp201a-ba0632-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 5",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "43mm",
+      "caseThickness": "13mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$2,050",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "WAT211A.BA0954",
+    "slug": "wat211a-ba0954",
+    "brandSlug": "tag-heuer",
+    "name": "Link Calibre 5 Automatic",
+    "collection": "Link",
+    "description": "Sports-elegant watch with S-link bracelet and water-resistant case design.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/link/wat211a-ba0954-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 5",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "11.7mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel S-link bracelet",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$2,350",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "WBE5114.EB0173",
+    "slug": "wbe5114-eb0173",
+    "brandSlug": "tag-heuer",
+    "name": "Autavia",
+    "collection": "Autavia",
+    "description": "Pilot's watch heritage meets dive watch design in the reissued Autavia.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/autavia/wbe5114-eb0173-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 5",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "13mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Panda (white)",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$2,450",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "WAR201E.BA0723",
+    "slug": "war201e-ba0723",
+    "brandSlug": "tag-heuer",
+    "name": "Carrera Calibre 5 Automatic",
+    "collection": "Carrera",
+    "description": "Elegantly thin automatic Carrera with 38-hour power reserve and date.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/carrera/war201e-ba0723-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 5",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "10mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$2,600",
+      "yearIntroduced": 2015
+    }
+  },
+  {
+    "reference": "CBS2046.BA0603",
+    "slug": "cbs2046-ba0603",
+    "brandSlug": "tag-heuer",
+    "name": "Carrera Porsche Chronograph",
+    "collection": "Carrera",
+    "description": "Carrera celebrating the TAG Heuer and Porsche partnership with split-seconds chronograph.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/carrera/cbs2046-ba0603-e7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. HEUER 02T",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "15.9mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "65 hours",
+      "frequency": "36,000 vph",
+      "complications": [
+        "Flyback chronograph",
+        "Tourbillon"
+      ],
+      "price": "~$17,900",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "SBR8A10.BT6259",
+    "slug": "sbr8a10-bt6259",
+    "brandSlug": "tag-heuer",
+    "name": "Connected Calibre E4 45mm",
+    "collection": "Connected",
+    "description": "TAG Heuer's luxury smartwatch with titanium case and customizable watch faces.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/connected/sbr8a10-bt6259-f5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Intel Atom processor",
+      "movementType": "Quartz",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "45mm",
+      "caseThickness": "12.8mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Smartwatch functions",
+        "GPS",
+        "Heart rate"
+      ],
+      "price": "~$2,150",
+      "yearIntroduced": 2022
+    }
+  },
+  {
+    "reference": "CR5111.BA0722",
+    "slug": "cr5111-ba0722",
+    "brandSlug": "tag-heuer",
+    "name": "Monza Chronograph",
+    "collection": "Monza",
+    "description": "Revived legendary Monza chronograph from 1976, celebrating Niki Lauda's F1 championship.",
+    "image": "https://cdn.watchbase.com/watch/lg/tag-heuer/monza/cr5111-ba0722-70.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 17",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "14mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph"
+      ],
+      "price": "~$3,200",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "IW356502",
+    "slug": "iw356502",
+    "brandSlug": "iwc",
+    "name": "Portofino Automatic",
+    "collection": "Portofino",
+    "description": "Refined Italian-inspired dress watch with slim case and date display.",
+    "image": "https://cdn.watchbase.com/watch/lg/iwc/portofino/iw356502-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 35111",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "10.25mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$5,900",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "IW323901",
+    "slug": "iw323901",
+    "brandSlug": "iwc",
+    "name": "Ingenieur Automatic",
+    "collection": "Ingenieur",
+    "description": "Anti-magnetic engineer's watch with soft-iron inner case and sporty design.",
+    "image": "https://cdn.watchbase.com/watch/lg/iwc/ingenieur/iw323901-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 80111",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "10.7mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "80 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$7,500",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "IW371601",
+    "slug": "iw371601",
+    "brandSlug": "iwc",
+    "name": "Portugieser Chronograph",
+    "collection": "Portugieser",
+    "description": "Elegant chronograph with column-wheel mechanism, seconds subdial at 3 o'clock.",
+    "image": "https://cdn.watchbase.com/watch/lg/iwc/portugieser/iw371601-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 76240",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "12.7mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "44 hours",
+      "frequency": "18,000 vph",
+      "complications": [
+        "Chronograph",
+        "Telemeter",
+        "Tachymeter"
+      ],
+      "price": "~$8,400",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "Q3858522",
+    "slug": "q3858522",
+    "brandSlug": "jaeger-lecoultre",
+    "name": "Reverso Classic Large",
+    "collection": "Reverso",
+    "description": "The iconic Art Deco reversible watch, a polo player's solution to protect the dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/jaeger-lecoultre/reverso/q3858522-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 822/2",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "47.3mm x 28.3mm",
+      "caseThickness": "9.14mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "45 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$7,100",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "Q9008170",
+    "slug": "q9008170",
+    "brandSlug": "jaeger-lecoultre",
+    "name": "Polaris Automatic",
+    "collection": "Polaris",
+    "description": "Sports watch inspired by the 1968 Memovox Polaris, with aquatic heritage and 200m WR.",
+    "image": "https://cdn.watchbase.com/watch/lg/jaeger-lecoultre/polaris/q9008170-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 899/1",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "13.4mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Inner rotating bezel"
+      ],
+      "price": "~$7,900",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "Q8008420",
+    "slug": "q8008420",
+    "brandSlug": "jaeger-lecoultre",
+    "name": "Geophysic True Second",
+    "collection": "Geophysic",
+    "description": "High-precision watch with regulator-style display and true seconds hand that jumps every second.",
+    "image": "https://cdn.watchbase.com/watch/lg/jaeger-lecoultre/geophysic/q8008420-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 770",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "39.6mm",
+      "caseThickness": "11.7mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "38 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "True seconds"
+      ],
+      "price": "~$9,800",
+      "yearIntroduced": 2015
+    }
+  },
+  {
+    "reference": "Q1362420",
+    "slug": "q1362420",
+    "brandSlug": "jaeger-lecoultre",
+    "name": "Master Ultra Thin Moon",
+    "collection": "Master",
+    "description": "Exceptionally thin watch at 9.9mm with moon phase display at 6 o'clock.",
+    "image": "https://cdn.watchbase.com/watch/lg/jaeger-lecoultre/master/q1362420-70.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 925/1",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "39mm",
+      "caseThickness": "9.9mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "43 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Moon phase"
+      ],
+      "price": "~$8,400",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "A17380",
+    "slug": "a17380",
+    "brandSlug": "breitling",
+    "name": "Colt Automatic",
+    "collection": "Colt",
+    "description": "Robust 44mm sports watch with unidirectional bezel and 200m water resistance.",
+    "image": "https://cdn.watchbase.com/watch/lg/breitling/colt/a17380-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 17",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "12.5mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$3,400",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "A37340351C1A1",
+    "slug": "a37340351c1a1",
+    "brandSlug": "breitling",
+    "name": "Premier Heritage Chronograph",
+    "collection": "Premier",
+    "description": "Vintage-inspired pilot chronograph in steel with retro aesthetic and tri-colour dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/breitling/premier/a37340351c1a1-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. B37",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "13.7mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph",
+        "Date",
+        "Small seconds"
+      ],
+      "price": "~$5,800",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "A10370121B1S1",
+    "slug": "a10370121b1s1",
+    "brandSlug": "breitling",
+    "name": "Superocean Heritage II 44",
+    "collection": "Superocean Heritage",
+    "description": "Vintage-styled diver with distinctive decorative dial and 200m water resistance.",
+    "image": "https://cdn.watchbase.com/watch/lg/breitling/superocean-heritage/a10370121b1s1-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 10",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "13mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$4,300",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "A17316101B1X2",
+    "slug": "a17316101b1x2",
+    "brandSlug": "breitling",
+    "name": "Aviator 8 Automatic",
+    "collection": "Aviator 8",
+    "description": "Pilot's watch inspired by the 1930s with cushion case and symmetrical dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/breitling/aviator-8/a17316101b1x2-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 17",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "43mm",
+      "caseThickness": "12.6mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$4,100",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "M79030N-0001",
+    "slug": "m79030n-0001",
+    "brandSlug": "tudor",
+    "name": "Heritage Black Bay 58",
+    "collection": "Black Bay",
+    "description": "Vintage-inspired 39mm diver, the most wearable Black Bay size with domed crystal.",
+    "image": "https://cdn.watchbase.com/watch/lg/tudor/black-bay/m79030n-0001-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. MT5402",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "39mm",
+      "caseThickness": "11.9mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire (domed)",
+      "dialColor": "Black",
+      "strapMaterial": "Fabric strap",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$3,525",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "M79950-0001",
+    "slug": "m79950-0001",
+    "brandSlug": "tudor",
+    "name": "Ranger",
+    "collection": "Ranger",
+    "description": "Field watch inspired by the tool watches supplied to British explorers, featuring matte dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/tudor/ranger/m79950-0001-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. MT5402",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "12.3mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "70 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$3,100",
+      "yearIntroduced": 2022
+    }
+  },
+  {
+    "reference": "M57100-0001",
+    "slug": "m57100-0001",
+    "brandSlug": "tudor",
+    "name": "Glamour Double Date",
+    "collection": "Glamour",
+    "description": "Elegant double date display with retrograde pointer in a classic round case.",
+    "image": "https://cdn.watchbase.com/watch/lg/tudor/glamour/m57100-0001-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 590",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11.1mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Double date"
+      ],
+      "price": "~$3,200",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "T091.420.47.057.00",
+    "slug": "t091-420-47-057-00",
+    "brandSlug": "tissot",
+    "name": "T-Touch Expert Solar",
+    "collection": "T-Touch",
+    "description": "Solar-powered tactile watch with touch-screen sapphire crystal and multiple sensor functions.",
+    "image": "https://cdn.watchbase.com/watch/lg/tissot/t-touch/t091-420-47-057-00-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. E83.001",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "45.35mm",
+      "caseThickness": "13mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire (tactile)",
+      "dialColor": "Grey",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Altimeter",
+        "Barometer",
+        "Compass",
+        "Thermometer",
+        "Chronograph"
+      ],
+      "price": "~$875",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "T137.263.11.350.00",
+    "slug": "t137-263-11-350-00",
+    "brandSlug": "tissot",
+    "name": "PRX Digital 35mm",
+    "collection": "PRX",
+    "description": "Digital quartz version of the PRX with integrated bracelet and retro digital display.",
+    "image": "https://cdn.watchbase.com/watch/lg/tissot/prx/t137-263-11-350-00-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 979",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "35mm",
+      "caseThickness": "9mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Grey",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Digital display",
+        "Date"
+      ],
+      "price": "~$375",
+      "yearIntroduced": 2022
+    }
+  },
+  {
+    "reference": "T006.408.11.053.00",
+    "slug": "t006-408-11-053-00",
+    "brandSlug": "tissot",
+    "name": "Le Locle Powermatic 80",
+    "collection": "Le Locle",
+    "description": "Swiss-made dress watch with 80-hour power reserve movement, classic double open heart.",
+    "image": "https://cdn.watchbase.com/watch/lg/tissot/le-locle/t006-408-11-053-00-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 80",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "39.3mm",
+      "caseThickness": "10.36mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$475",
+      "yearIntroduced": 2013
+    }
+  },
+  {
+    "reference": "T120.407.11.041.00",
+    "slug": "t120-407-11-041-00",
+    "brandSlug": "tissot",
+    "name": "Seastar 1000 Professional",
+    "collection": "Seastar",
+    "description": "Swiss diving watch with 1000m water resistance and screw-lock crown.",
+    "image": "https://cdn.watchbase.com/watch/lg/tissot/seastar/t120-407-11-041-00-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 2824-2",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "46mm",
+      "caseThickness": "14mm",
+      "waterResistance": "1000m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$725",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "T035.627.11.031.00",
+    "slug": "t035-627-11-031-00",
+    "brandSlug": "tissot",
+    "name": "Couturier Automatic",
+    "collection": "Couturier",
+    "description": "Elegant Swiss automatic watch with sophisticated style and date display.",
+    "image": "https://cdn.watchbase.com/watch/lg/tissot/couturier/t035-627-11-031-00-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. ETA 2824-2",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "10.5mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$475",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "T114.407.16.037.00",
+    "slug": "t114-407-16-037-00",
+    "brandSlug": "tissot",
+    "name": "T-Race Automatic",
+    "collection": "T-Race",
+    "description": "Motorsport-inspired automatic with tachymeter bezel and skeletonized dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/tissot/t-race/t114-407-16-037-00-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. ETA 2824-2",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel with black PVD",
+      "caseDiameter": "45mm",
+      "caseThickness": "13.5mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Tachymeter"
+      ],
+      "price": "~$525",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "H24551331",
+    "slug": "h24551331",
+    "brandSlug": "hamilton",
+    "name": "Ventura Elvis80 Automatic",
+    "collection": "Ventura",
+    "description": "Bold triangular-cased design made famous by Elvis Presley, reimagined with automatic movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/hamilton/ventura/h24551331-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. H-10",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40.8mm x 34.7mm",
+      "caseThickness": "9.5mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$895",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "H32455181",
+    "slug": "h32455181",
+    "brandSlug": "hamilton",
+    "name": "Jazzmaster Viewmatic",
+    "collection": "Jazzmaster",
+    "description": "Open-heart automatic dress watch showcasing the movement through the dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/hamilton/jazzmaster/h32455181-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. H-10",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "10.1mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Open heart"
+      ],
+      "price": "~$745",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "H13431553",
+    "slug": "h13431553",
+    "brandSlug": "hamilton",
+    "name": "American Classic Boulton",
+    "collection": "American Classic",
+    "description": "Art Deco cushion-shaped quartz watch inspired by the 1930s American design era.",
+    "image": "https://cdn.watchbase.com/watch/lg/hamilton/american-classic/h13431553-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. ETA 900.114",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "27mm x 34mm",
+      "caseThickness": "7mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$445",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "H70615733",
+    "slug": "h70615733",
+    "brandSlug": "hamilton",
+    "name": "Khaki Navy BeLOWZERO",
+    "collection": "Khaki Navy",
+    "description": "Professional diver rated to 1000m with unidirectional bezel for serious water sports.",
+    "image": "https://cdn.watchbase.com/watch/lg/hamilton/khaki-navy/h70615733-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. H-10",
+      "movementType": "Automatic",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "46mm",
+      "caseThickness": "16mm",
+      "waterResistance": "1000m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$1,195",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "H38455181",
+    "slug": "h38455181",
+    "brandSlug": "hamilton",
+    "name": "Jazzmaster Maestro Open Heart",
+    "collection": "Jazzmaster",
+    "description": "Larger 42mm open-heart Jazzmaster with exhibition caseback and date.",
+    "image": "https://cdn.watchbase.com/watch/lg/hamilton/jazzmaster/h38455181-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. H-10",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "80 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Open heart",
+        "Date"
+      ],
+      "price": "~$845",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "01 752 7698 4063",
+    "slug": "01-752-7698-4063",
+    "brandSlug": "oris",
+    "name": "Big Crown ProPilot Day Date",
+    "collection": "Big Crown",
+    "description": "Legible pilot watch with date and day display at 3 o'clock in a 41mm case.",
+    "image": "https://cdn.watchbase.com/watch/lg/oris/big-crown/01-752-7698-4063-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 752",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "13mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Day",
+        "Date"
+      ],
+      "price": "~$1,500",
+      "yearIntroduced": 2015
+    }
+  },
+  {
+    "reference": "01 112 7700 4051",
+    "slug": "01-112-7700-4051",
+    "brandSlug": "oris",
+    "name": "Artelier Calibre 112",
+    "collection": "Artelier",
+    "description": "Open-worked watch celebrating 110 years of Oris, showing the in-house movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/oris/artelier/01-112-7700-4051-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 112",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "11.5mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Skeleton",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "10 days",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Power reserve",
+        "10-day power reserve display"
+      ],
+      "price": "~$4,900",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "01 733 7766 4135",
+    "slug": "01-733-7766-4135",
+    "brandSlug": "oris",
+    "name": "Aquis Date",
+    "collection": "Aquis",
+    "description": "Swiss-made diver with 300m water resistance, ceramic bezel, and date display.",
+    "image": "https://cdn.watchbase.com/watch/lg/oris/aquis/01-733-7766-4135-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 733",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "43.5mm",
+      "caseThickness": "13.5mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire",
+      "dialColor": "Green",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$1,750",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "01 733 7707 4064",
+    "slug": "01-733-7707-4064",
+    "brandSlug": "oris",
+    "name": "Divers Sixty-Five Textile",
+    "collection": "Divers Sixty-Five",
+    "description": "Vintage-inspired 40mm diver with textile strap paying homage to the 1965 Oris diver.",
+    "image": "https://cdn.watchbase.com/watch/lg/oris/divers-sixty-five/01-733-7707-4064-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 733",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "13.15mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire (domed)",
+      "dialColor": "Blue",
+      "strapMaterial": "Textile strap",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$1,250",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "L3.781.4.96.6",
+    "slug": "l3-781-4-96-6",
+    "brandSlug": "longines",
+    "name": "HydroConquest",
+    "collection": "HydroConquest",
+    "description": "Swiss diver's watch with ceramic bezel, 300m water resistance, and automatic movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/longines/hydroconquest/l3-781-4-96-6-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L888.4",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "11.1mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "72 hours",
+      "frequency": "25,200 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$1,150",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "L4.310.4.11.2",
+    "slug": "l4-310-4-11-2",
+    "brandSlug": "longines",
+    "name": "Elegant Collection Automatic",
+    "collection": "Elegant Collection",
+    "description": "Slim dress watch with moon phase and date, a classic Swiss feminine timepiece.",
+    "image": "https://cdn.watchbase.com/watch/lg/longines/elegant-collection/l4-310-4-11-2-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L595",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "29mm",
+      "caseThickness": "8.1mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Moon phase",
+        "Date"
+      ],
+      "price": "~$1,400",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "L2.793.4.71.2",
+    "slug": "l2-793-4-71-2",
+    "brandSlug": "longines",
+    "name": "Master Collection Moon Phase",
+    "collection": "Master Collection",
+    "description": "Refined automatic with moon phase at 3 o'clock and 42mm case.",
+    "image": "https://cdn.watchbase.com/watch/lg/longines/master-collection/l2-793-4-71-2-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L678",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "12mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "64 hours",
+      "frequency": "25,200 vph",
+      "complications": [
+        "Moon phase",
+        "Date"
+      ],
+      "price": "~$2,300",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "L3.810.1.53.6",
+    "slug": "l3-810-1-53-6",
+    "brandSlug": "longines",
+    "name": "Spirit Automatic",
+    "collection": "Spirit",
+    "description": "Aviation-inspired watch with legible dial and SuperLumiNova hands, 40mm case.",
+    "image": "https://cdn.watchbase.com/watch/lg/longines/spirit/l3-810-1-53-6-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L888.4",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "11.1mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "72 hours",
+      "frequency": "25,200 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$1,200",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "L2.386.4.56.6",
+    "slug": "l2-386-4-56-6",
+    "brandSlug": "longines",
+    "name": "Conquest Classic",
+    "collection": "Conquest",
+    "description": "Entry-level Swiss automatic with classic styling and date display.",
+    "image": "https://cdn.watchbase.com/watch/lg/longines/conquest/l2-386-4-56-6-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L619",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "10.3mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "43 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$1,050",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "L2.798.4.76.6",
+    "slug": "l2-798-4-76-6",
+    "brandSlug": "longines",
+    "name": "Master Collection Annual Calendar",
+    "collection": "Master Collection",
+    "description": "Refined annual calendar needing adjustment only once a year with full calendar display.",
+    "image": "https://cdn.watchbase.com/watch/lg/longines/master-collection/l2-798-4-76-6-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L678.2",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "12.6mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "64 hours",
+      "frequency": "25,200 vph",
+      "complications": [
+        "Annual calendar",
+        "Moon phase"
+      ],
+      "price": "~$3,100",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "L2.841.4.73.6",
+    "slug": "l2-841-4-73-6",
+    "brandSlug": "longines",
+    "name": "Heritage Classic Automatic",
+    "collection": "Heritage",
+    "description": "Vintage-inspired round watch with small seconds at 6 o'clock, paying homage to 1940s models.",
+    "image": "https://cdn.watchbase.com/watch/lg/longines/heritage/l2-841-4-73-6-70.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L615",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "38.5mm",
+      "caseThickness": "10.5mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Cream",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Small seconds"
+      ],
+      "price": "~$1,350",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "BN0151-17L",
+    "slug": "bn0151-17l",
+    "brandSlug": "citizen",
+    "name": "Promaster Diver Eco-Drive",
+    "collection": "Promaster",
+    "description": "Solar-powered professional diver with 200m water resistance, no battery replacement needed.",
+    "image": "https://cdn.watchbase.com/watch/lg/citizen/promaster/bn0151-17l-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. E168",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "12mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Polyurethane strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$295",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "AT8020-54L",
+    "slug": "at8020-54l",
+    "brandSlug": "citizen",
+    "name": "Promaster Sky Eco-Drive",
+    "collection": "Promaster",
+    "description": "Atomic timekeeping aviation watch with multiple time zone display and solar charging.",
+    "image": "https://cdn.watchbase.com/watch/lg/citizen/promaster/at8020-54l-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. H800",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "43mm",
+      "caseThickness": "11mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Titanium bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Atomic timekeeping",
+        "World time",
+        "Dual time zone",
+        "Perpetual calendar"
+      ],
+      "price": "~$475",
+      "yearIntroduced": 2013
+    }
+  },
+  {
+    "reference": "AR5024-01E",
+    "slug": "ar5024-01e",
+    "brandSlug": "citizen",
+    "name": "Eco-Drive One",
+    "collection": "Eco-Drive One",
+    "description": "World's thinnest Eco-Drive at 2.98mm, powered by light with no battery replacement.",
+    "image": "https://cdn.watchbase.com/watch/lg/citizen/eco-drive-one/ar5024-01e-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. E300",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Super titanium",
+      "caseDiameter": "40.2mm",
+      "caseThickness": "2.98mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Titanium bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$595",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "CB5880-54E",
+    "slug": "cb5880-54e",
+    "brandSlug": "citizen",
+    "name": "Eco-Drive Titanium Chronograph",
+    "collection": "Eco-Drive",
+    "description": "Radio-controlled solar chronograph in lightweight titanium for all-day comfort.",
+    "image": "https://cdn.watchbase.com/watch/lg/citizen/eco-drive/cb5880-54e-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. H800",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "43.5mm",
+      "caseThickness": "11.2mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Titanium bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Chronograph",
+        "Radio-controlled timekeeping"
+      ],
+      "price": "~$695",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "NB6021-17E",
+    "slug": "nb6021-17e",
+    "brandSlug": "citizen",
+    "name": "Tsuyosa Automatic",
+    "collection": "Tsuyosa",
+    "description": "Affordable Japanese automatic with display caseback and 100m water resistance.",
+    "image": "https://cdn.watchbase.com/watch/lg/citizen/tsuyosa/nb6021-17e-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 8210",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "11.8mm",
+      "waterResistance": "100m",
+      "crystal": "Mineral",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "42 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$250",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "CA7028-81E",
+    "slug": "ca7028-81e",
+    "brandSlug": "citizen",
+    "name": "Promaster Marine Eco-Drive",
+    "collection": "Promaster",
+    "description": "Yacht timer solar watch with regatta countdown timer for sailing enthusiasts.",
+    "image": "https://cdn.watchbase.com/watch/lg/citizen/promaster/ca7028-81e-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. B640",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "43mm",
+      "caseThickness": "11.6mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Regatta timer",
+        "Chronograph"
+      ],
+      "price": "~$475",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "FC-303RM6B6",
+    "slug": "fc-303rm6b6",
+    "brandSlug": "frederique-constant",
+    "name": "Runabout Automatic",
+    "collection": "Runabout",
+    "description": "Nautical-inspired watch celebrating classic wooden speedboats with wooden dial insert.",
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/runabout/fc-303rm6b6-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. FC-303",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11.2mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Wood",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$1,595",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "FC-700V4H4",
+    "slug": "fc-700v4h4",
+    "brandSlug": "frederique-constant",
+    "name": "Classics Manufacture",
+    "collection": "Classics",
+    "description": "In-house manufacture movement visible through the display back with exceptional finishing.",
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/classics/fc-700v4h4-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. FC-700",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "10.7mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$2,495",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "FC-306HBS3B6B",
+    "slug": "fc-306hbs3b6b",
+    "brandSlug": "frederique-constant",
+    "name": "Slimline Automatic",
+    "collection": "Slimline",
+    "description": "Ultra-slim dress watch at just 7.2mm thick, perfect for under the cuff.",
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/slimline/fc-306hbs3b6b-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. FC-306",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "7.2mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "38 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$1,095",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "FC-310MPSS5B6B",
+    "slug": "fc-310mpss5b6b",
+    "brandSlug": "frederique-constant",
+    "name": "Highlife Heart Beat",
+    "collection": "Highlife",
+    "description": "Bold sports-elegant watch with integrated bracelet and heart beat open dial aperture.",
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/highlife/fc-310mpss5b6b-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. FC-310",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "11.4mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel integrated bracelet",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Open heart",
+        "Date"
+      ],
+      "price": "~$2,195",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "101",
+    "slug": "tangente-101",
+    "brandSlug": "nomos-glashutte",
+    "name": "Tangente 35",
+    "collection": "Tangente",
+    "description": "Minimalist Bauhaus-inspired dress watch made in Glash\u00fctte, Germany with in-house Alpha movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/nomos-glashutte/tangente/101-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. Alpha",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "35mm",
+      "caseThickness": "6.5mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "43 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$1,580",
+      "yearIntroduced": 1992
+    }
+  },
+  {
+    "reference": "711",
+    "slug": "club-711",
+    "brandSlug": "nomos-glashutte",
+    "name": "Club Sport Neomatik",
+    "collection": "Club",
+    "description": "Sports variant of the Club with 300m water resistance and NOMOS neomatik movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/nomos-glashutte/club/711-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. DUW 3001",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "11mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "42 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$2,940",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "1101",
+    "slug": "metro-1101",
+    "brandSlug": "nomos-glashutte",
+    "name": "Metro Datum Gangreserve",
+    "collection": "Metro",
+    "description": "Elegant watch showing date and power reserve with the distinctive NOMOS aesthetic.",
+    "image": "https://cdn.watchbase.com/watch/lg/nomos-glashutte/metro/1101-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. DUW 5001",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "37mm",
+      "caseThickness": "8.6mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date",
+        "Power reserve"
+      ],
+      "price": "~$2,900",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "FER27009W0",
+    "slug": "fer27009w0",
+    "brandSlug": "orient",
+    "name": "Bambino Version II Open Heart",
+    "collection": "Bambino",
+    "description": "Vintage-inspired dress watch with open heart window at 2 o'clock position.",
+    "image": "https://cdn.watchbase.com/watch/lg/orient/bambino/fer27009w0-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. F6724",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40.5mm",
+      "caseThickness": "12mm",
+      "waterResistance": "30m",
+      "crystal": "Mineral",
+      "dialColor": "White",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Open heart"
+      ],
+      "price": "~$185",
+      "yearIntroduced": 2015
+    }
+  },
+  {
+    "reference": "FEM75001BW",
+    "slug": "fem75001bw",
+    "brandSlug": "orient",
+    "name": "Mako II Automatic",
+    "collection": "Mako",
+    "description": "Value-priced automatic diver with 200m water resistance and rotating bezel.",
+    "image": "https://cdn.watchbase.com/watch/lg/orient/mako/fem75001bw-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. F6922",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41.5mm",
+      "caseThickness": "12.5mm",
+      "waterResistance": "200m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "40 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$145",
+      "yearIntroduced": 2013
+    }
+  },
+  {
+    "reference": "FUNE00004W0",
+    "slug": "fune00004w0",
+    "brandSlug": "orient",
+    "name": "Star Classic",
+    "collection": "Star",
+    "description": "Classic dress watch with power reserve indicator and 5-day power reserve.",
+    "image": "https://cdn.watchbase.com/watch/lg/orient/star/fune00004w0-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. F6B22",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40.5mm",
+      "caseThickness": "11mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "50 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Power reserve",
+        "Date"
+      ],
+      "price": "~$310",
+      "yearIntroduced": 2015
+    }
+  },
+  {
+    "reference": "FAA02005B9",
+    "slug": "faa02005b9",
+    "brandSlug": "orient",
+    "name": "Ray II Blue Automatic",
+    "collection": "Ray",
+    "description": "Sunray blue dial automatic diver with hardlex crystal and date display.",
+    "image": "https://cdn.watchbase.com/watch/lg/orient/ray/faa02005b9-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. F6922",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "12.5mm",
+      "waterResistance": "200m",
+      "crystal": "Hardlex",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "40 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$155",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "96A225",
+    "slug": "96a225",
+    "brandSlug": "bulova",
+    "name": "Lunar Pilot Moonwatch",
+    "collection": "Lunar Pilot",
+    "description": "Replica of the watch worn on the Moon during Apollo 15, high-beat chronograph.",
+    "image": "https://cdn.watchbase.com/watch/lg/bulova/lunar-pilot/96a225-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. UHF",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "45mm",
+      "caseThickness": "14.2mm",
+      "waterResistance": "30m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Nylon strap",
+      "powerReserve": "42 hours",
+      "frequency": "57,600 vph",
+      "complications": [
+        "Chronograph",
+        "Tachymeter"
+      ],
+      "price": "~$650",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "98C134",
+    "slug": "98c134",
+    "brandSlug": "bulova",
+    "name": "Computron",
+    "collection": "Computron",
+    "description": "Re-edition of the futuristic 1976 LED digital watch with jumping-hour display.",
+    "image": "https://cdn.watchbase.com/watch/lg/bulova/computron/98c134-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. Digital",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "37mm x 28mm",
+      "caseThickness": "10mm",
+      "waterResistance": "30m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Digital display"
+      ],
+      "price": "~$350",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "96B159",
+    "slug": "96b159",
+    "brandSlug": "bulova",
+    "name": "Precisionist Chronograph",
+    "collection": "Precisionist",
+    "description": "High-frequency quartz with \u00b110 seconds per year accuracy and smooth sweep seconds hand.",
+    "image": "https://cdn.watchbase.com/watch/lg/bulova/precisionist/96b159-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 262khz",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "47mm",
+      "caseThickness": "12mm",
+      "waterResistance": "100m",
+      "crystal": "Mineral",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Chronograph",
+        "Date",
+        "Tachymeter"
+      ],
+      "price": "~$350",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "103436",
+    "slug": "103436",
+    "brandSlug": "bulgari",
+    "name": "Serpenti Seduttori",
+    "collection": "Serpenti",
+    "description": "Snake-inspired ladies' watch with scales motif bracelet, an icon of Italian design.",
+    "image": "https://cdn.watchbase.com/watch/lg/bulgari/serpenti/103436-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. B033",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "35mm",
+      "caseThickness": "9.9mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "White",
+      "strapMaterial": "Stainless steel snake bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$4,200",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "103220",
+    "slug": "103220",
+    "brandSlug": "bulgari",
+    "name": "Lvcea Automatic",
+    "collection": "Lvcea",
+    "description": "Contemporary ladies' automatic with flower motif dial and stainless steel case.",
+    "image": "https://cdn.watchbase.com/watch/lg/bulgari/lvcea/103220-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. BVL 191",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "33mm",
+      "caseThickness": "8mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$5,400",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "102965",
+    "slug": "102965",
+    "brandSlug": "bulgari",
+    "name": "Diagono Professional Terra",
+    "collection": "Diagono",
+    "description": "Sports-luxury watch with GMT function and rubber strap for adventurous use.",
+    "image": "https://cdn.watchbase.com/watch/lg/bulgari/diagono/102965-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. BVL 191 GMT",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "14mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "42 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "GMT",
+        "Date"
+      ],
+      "price": "~$5,200",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "415.YT.1112.VR.MXM19",
+    "slug": "415-yt-1112-vr-mxm19",
+    "brandSlug": "hublot",
+    "name": "Big Bang Sang Bleu II",
+    "collection": "Big Bang",
+    "description": "Collaboration with tattoo artist Maxime Plescia-B\u00fcchi with geometric hexagonal design.",
+    "image": "https://cdn.watchbase.com/watch/lg/hublot/big-bang/415-yt-1112-vr-mxm19-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. HUB1153",
+      "movementType": "Automatic",
+      "caseMaterial": "Yellow king gold",
+      "caseDiameter": "45mm",
+      "caseThickness": "14.5mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "72 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Chronograph",
+        "Small seconds"
+      ],
+      "price": "~$52,000",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "408.JO.0123.RX",
+    "slug": "408-jo-0123-rx",
+    "brandSlug": "hublot",
+    "name": "Techframe Ferrari Tourbillon",
+    "collection": "Techframe",
+    "description": "Collaboration with Ferrari celebrating Ferrari's 70th anniversary with titanium and carbon.",
+    "image": "https://cdn.watchbase.com/watch/lg/hublot/techframe/408-jo-0123-rx-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. HUB6310",
+      "movementType": "Manual winding",
+      "caseMaterial": "King gold",
+      "caseDiameter": "45mm x 47mm",
+      "caseThickness": "17.95mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Skeleton",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "5 days",
+      "frequency": "18,000 vph",
+      "complications": [
+        "Tourbillon",
+        "Chronograph"
+      ],
+      "price": "~$75,000",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "525.NX.0170.LR",
+    "slug": "525-nx-0170-lr",
+    "brandSlug": "hublot",
+    "name": "Classic Fusion Aerofusion",
+    "collection": "Classic Fusion",
+    "description": "Flyback chronograph with see-through dial showing the movement at 9 and 12 o'clock.",
+    "image": "https://cdn.watchbase.com/watch/lg/hublot/classic-fusion/525-nx-0170-lr-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. HUB1155",
+      "movementType": "Automatic",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "45mm",
+      "caseThickness": "14.2mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Skeleton",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "72 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Flyback chronograph"
+      ],
+      "price": "~$16,200",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "EFS-S560D-1AVUDF",
+    "slug": "efs-s560d-1avudf",
+    "brandSlug": "casio",
+    "name": "Edifice Solar Chronograph",
+    "collection": "Edifice",
+    "description": "Tough solar chronograph with world time and carbon fibre bezel for motorsport style.",
+    "image": "https://cdn.watchbase.com/watch/lg/casio/edifice/efs-s560d-1avudf-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Sol. Cal.",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44.4mm",
+      "caseThickness": "11.2mm",
+      "waterResistance": "100m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Chronograph",
+        "World time",
+        "Stopwatch"
+      ],
+      "price": "~$150",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "EQB-1100DC-1AER",
+    "slug": "eqb-1100dc-1aer",
+    "brandSlug": "casio",
+    "name": "Edifice ECB-1100 Bluetooth",
+    "collection": "Edifice",
+    "description": "Premium Edifice with Bluetooth smartphone connectivity and Carbon Core Guard structure.",
+    "image": "https://cdn.watchbase.com/watch/lg/casio/edifice/eqb-1100dc-1aer-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Solar Cal.",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Carbon Core Guard",
+      "caseDiameter": "47.8mm",
+      "caseThickness": "13mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Resin strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Bluetooth",
+        "World time",
+        "Stopwatch",
+        "Alarm"
+      ],
+      "price": "~$380",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "PRW-60-1AJF",
+    "slug": "prw-60-1ajf",
+    "brandSlug": "casio",
+    "name": "Pro Trek PRW-60",
+    "collection": "Pro Trek",
+    "description": "Triple sensor outdoor watch with altimeter, barometer, thermometer, compass and solar charging.",
+    "image": "https://cdn.watchbase.com/watch/lg/casio/pro-trek/prw-60-1ajf-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Solar Cal.",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Resin",
+      "caseDiameter": "53.5mm",
+      "caseThickness": "13.4mm",
+      "waterResistance": "100m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Resin strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Altimeter",
+        "Barometer",
+        "Thermometer",
+        "Compass",
+        "Stopwatch"
+      ],
+      "price": "~$240",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "EFS-S590D-1AVUDF",
+    "slug": "efs-s590d-1avudf",
+    "brandSlug": "casio",
+    "name": "Edifice Premium Solar",
+    "collection": "Edifice",
+    "description": "Slim solar Edifice with titanium case and sapphire crystal for business and sport.",
+    "image": "https://cdn.watchbase.com/watch/lg/casio/edifice/efs-s590d-1avudf-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Solar Cal.",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "43.8mm",
+      "caseThickness": "9.5mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Titanium bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Stopwatch",
+        "Alarm",
+        "Date"
+      ],
+      "price": "~$250",
+      "yearIntroduced": 2018
+    }
+  },
+  {
+    "reference": "MTP-V004D-1BUDF",
+    "slug": "mtp-v004d-1budf",
+    "brandSlug": "casio",
+    "name": "Enticer Analog",
+    "collection": "Enticer",
+    "description": "Budget everyday quartz watch with day-date display, Casio reliability at entry level.",
+    "image": "https://cdn.watchbase.com/watch/lg/casio/enticer/mtp-v004d-1budf-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 2784",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "8mm",
+      "waterResistance": "50m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Day",
+        "Date"
+      ],
+      "price": "~$35",
+      "yearIntroduced": 2014
+    }
+  },
+  {
+    "reference": "AE-1500WH-8BVEF",
+    "slug": "ae-1500wh-8bvef",
+    "brandSlug": "casio",
+    "name": "Collection Digital",
+    "collection": "Collection",
+    "description": "Iconic Casio digital with multiple functions, 10-year battery life and water resistance.",
+    "image": "https://cdn.watchbase.com/watch/lg/casio/collection/ae-1500wh-8bvef-d5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Digital Cal.",
+      "movementType": "Quartz",
+      "caseMaterial": "Resin",
+      "caseDiameter": "43.2mm",
+      "caseThickness": "12.3mm",
+      "waterResistance": "200m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Resin strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Digital display",
+        "Stopwatch",
+        "Alarm",
+        "Countdown timer",
+        "Date"
+      ],
+      "price": "~$30",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "STGF355",
+    "slug": "stgf355",
+    "brandSlug": "grand-seiko",
+    "name": "Elegance Quartz Ladies",
+    "collection": "Elegance",
+    "description": "Ladies' 9F quartz movement accurate to \u00b110 seconds per year with delicate dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/grand-seiko/elegance/stgf355-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 9F81",
+      "movementType": "Quartz",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "27.8mm",
+      "caseThickness": "6.8mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$2,200",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "GWF-A1000-1AJF",
+    "slug": "gwf-a1000-1ajf",
+    "brandSlug": "g-shock",
+    "name": "Frogman Analog-Digital",
+    "collection": "Frogman",
+    "description": "Professional diving G-Shock with ISO diver's rating, analog-digital display.",
+    "image": "https://cdn.watchbase.com/watch/lg/g-shock/frogman/gwf-a1000-1ajf-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Solar Cal.",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Carbon core guard resin",
+      "caseDiameter": "55.7mm",
+      "caseThickness": "19.6mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Resin strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Tide graph",
+        "Sunrise/sunset data",
+        "World time",
+        "Stopwatch"
+      ],
+      "price": "~$550",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "MRG-B1000-1AJR",
+    "slug": "mrg-b1000-1ajr",
+    "brandSlug": "g-shock",
+    "name": "MR-G Bluetooth",
+    "collection": "MR-G",
+    "description": "Flagship luxury G-Shock in titanium with Bluetooth sync and traditional Japanese kohamayuri pattern.",
+    "image": "https://cdn.watchbase.com/watch/lg/g-shock/mr-g/mrg-b1000-1ajr-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Solar Cal.",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Titanium with DLC coating",
+      "caseDiameter": "49.9mm",
+      "caseThickness": "15.9mm",
+      "waterResistance": "200m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Titanium bracelet",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "Bluetooth",
+        "World time",
+        "Stopwatch",
+        "Alarm"
+      ],
+      "price": "~$3,500",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "GST-B500D-1A1ER",
+    "slug": "gst-b500d-1a1er",
+    "brandSlug": "g-shock",
+    "name": "G-Steel Carbon Core",
+    "collection": "G-Steel",
+    "description": "Metal-accented G-Shock with Carbon Core Guard structure and stainless steel parts.",
+    "image": "https://cdn.watchbase.com/watch/lg/g-shock/g-steel/gst-b500d-1a1er-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Solar Cal.",
+      "movementType": "Solar quartz",
+      "caseMaterial": "Carbon core guard with steel",
+      "caseDiameter": "49.8mm",
+      "caseThickness": "15.4mm",
+      "waterResistance": "200m",
+      "crystal": "Mineral",
+      "dialColor": "Black",
+      "strapMaterial": "Resin and steel strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [
+        "World time",
+        "Stopwatch",
+        "Countdown",
+        "Alarm"
+      ],
+      "price": "~$280",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "4500V/110A-B128",
+    "slug": "4500v-110a-b128",
+    "brandSlug": "vacheron-constantin",
+    "name": "Overseas Automatic",
+    "collection": "Overseas",
+    "description": "Integrated bracelet sports watch, Vacheron's answer to sporty elegance with three strap options.",
+    "image": "https://cdn.watchbase.com/watch/lg/vacheron-constantin/overseas/4500v-110a-b128-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 5100",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41.5mm",
+      "caseThickness": "11mm",
+      "waterResistance": "150m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel bracelet",
+      "powerReserve": "60 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$22,700",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "81180/000R-9159",
+    "slug": "81180-000r-9159",
+    "brandSlug": "vacheron-constantin",
+    "name": "Malte Manual Small Seconds",
+    "collection": "Malte",
+    "description": "Tonneau-shaped case drawing from Art Deco heritage with small seconds subdial.",
+    "image": "https://cdn.watchbase.com/watch/lg/vacheron-constantin/malte/81180-000r-9159-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1400",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct rose gold",
+      "caseDiameter": "38.3mm x 31.3mm",
+      "caseThickness": "7.6mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Small seconds"
+      ],
+      "price": "~$36,000",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "85050/000G-9613",
+    "slug": "85050-000g-9613",
+    "brandSlug": "vacheron-constantin",
+    "name": "Traditionelle Complete Calendar",
+    "collection": "Traditionelle",
+    "description": "Grand complications calendar with moon phase and secular perpetual calendar display.",
+    "image": "https://cdn.watchbase.com/watch/lg/vacheron-constantin/traditionelle/85050-000g-9613-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1120 QP",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "41mm",
+      "caseThickness": "10.2mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "19,800 vph",
+      "complications": [
+        "Perpetual calendar",
+        "Moon phase"
+      ],
+      "price": "~$62,000",
+      "yearIntroduced": 2013
+    }
+  },
+  {
+    "reference": "5300H/000R-B056",
+    "slug": "5300h-000r-b056",
+    "brandSlug": "vacheron-constantin",
+    "name": "Historiques American 1921",
+    "collection": "Historiques",
+    "description": "Re-edition of the 1921 tilted dial watch designed for automobile drivers of the era.",
+    "image": "https://cdn.watchbase.com/watch/lg/vacheron-constantin/historiques/5300h-000r-b056-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 4400 AS",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct rose gold",
+      "caseDiameter": "40mm x 40mm",
+      "caseThickness": "10mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Ivory",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "65 hours",
+      "frequency": "28,800 vph",
+      "complications": [],
+      "price": "~$44,000",
+      "yearIntroduced": 2019
+    }
+  },
+  {
+    "reference": "4000E/000R-B516",
+    "slug": "4000e-000r-b516",
+    "brandSlug": "vacheron-constantin",
+    "name": "\u00c9g\u00e9rie Automatic",
+    "collection": "\u00c9g\u00e9rie",
+    "description": "Ladies' collection inspired by the feminine spirit, with floral motif and rose gold case.",
+    "image": "https://cdn.watchbase.com/watch/lg/vacheron-constantin/egerie/4000e-000r-b516-cb.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 5200",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct rose gold",
+      "caseDiameter": "37mm",
+      "caseThickness": "9.93mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Moon phase"
+      ],
+      "price": "~$28,000",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "G0A43001",
+    "slug": "g0a43001",
+    "brandSlug": "piaget",
+    "name": "Altiplano 38mm Automatic",
+    "collection": "Altiplano",
+    "description": "Incredibly slim automatic at 6.75mm total thickness, Piaget's ultra-thin watchmaking pinnacle.",
+    "image": "https://cdn.watchbase.com/watch/lg/piaget/altiplano/g0a43001-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1203P",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "38mm",
+      "caseThickness": "6.75mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "44 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$20,000",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "G0A41002",
+    "slug": "g0a41002",
+    "brandSlug": "piaget",
+    "name": "Limelight Gala",
+    "collection": "Limelight",
+    "description": "Glamorous cocktail watch inspired by the Roman cocktail hour, with diamond-set case.",
+    "image": "https://cdn.watchbase.com/watch/lg/piaget/limelight/g0a41002-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 56P",
+      "movementType": "Quartz",
+      "caseMaterial": "18ct white gold with diamonds",
+      "caseDiameter": "32mm",
+      "caseThickness": "6.8mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "N/A",
+      "frequency": "N/A",
+      "complications": [],
+      "price": "~$18,400",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "G0A45002",
+    "slug": "g0a45002",
+    "brandSlug": "piaget",
+    "name": "Polo Date Automatic",
+    "collection": "Polo",
+    "description": "Contemporary sports watch integrating the integrated bracelet first seen on the 1979 Polo.",
+    "image": "https://cdn.watchbase.com/watch/lg/piaget/polo/g0a45002-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1160P",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "42mm",
+      "caseThickness": "9.4mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Stainless steel integrated bracelet",
+      "powerReserve": "50 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date"
+      ],
+      "price": "~$17,800",
+      "yearIntroduced": 2020
+    }
+  },
+  {
+    "reference": "G0A41007",
+    "slug": "g0a41007",
+    "brandSlug": "piaget",
+    "name": "Gouverneur Tourbillon",
+    "collection": "Gouverneur",
+    "description": "Skeletonized flying tourbillon in an ultra-thin case, demonstrating Piaget's technical mastery.",
+    "image": "https://cdn.watchbase.com/watch/lg/piaget/gouverneur/g0a41007-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 642P",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct rose gold",
+      "caseDiameter": "43mm",
+      "caseThickness": "7.65mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Skeleton",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "40 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Flying tourbillon"
+      ],
+      "price": "~$120,000",
+      "yearIntroduced": 2015
+    }
+  },
+  {
+    "reference": "PAM00116",
+    "slug": "pam00116",
+    "brandSlug": "panerai",
+    "name": "Luminor Base 44mm",
+    "collection": "Luminor",
+    "description": "Classic no-date Luminor with crown-protecting lever and manual wind movement.",
+    "image": "https://cdn.watchbase.com/watch/lg/panerai/luminor/pam00116-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. P.6000",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "15.6mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "72 hours",
+      "frequency": "21,600 vph",
+      "complications": [],
+      "price": "~$5,200",
+      "yearIntroduced": 2002
+    }
+  },
+  {
+    "reference": "PAM00359",
+    "slug": "pam00359",
+    "brandSlug": "panerai",
+    "name": "Luminor Marina 44mm",
+    "collection": "Luminor Marina",
+    "description": "Modern interpretation of Panerai's classic diver with date at 3 o'clock.",
+    "image": "https://cdn.watchbase.com/watch/lg/panerai/luminor-marina/pam00359-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. P.9000",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "16.1mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "72 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date",
+        "Small seconds"
+      ],
+      "price": "~$7,100",
+      "yearIntroduced": 2009
+    }
+  },
+  {
+    "reference": "PAM00048",
+    "slug": "pam00048",
+    "brandSlug": "panerai",
+    "name": "Luminor Marina 8 Days",
+    "collection": "Luminor Marina",
+    "description": "8-day power reserve with in-house manual movement and small seconds subdial.",
+    "image": "https://cdn.watchbase.com/watch/lg/panerai/luminor-marina/pam00048-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. P.2003",
+      "movementType": "Manual winding",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "44mm",
+      "caseThickness": "15.4mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "8 days",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Small seconds",
+        "8-day power reserve"
+      ],
+      "price": "~$8,500",
+      "yearIntroduced": 2009
+    }
+  },
+  {
+    "reference": "PAM01661",
+    "slug": "pam01661",
+    "brandSlug": "panerai",
+    "name": "Submersible QuarantaQuattro Titanio",
+    "collection": "Submersible",
+    "description": "Modern 44mm titanium submersible with ceramic bezel and Carbotech crown guard.",
+    "image": "https://cdn.watchbase.com/watch/lg/panerai/submersible/pam01661-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. P.900",
+      "movementType": "Automatic",
+      "caseMaterial": "Titanium",
+      "caseDiameter": "44mm",
+      "caseThickness": "15.7mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "72 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$8,900",
+      "yearIntroduced": 2023
+    }
+  },
+  {
+    "reference": "03.2040.400/69.C494",
+    "slug": "03-2040-400-69-c494",
+    "brandSlug": "zenith",
+    "name": "Chronomaster Original",
+    "collection": "Chronomaster",
+    "description": "Tri-colour panda dial chronograph with the legendary El Primero movement, faithful to 1969.",
+    "image": "https://cdn.watchbase.com/watch/lg/zenith/chronomaster/03-2040-400-69-c494-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. El Primero 400",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "38mm",
+      "caseThickness": "13.3mm",
+      "waterResistance": "50m",
+      "crystal": "Sapphire",
+      "dialColor": "Tri-colour (black/white/gold)",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "50 hours",
+      "frequency": "36,000 vph",
+      "complications": [
+        "Chronograph",
+        "Date"
+      ],
+      "price": "~$7,800",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "49.9000.670/78.M9000",
+    "slug": "49-9000-670-78-m9000",
+    "brandSlug": "zenith",
+    "name": "Defy El Primero 21 Black",
+    "collection": "Defy",
+    "description": "100th-second chronograph with two independent oscillators in black ceramic case.",
+    "image": "https://cdn.watchbase.com/watch/lg/zenith/defy/49-9000-670-78-m9000-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. El Primero 9004",
+      "movementType": "Automatic",
+      "caseMaterial": "Black ceramic",
+      "caseDiameter": "44mm",
+      "caseThickness": "13.6mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "50 hours",
+      "frequency": "36,000 vph",
+      "complications": [
+        "Chronograph (1/100th second)"
+      ],
+      "price": "~$14,900",
+      "yearIntroduced": 2017
+    }
+  },
+  {
+    "reference": "95.9300.3600/69.M9300",
+    "slug": "95-9300-3600-69-m9300",
+    "brandSlug": "zenith",
+    "name": "Defy Skyline Skeleton",
+    "collection": "Defy",
+    "description": "Open-worked Defy Skyline revealing the oscillator and gear train through a skeletonized dial.",
+    "image": "https://cdn.watchbase.com/watch/lg/zenith/defy/95-9300-3600-69-m9300-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 3620",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "10.75mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Skeleton",
+      "strapMaterial": "Rubber strap",
+      "powerReserve": "60 hours",
+      "frequency": "36,000 vph",
+      "complications": [],
+      "price": "~$12,900",
+      "yearIntroduced": 2022
+    }
+  },
+  {
+    "reference": "03.2080.400/57.M2040",
+    "slug": "03-2080-400-57-m2040",
+    "brandSlug": "zenith",
+    "name": "Chronomaster Sport",
+    "collection": "Chronomaster",
+    "description": "Sporty El Primero chronograph with ceramic bezel and integrated bracelet design.",
+    "image": "https://cdn.watchbase.com/watch/lg/zenith/chronomaster/03-2080-400-57-m2040-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. El Primero 3600",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "41mm",
+      "caseThickness": "13.35mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Stainless steel integrated bracelet",
+      "powerReserve": "60 hours",
+      "frequency": "36,000 vph",
+      "complications": [
+        "Chronograph",
+        "Date"
+      ],
+      "price": "~$9,400",
+      "yearIntroduced": 2021
+    }
+  },
+  {
+    "reference": "297.026",
+    "slug": "297-026",
+    "brandSlug": "a-lange-sohne",
+    "name": "Lange 1 Tourbillon",
+    "collection": "Lange 1",
+    "description": "The pinnacle of the Lange 1 family with a flying tourbillon and outsize date.",
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/lange-1/297-026-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L961.1",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct pink gold",
+      "caseDiameter": "38.5mm",
+      "caseThickness": "12.1mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "72 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Tourbillon",
+        "Outsize date",
+        "Power reserve"
+      ],
+      "price": "~$188,500",
+      "yearIntroduced": 2013
+    }
+  },
+  {
+    "reference": "410.032",
+    "slug": "410-032",
+    "brandSlug": "a-lange-sohne",
+    "name": "Zeitwerk Striking Time",
+    "collection": "Zeitwerk",
+    "description": "Jumping digital display with decimal striking mechanism, chimes every 10 minutes.",
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/zeitwerk/410-032-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L043.2",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct pink gold",
+      "caseDiameter": "44.2mm",
+      "caseThickness": "14.1mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Black",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "36 hours",
+      "frequency": "18,000 vph",
+      "complications": [
+        "Jumping digital hours",
+        "Jumping digital minutes",
+        "Decimal striking"
+      ],
+      "price": "~$215,000",
+      "yearIntroduced": 2009
+    }
+  },
+  {
+    "reference": "720.025",
+    "slug": "720-025",
+    "brandSlug": "a-lange-sohne",
+    "name": "Langematik Perpetual",
+    "collection": "Langematik",
+    "description": "Perpetual calendar with Lange's signature outsize date and zero-reset seconds.",
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/langematik/720-025-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L922.1 SAX-O-MAT",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct pink gold",
+      "caseDiameter": "38.5mm",
+      "caseThickness": "10mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "46 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Perpetual calendar",
+        "Outsize date",
+        "Moon phase"
+      ],
+      "price": "~$79,400",
+      "yearIntroduced": 2001
+    }
+  },
+  {
+    "reference": "231.026",
+    "slug": "231-026",
+    "brandSlug": "a-lange-sohne",
+    "name": "Saxonia Moon Phase",
+    "collection": "Saxonia",
+    "description": "Classically round moon phase watch with silver-plated dial and delicate hands.",
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/saxonia/231-026-9e.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. L086.5",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct pink gold",
+      "caseDiameter": "40mm",
+      "caseThickness": "9.8mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "72 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Moon phase",
+        "Date"
+      ],
+      "price": "~$36,900",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "reference": "5015-3630-52",
+    "slug": "5015-3630-52",
+    "brandSlug": "blancpain",
+    "name": "Fifty Fathoms Automatique",
+    "collection": "Fifty Fathoms",
+    "description": "The original modern dive watch reissued, with unidirectional bezel and 300m water resistance.",
+    "image": "https://cdn.watchbase.com/watch/lg/blancpain/fifty-fathoms/5015-3630-52-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 1151",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "45mm",
+      "caseThickness": "15.7mm",
+      "waterResistance": "300m",
+      "crystal": "Sapphire",
+      "dialColor": "Blue",
+      "strapMaterial": "Fabric strap",
+      "powerReserve": "120 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Unidirectional rotating bezel"
+      ],
+      "price": "~$16,500",
+      "yearIntroduced": 2013
+    }
+  },
+  {
+    "reference": "6651-1127-55B",
+    "slug": "6651-1127-55b",
+    "brandSlug": "blancpain",
+    "name": "Villeret Quanti\u00e8me Complet",
+    "collection": "Villeret",
+    "description": "Classic triple calendar with moon phase in a slim round case with traditional aesthetics.",
+    "image": "https://cdn.watchbase.com/watch/lg/blancpain/villeret/6651-1127-55b-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 6763",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "10.2mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "72 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Triple calendar",
+        "Moon phase"
+      ],
+      "price": "~$12,800",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "2100-1130-53B",
+    "slug": "2100-1130-53b",
+    "brandSlug": "blancpain",
+    "name": "L\u00e9man Tourbillon",
+    "collection": "L\u00e9man",
+    "description": "Sports-shaped L\u00e9man collection with flying tourbillon and date, inspired by the lake of Geneva.",
+    "image": "https://cdn.watchbase.com/watch/lg/blancpain/leman/2100-1130-53b-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 25",
+      "movementType": "Manual winding",
+      "caseMaterial": "18ct white gold",
+      "caseDiameter": "38mm",
+      "caseThickness": "13mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "100 hours",
+      "frequency": "21,600 vph",
+      "complications": [
+        "Tourbillon"
+      ],
+      "price": "~$98,000",
+      "yearIntroduced": 1991
+    }
+  },
+  {
+    "reference": "3800ST/92/9W6",
+    "slug": "3800st-92-9w6",
+    "brandSlug": "breguet",
+    "name": "Type XX Transatlantique",
+    "collection": "Type XX",
+    "description": "Pilot's flyback chronograph with bidirectional rotating bezel for military heritage.",
+    "image": "https://cdn.watchbase.com/watch/lg/breguet/type-xx/3800st-92-9w6-dc.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 582Q",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "40mm",
+      "caseThickness": "13.5mm",
+      "waterResistance": "100m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "48 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Flyback chronograph",
+        "Date"
+      ],
+      "price": "~$12,500",
+      "yearIntroduced": 1994
+    }
+  },
+  {
+    "reference": "7147BA/11/9WU",
+    "slug": "7147ba-11-9wu",
+    "brandSlug": "breguet",
+    "name": "Heritage Automatic",
+    "collection": "Heritage",
+    "description": "Tonneau-shaped watch in yellow gold inspired by 19th century Breguet pocket watches.",
+    "image": "https://cdn.watchbase.com/watch/lg/breguet/heritage/7147ba-11-9wu-b5.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 502.3 SDRH",
+      "movementType": "Automatic",
+      "caseMaterial": "18ct yellow gold",
+      "caseDiameter": "40.5mm x 38.5mm",
+      "caseThickness": "9.1mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "48 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Date",
+        "Small seconds",
+        "Power reserve"
+      ],
+      "price": "~$28,500",
+      "yearIntroduced": 2012
+    }
+  },
+  {
+    "reference": "5367ST/42/5WU",
+    "slug": "5367st-42-5wu",
+    "brandSlug": "breguet",
+    "name": "Classique Moon Phase",
+    "collection": "Classique",
+    "description": "Elegant round watch with moon phase at 12, guilloch\u00e9 dial and Breguet hands.",
+    "image": "https://cdn.watchbase.com/watch/lg/breguet/classique/5367st-42-5wu-f7.jpg",
+    "featured": false,
+    "specs": {
+      "movement": "Cal. 5365E",
+      "movementType": "Automatic",
+      "caseMaterial": "Stainless steel",
+      "caseDiameter": "39mm",
+      "caseThickness": "9.98mm",
+      "waterResistance": "30m",
+      "crystal": "Sapphire",
+      "dialColor": "Silver",
+      "strapMaterial": "Leather strap",
+      "powerReserve": "45 hours",
+      "frequency": "28,800 vph",
+      "complications": [
+        "Moon phase",
+        "Date"
+      ],
+      "price": "~$16,200",
+      "yearIntroduced": 2016
+    }
+  },
+  {
+    "brandSlug": "nomos-glashutte",
+    "slug": "tangente-datum",
+    "name": "Tangente Datum",
+    "reference": "741",
+    "collection": "Tangente",
+    "year": 2019,
+    "image": "https://cdn.watchbase.com/watch/lg/nomos/tangente/741-f.jpg",
+    "specs": {
+      "caseDiameter": "35mm",
+      "caseThickness": "6.8mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "White",
+      "movement": "DUW 4101",
+      "movementType": "Manual",
+      "powerReserve": "43 hours",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Tangente Datum adds a date complication to the iconic Tangente, maintaining the minimalist Bauhaus aesthetic.",
+    "tags": [
+      "bauhaus",
+      "minimalist",
+      "manual",
+      "date"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "nomos-glashutte",
+    "slug": "club-campus-new-now",
+    "name": "Club Campus neomatik",
+    "reference": "800",
+    "collection": "Club",
+    "year": 2019,
+    "image": "https://cdn.watchbase.com/watch/lg/nomos/club/800-f.jpg",
+    "specs": {
+      "caseDiameter": "36mm",
+      "caseThickness": "8.5mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Blue",
+      "movement": "DUW 3001",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "100m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Club Campus neomatik offers NOMOS's slim automatic movement in a sporty, accessible package.",
+    "tags": [
+      "automatic",
+      "blue dial",
+      "sport"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "nomos-glashutte",
+    "slug": "zurich-weltzeit",
+    "name": "Zurich Weltzeit",
+    "reference": "805",
+    "collection": "Zurich",
+    "year": 2013,
+    "image": "https://cdn.watchbase.com/watch/lg/nomos/zurich/805-f.jpg",
+    "specs": {
+      "caseDiameter": "39.9mm",
+      "caseThickness": "9.8mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "White",
+      "movement": "DUW 5201",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Zurich Weltzeit features a world time complication displaying 24 time zones simultaneously.",
+    "tags": [
+      "world time",
+      "automatic",
+      "complication"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "rado",
+    "slug": "captain-cook-high-tech-ceramic",
+    "name": "Captain Cook High-Tech Ceramic",
+    "reference": "R32129152",
+    "collection": "Captain Cook",
+    "year": 2020,
+    "image": "https://cdn.watchbase.com/watch/lg/rado/captain-cook/R32129152-f.jpg",
+    "specs": {
+      "caseDiameter": "43mm",
+      "caseThickness": "13mm",
+      "caseMaterial": "High-Tech Ceramic",
+      "dialColor": "Blue",
+      "movement": "ETA C07.611",
+      "movementType": "Automatic",
+      "powerReserve": "80 hours",
+      "waterResistance": "300m",
+      "bracelet": "Rubber Strap"
+    },
+    "description": "The Captain Cook HTC brings Rado's ceramic expertise to a robust diver, offering scratch resistance and 300m water resistance.",
+    "tags": [
+      "diver",
+      "ceramic",
+      "automatic",
+      "sport"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "rado",
+    "slug": "true-thinline",
+    "name": "True Thinline",
+    "reference": "R27016202",
+    "collection": "True",
+    "year": 2016,
+    "image": "https://cdn.watchbase.com/watch/lg/rado/true/R27016202-f.jpg",
+    "specs": {
+      "caseDiameter": "39mm",
+      "caseThickness": "5.5mm",
+      "caseMaterial": "High-Tech Ceramic",
+      "dialColor": "White",
+      "movement": "ETA 2892-A2",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "30m",
+      "bracelet": "Ceramic Bracelet"
+    },
+    "description": "At 5.5mm thick, the True Thinline is one of the slimmest automatic watches with a full ceramic case and bracelet.",
+    "tags": [
+      "ultra-thin",
+      "ceramic",
+      "automatic",
+      "minimalist"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "rado",
+    "slug": "hyperchrome-chronograph",
+    "name": "HyperChrome Chronograph",
+    "reference": "R32043152",
+    "collection": "HyperChrome",
+    "year": 2015,
+    "image": "https://cdn.watchbase.com/watch/lg/rado/hyperchrome/R32043152-f.jpg",
+    "specs": {
+      "caseDiameter": "45mm",
+      "caseThickness": "13.6mm",
+      "caseMaterial": "High-Tech Ceramic",
+      "dialColor": "Black",
+      "movement": "ETA Valgranges A05.H31",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "100m",
+      "bracelet": "Ceramic Bracelet"
+    },
+    "description": "The HyperChrome Chronograph pairs a robust ceramic case with a column-wheel chronograph movement.",
+    "tags": [
+      "chronograph",
+      "ceramic",
+      "automatic",
+      "sport"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "rado",
+    "slug": "esenza-ceramic",
+    "name": "Esenza Ceramic",
+    "reference": "R53091702",
+    "collection": "Esenza",
+    "year": 2018,
+    "image": "https://cdn.watchbase.com/watch/lg/rado/esenza/R53091702-f.jpg",
+    "specs": {
+      "caseDiameter": "32mm",
+      "caseThickness": "7.2mm",
+      "caseMaterial": "High-Tech Ceramic",
+      "dialColor": "White",
+      "movement": "ETA 955.112",
+      "movementType": "Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "30m",
+      "bracelet": "Ceramic Bracelet"
+    },
+    "description": "The Esenza Ceramic is a refined ladies watch featuring Rado's signature high-tech ceramic in an elegant tonneau shape.",
+    "tags": [
+      "ladies",
+      "ceramic",
+      "quartz",
+      "elegant"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "bulova",
+    "slug": "marine-star",
+    "name": "Marine Star",
+    "reference": "98B301",
+    "collection": "Marine Star",
+    "year": 2020,
+    "image": "https://cdn.watchbase.com/watch/lg/bulova/marine-star/98B301-f.jpg",
+    "specs": {
+      "caseDiameter": "43mm",
+      "caseThickness": "12mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Blue",
+      "movement": "Bulova Quartz",
+      "movementType": "Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "300m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Marine Star is Bulova's flagship diver, offering 300m water resistance with a classic rotating bezel.",
+    "tags": [
+      "diver",
+      "quartz",
+      "sport",
+      "blue dial"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "bulova",
+    "slug": "classic-sutton",
+    "name": "Classic Sutton",
+    "reference": "96B104",
+    "collection": "Classic",
+    "year": 2015,
+    "image": "https://cdn.watchbase.com/watch/lg/bulova/classic/96B104-f.jpg",
+    "specs": {
+      "caseDiameter": "40mm",
+      "caseThickness": "10mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Black",
+      "movement": "Miyota 8215",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "30m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Classic Sutton is an entry-level automatic from Bulova with clean dial design and reliable Miyota movement.",
+    "tags": [
+      "automatic",
+      "classic",
+      "affordable"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "bulova",
+    "slug": "accutron-spaceview-2020",
+    "name": "Accutron Spaceview 2020",
+    "reference": "2ES7A002",
+    "collection": "Accutron",
+    "year": 2020,
+    "image": "https://cdn.watchbase.com/watch/lg/bulova/accutron/2ES7A002-f.jpg",
+    "specs": {
+      "caseDiameter": "40mm",
+      "caseThickness": "10.4mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Skeleton",
+      "movement": "Accutron Electrostatic",
+      "movementType": "Electrostatic",
+      "powerReserve": "N/A",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Accutron Spaceview 2020 revival uses electrostatic energy harvesting from body motion to power its unique movement.",
+    "tags": [
+      "skeleton",
+      "electrostatic",
+      "innovation",
+      "heritage"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "g-shock",
+    "slug": "gmt-master-gwg-2000",
+    "name": "Mudmaster GWG-2000",
+    "reference": "GWG-2000-1A3",
+    "collection": "Mudmaster",
+    "year": 2021,
+    "image": "https://cdn.watchbase.com/watch/lg/casio/g-shock/GWG-2000-1A3-f.jpg",
+    "specs": {
+      "caseDiameter": "52.6mm",
+      "caseThickness": "17.7mm",
+      "caseMaterial": "Carbon Core Guard",
+      "dialColor": "Khaki",
+      "movement": "Casio 3549",
+      "movementType": "Solar/Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "200m",
+      "bracelet": "Resin Strap"
+    },
+    "description": "The Mudmaster GWG-2000 features carbon core guard construction, multi-band atomic timekeeping, and altitude/direction sensors.",
+    "tags": [
+      "solar",
+      "outdoor",
+      "military",
+      "sensor"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "g-shock",
+    "slug": "rangeman-gwg-100",
+    "name": "Rangeman GWG-100",
+    "reference": "GWG-100-1A",
+    "collection": "Rangeman",
+    "year": 2014,
+    "image": "https://cdn.watchbase.com/watch/lg/casio/g-shock/GWG-100-1A-f.jpg",
+    "specs": {
+      "caseDiameter": "54.1mm",
+      "caseThickness": "18.1mm",
+      "caseMaterial": "Carbon Fiber Reinforced Resin",
+      "dialColor": "Black",
+      "movement": "Casio 3454",
+      "movementType": "Solar/Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "200m",
+      "bracelet": "Resin Strap"
+    },
+    "description": "The Rangeman is G-Shock's master of tough concept watch, with triple sensor technology \u2014 thermometer, altimeter/barometer, and compass.",
+    "tags": [
+      "solar",
+      "triple sensor",
+      "outdoor",
+      "military"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "g-shock",
+    "slug": "g-lide-gax-100",
+    "name": "G-LIDE GAX-100",
+    "reference": "GAX-100B-7A",
+    "collection": "G-LIDE",
+    "year": 2014,
+    "image": "https://cdn.watchbase.com/watch/lg/casio/g-shock/GAX-100B-7A-f.jpg",
+    "specs": {
+      "caseDiameter": "55.3mm",
+      "caseThickness": "16.3mm",
+      "caseMaterial": "Resin",
+      "dialColor": "White",
+      "movement": "Casio 3418",
+      "movementType": "Solar/Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "200m",
+      "bracelet": "Resin Strap"
+    },
+    "description": "The G-LIDE is designed for water sports enthusiasts, featuring tide and moon data displays alongside standard G-Shock toughness.",
+    "tags": [
+      "solar",
+      "tide",
+      "surf",
+      "sport"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "orient",
+    "slug": "bambino-version-v",
+    "name": "Bambino Version V",
+    "reference": "FAC0000DB0",
+    "collection": "Bambino",
+    "year": 2018,
+    "image": "https://cdn.watchbase.com/watch/lg/orient/bambino/FAC0000DB0-f.jpg",
+    "specs": {
+      "caseDiameter": "40.5mm",
+      "caseThickness": "10.3mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "White",
+      "movement": "Orient F6724",
+      "movementType": "Automatic",
+      "powerReserve": "40 hours",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Bambino V features an open heart aperture revealing the balance wheel, adding visual interest to a classic dress watch.",
+    "tags": [
+      "open heart",
+      "automatic",
+      "dress",
+      "affordable"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "orient",
+    "slug": "sun-and-moon-version-iv",
+    "name": "Sun & Moon Version IV",
+    "reference": "RA-AS0011S",
+    "collection": "Sun & Moon",
+    "year": 2018,
+    "image": "https://cdn.watchbase.com/watch/lg/orient/sun-moon/RA-AS0011S-f.jpg",
+    "specs": {
+      "caseDiameter": "42mm",
+      "caseThickness": "12mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Champagne",
+      "movement": "Orient F6B24",
+      "movementType": "Automatic",
+      "powerReserve": "40 hours",
+      "waterResistance": "50m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Sun & Moon displays day/night cycle through an aperture at 12 o'clock, with moon phase at the sub-dial.",
+    "tags": [
+      "sun moon",
+      "automatic",
+      "complication",
+      "dressy"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "orient",
+    "slug": "tristar-classic",
+    "name": "Tristar Classic",
+    "reference": "RA-AB0006S",
+    "collection": "Tristar",
+    "year": 2016,
+    "image": "https://cdn.watchbase.com/watch/lg/orient/tristar/RA-AB0006S-f.jpg",
+    "specs": {
+      "caseDiameter": "40mm",
+      "caseThickness": "11mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Silver",
+      "movement": "Orient F6B24",
+      "movementType": "Automatic",
+      "powerReserve": "40 hours",
+      "waterResistance": "50m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Tristar Classic brings Orient's reliable in-house automatic movement to a three-hand date watch with timeless appeal.",
+    "tags": [
+      "automatic",
+      "classic",
+      "affordable",
+      "date"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "orient",
+    "slug": "neo-70s",
+    "name": "Neo 70's",
+    "reference": "RA-AA0E01L",
+    "collection": "Neo 70's",
+    "year": 2020,
+    "image": "https://cdn.watchbase.com/watch/lg/orient/neo-70s/RA-AA0E01L-f.jpg",
+    "specs": {
+      "caseDiameter": "41mm",
+      "caseThickness": "13.5mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Orange",
+      "movement": "Orient F6B24",
+      "movementType": "Automatic",
+      "powerReserve": "40 hours",
+      "waterResistance": "100m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Neo 70's takes design cues from vintage sports watches, featuring bold color accents and a cushion-shaped case.",
+    "tags": [
+      "vintage",
+      "automatic",
+      "sport",
+      "retro"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "frederique-constant",
+    "slug": "slimline-moonphase",
+    "name": "Slimline Moonphase",
+    "reference": "FC-705N4S6",
+    "collection": "Slimline",
+    "year": 2020,
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/slimline/FC-705N4S6-f.jpg",
+    "specs": {
+      "caseDiameter": "42mm",
+      "caseThickness": "10.8mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Navy Blue",
+      "movement": "FC-705",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "50m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Slimline Moonphase combines elegant proportions with a poetic moonphase display at six o'clock.",
+    "tags": [
+      "moon phase",
+      "automatic",
+      "elegant",
+      "dressy"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "frederique-constant",
+    "slug": "classics-quartz-chronograph",
+    "name": "Classics Quartz Chronograph",
+    "reference": "FC-292MC5B6",
+    "collection": "Classics",
+    "year": 2018,
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/classics/FC-292MC5B6-f.jpg",
+    "specs": {
+      "caseDiameter": "42mm",
+      "caseThickness": "11.5mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Silver",
+      "movement": "FC-292",
+      "movementType": "Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "50m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "An accessible entry into the Frederique Constant family, the Classics Chronograph pairs a refined aesthetic with quartz precision.",
+    "tags": [
+      "chronograph",
+      "quartz",
+      "classic",
+      "affordable"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "frederique-constant",
+    "slug": "highlife-automatic",
+    "name": "Highlife Automatic",
+    "reference": "FC-303BN5B4",
+    "collection": "Highlife",
+    "year": 2021,
+    "image": "https://cdn.watchbase.com/watch/lg/frederique-constant/highlife/FC-303BN5B4-f.jpg",
+    "specs": {
+      "caseDiameter": "41mm",
+      "caseThickness": "11.4mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Black",
+      "movement": "FC-303",
+      "movementType": "Automatic",
+      "powerReserve": "38 hours",
+      "waterResistance": "200m",
+      "bracelet": "Integrated Steel Bracelet"
+    },
+    "description": "The Highlife features an integrated bracelet and sporty aesthetic, bridging the gap between luxury and everyday wearability.",
+    "tags": [
+      "automatic",
+      "integrated bracelet",
+      "sport",
+      "versatile"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "iwc",
+    "slug": "aquatimer-automatic-2000",
+    "name": "Aquatimer Automatic 2000",
+    "reference": "IW356802",
+    "collection": "Aquatimer",
+    "year": 2012,
+    "image": "https://cdn.watchbase.com/watch/lg/iwc/aquatimer/IW356802-f.jpg",
+    "specs": {
+      "caseDiameter": "46mm",
+      "caseThickness": "15.5mm",
+      "caseMaterial": "Titanium",
+      "dialColor": "Black",
+      "movement": "80110",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "2000m",
+      "bracelet": "Rubber Strap"
+    },
+    "description": "The Aquatimer Automatic 2000 offers saturation diving capability with titanium construction and a patented SafeDive bezel system.",
+    "tags": [
+      "diver",
+      "automatic",
+      "titanium",
+      "professional"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "iwc",
+    "slug": "ingenieur-automatic",
+    "name": "Ingenieur Automatic",
+    "reference": "IW323902",
+    "collection": "Ingenieur",
+    "year": 2013,
+    "image": "https://cdn.watchbase.com/watch/lg/iwc/ingenieur/IW323902-f.jpg",
+    "specs": {
+      "caseDiameter": "40mm",
+      "caseThickness": "10.9mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Black",
+      "movement": "80110",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "120m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Ingenieur Automatic is IWC's engineer watch with anti-magnetic soft iron cage protection and clean three-hand design.",
+    "tags": [
+      "anti-magnetic",
+      "automatic",
+      "sport",
+      "technical"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "grand-seiko",
+    "slug": "spring-drive-snowflake-sbga211-extra",
+    "name": "Spring Drive 8 Days",
+    "reference": "SBGD001",
+    "collection": "Elegance",
+    "year": 2017,
+    "image": "https://cdn.watchbase.com/watch/lg/grand-seiko/elegance/SBGD001-f.jpg",
+    "specs": {
+      "caseDiameter": "43.5mm",
+      "caseThickness": "13.5mm",
+      "caseMaterial": "Platinum",
+      "dialColor": "White",
+      "movement": "Caliber 9R01",
+      "movementType": "Spring Drive",
+      "powerReserve": "8 days",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The SBGD001 represents the pinnacle of Grand Seiko's Spring Drive technology with 8 days of power reserve in a platinum case.",
+    "tags": [
+      "spring drive",
+      "platinum",
+      "power reserve",
+      "prestige"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "grand-seiko",
+    "slug": "heritage-hi-beat-birch",
+    "name": "Heritage Hi-Beat Birch Forest",
+    "reference": "SLGH005",
+    "collection": "Heritage",
+    "year": 2021,
+    "image": "https://cdn.watchbase.com/watch/lg/grand-seiko/heritage/SLGH005-f.jpg",
+    "specs": {
+      "caseDiameter": "40mm",
+      "caseThickness": "11.7mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Green",
+      "movement": "Caliber 9SA5",
+      "movementType": "Automatic",
+      "powerReserve": "80 hours",
+      "waterResistance": "100m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Birch Forest dial captures the delicate beauty of a white birch grove in Shinshu, Japan, with Grand Seiko's new 9SA5 movement.",
+    "tags": [
+      "hi-beat",
+      "automatic",
+      "green dial",
+      "nature"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "grand-seiko",
+    "slug": "quartz-gmt-sbgn003",
+    "name": "Quartz GMT",
+    "reference": "SBGN003",
+    "collection": "Sport",
+    "year": 2020,
+    "image": "https://cdn.watchbase.com/watch/lg/grand-seiko/sport/SBGN003-f.jpg",
+    "specs": {
+      "caseDiameter": "43.5mm",
+      "caseThickness": "14.7mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Black",
+      "movement": "Caliber 9F86",
+      "movementType": "Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "200m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The SBGN003 pairs Grand Seiko's ultra-precise 9F quartz caliber with GMT functionality in a sporty 43.5mm case.",
+    "tags": [
+      "quartz",
+      "gmt",
+      "sport",
+      "precise"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "a-lange-sohne",
+    "slug": "zeitwerk-striking-time",
+    "name": "Zeitwerk Striking Time",
+    "reference": "145.032",
+    "collection": "Zeitwerk",
+    "year": 2009,
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/zeitwerk/145.032-f.jpg",
+    "specs": {
+      "caseDiameter": "44.2mm",
+      "caseThickness": "15.1mm",
+      "caseMaterial": "Platinum",
+      "dialColor": "Black",
+      "movement": "L043.1",
+      "movementType": "Manual",
+      "powerReserve": "36 hours",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Zeitwerk Striking Time acoustically signals each new digital hour and minute jump with a precisely crafted chiming mechanism.",
+    "tags": [
+      "striking time",
+      "manual",
+      "jumping hours",
+      "prestige"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "a-lange-sohne",
+    "slug": "triple-split",
+    "name": "Triple Split",
+    "reference": "424.032",
+    "collection": "Datograph",
+    "year": 2018,
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/datograph/424.032-f.jpg",
+    "specs": {
+      "caseDiameter": "43.2mm",
+      "caseThickness": "14.6mm",
+      "caseMaterial": "Pink Gold",
+      "dialColor": "Silver",
+      "movement": "L133.1",
+      "movementType": "Manual",
+      "powerReserve": "55 hours",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Triple Split can compare three elapsed times simultaneously \u2014 the first rattrapante chronograph with hours, minutes, and seconds split.",
+    "tags": [
+      "triple split",
+      "chronograph",
+      "manual",
+      "prestige"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "nomos-glashutte",
+    "slug": "tetra-neomatik",
+    "name": "Tetra neomatik",
+    "reference": "421",
+    "collection": "Tetra",
+    "year": 2018,
+    "image": "https://cdn.watchbase.com/watch/lg/nomos/tetra/421-f.jpg",
+    "specs": {
+      "caseDiameter": "29.5x29.5mm",
+      "caseThickness": "7.5mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "White",
+      "movement": "DUW 3001",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Tetra neomatik brings NOMOS's slim automatic movement to a distinctive square case with Bauhaus-minimalist dial.",
+    "tags": [
+      "square",
+      "automatic",
+      "bauhaus",
+      "minimalist"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "bulova",
+    "slug": "curv-chronograph",
+    "name": "Curv Chronograph",
+    "reference": "98A162",
+    "collection": "Curv",
+    "year": 2016,
+    "image": "https://cdn.watchbase.com/watch/lg/bulova/curv/98A162-f.jpg",
+    "specs": {
+      "caseDiameter": "44mm",
+      "caseThickness": "9mm",
+      "caseMaterial": "Stainless Steel",
+      "dialColor": "Black",
+      "movement": "Bulova 262kHz High-Frequency",
+      "movementType": "Quartz",
+      "powerReserve": "N/A",
+      "waterResistance": "100m",
+      "bracelet": "Stainless Steel Bracelet"
+    },
+    "description": "The Curv features a curved case and movement that wraps around the wrist, housing Bulova's ultra-high-frequency chronograph.",
+    "tags": [
+      "chronograph",
+      "curved",
+      "quartz",
+      "innovative"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "a-lange-sohne",
+    "slug": "saxonia-thin",
+    "name": "Saxonia Thin",
+    "reference": "201.027",
+    "collection": "Saxonia",
+    "year": 2012,
+    "image": "https://cdn.watchbase.com/watch/lg/a-lange-sohne/saxonia/201.027-f.jpg",
+    "specs": {
+      "caseDiameter": "40mm",
+      "caseThickness": "5.9mm",
+      "caseMaterial": "White Gold",
+      "dialColor": "Silver",
+      "movement": "L093.1",
+      "movementType": "Manual",
+      "powerReserve": "72 hours",
+      "waterResistance": "30m",
+      "bracelet": "Leather Strap"
+    },
+    "description": "The Saxonia Thin is A. Lange & S\u00f6hne's masterclass in restraint \u2014 just 5.9mm thick with a manually wound movement in white gold.",
+    "tags": [
+      "ultra-thin",
+      "manual",
+      "dressy",
+      "prestige"
+    ],
+    "featured": false
+  },
+  {
+    "brandSlug": "rado",
+    "slug": "diastar-original",
+    "name": "DiaStar Original",
+    "reference": "R12413153",
+    "collection": "DiaStar",
+    "year": 2021,
+    "image": "https://cdn.watchbase.com/watch/lg/rado/diastar/R12413153-f.jpg",
+    "specs": {
+      "caseDiameter": "38mm",
+      "caseThickness": "9.3mm",
+      "caseMaterial": "High-Tech Ceramic",
+      "dialColor": "Silver",
+      "movement": "ETA 2671",
+      "movementType": "Automatic",
+      "powerReserve": "42 hours",
+      "waterResistance": "30m",
+      "bracelet": "Ceramic Bracelet"
+    },
+    "description": "The DiaStar Original revival celebrates Rado's 1962 landmark watch that first used scratch-proof materials in watchmaking.",
+    "tags": [
+      "heritage",
+      "ceramic",
+      "automatic",
+      "iconic"
+    ],
+    "featured": false
   }
 ]
