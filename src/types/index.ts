@@ -27,6 +27,10 @@ export interface Watch {
   image?: string;
   specs: WatchSpecs;
   featured?: boolean;
+  history?: string;
+  notableWearers?: string[];
+  highestSalePrice?: string;
+  funFacts?: string[];
 }
 
 export interface WatchSpecs {

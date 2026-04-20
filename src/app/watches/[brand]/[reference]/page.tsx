@@ -92,6 +92,57 @@ export default async function WatchPage({ params }: Props) {
               <p className="text-wp-dark/80 leading-relaxed text-[15px]">{watch.description}</p>
             </div>
 
+            {/* History */}
+            {watch.history && (
+              <section className="mb-10">
+                <h2 className="font-display text-xl font-bold text-wp-dark mb-4">History &amp; Heritage</h2>
+                <p className="text-wp-dark/80 leading-relaxed text-[15px]">{watch.history}</p>
+              </section>
+            )}
+
+            {/* Notable Wearers */}
+            {watch.notableWearers && watch.notableWearers.length > 0 && (
+              <section className="mb-10">
+                <h2 className="font-display text-xl font-bold text-wp-dark mb-4">Notable Wearers</h2>
+                <div className="flex flex-wrap gap-2">
+                  {watch.notableWearers.map((person) => (
+                    <span key={person} className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-wp-dark text-white rounded-full text-xs font-medium">
+                      <svg className="w-3 h-3 text-wp-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-7 9a7 7 0 1 1 14 0H3Z"/></svg>
+                      {person}
+                    </span>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Record Sale */}
+            {watch.highestSalePrice && (
+              <section className="mb-10">
+                <h2 className="font-display text-xl font-bold text-wp-dark mb-4">Record Sale</h2>
+                <div className="flex items-start gap-4 p-5 rounded-xl bg-wp-gold/5 border border-wp-gold/20">
+                  <svg className="w-5 h-5 text-wp-gold shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  <p className="text-sm text-wp-dark leading-relaxed">{watch.highestSalePrice}</p>
+                </div>
+              </section>
+            )}
+
+            {/* Fun Facts */}
+            {watch.funFacts && watch.funFacts.length > 0 && (
+              <section className="mb-10">
+                <h2 className="font-display text-xl font-bold text-wp-dark mb-4">Did You Know?</h2>
+                <ul className="space-y-3">
+                  {watch.funFacts.map((fact, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <span className="shrink-0 w-5 h-5 rounded-full bg-wp-gold text-white text-[10px] font-bold flex items-center justify-center mt-0.5">{i + 1}</span>
+                      <p className="text-sm text-wp-dark/80 leading-relaxed">{fact}</p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
             {/* Complications */}
             {watch.specs.complications && watch.specs.complications.length > 0 && (
               <section className="mb-10">
