@@ -52,3 +52,36 @@ export async function getAllPostSlugs(): Promise<string[]> {
   if (error) return [];
   return (data || []).map(p => p.slug);
 }
+
+export type BlogPostSummary = Pick<BlogPost, 'id' | 'slug' | 'title' | 'excerpt' | 'cover_image' | 'author' | 'published_at' | 'tags'>;
+
+export async function getPostsMentioningWatch(
+  watchName: string,
+  brandName: string,
+  reference: string,
+): Promise<BlogPostSummary[]> {
+  const terms = [watchName, reference].filter(Boolean);
+  const filters = terms.map(t => `title.ilike.%${t}%`).join(',');
+
+  const { data, error } = await supabase
+    .from('blog_posts')
+    .select('id, slug, title, excerpt, cover_image, author, published_at, tags')
+    .eq('published', true)
+    .or(filters)
+    .order('published_at', { ascending: false })
+    .limit(3);
+
+  if (error || !data?.length) {
+    // Fallback: search by brand name only if no watch-specific results
+    const { data: brandData } = await supabase
+      .from('blog_posts')
+      .select('id, slug, title, excerpt, cover_image, author, published_at, tags')
+      .eq('published', true)
+      .ilike('title', `%${brandName}%`)
+      .order('published_at', { ascending: false })
+      .limit(3);
+    return brandData || [];
+  }
+
+  return data;
+}

@@ -2,12 +2,16 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getAllWatches, getWatchByBrandAndRef, getBrandBySlug, getWatchesByBrand } from '@/lib/data';
+import { getPostsMentioningWatch } from '@/lib/blog';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
 import WatchInfobox from '@/components/watch/WatchInfobox';
 import WatchSpecs from '@/components/watch/WatchSpecs';
 import SpotMistake from '@/components/watch/SpotMistake';
 import WatchCard from '@/components/watch/WatchCard';
+import RelatedBlogPosts from '@/components/watch/RelatedBlogPosts';
 import JsonLd from '@/components/seo/JsonLd';
+
+export const revalidate = 3600;
 
 interface Props {
   params: Promise<{ brand: string; reference: string }>;
@@ -35,6 +39,7 @@ export default async function WatchPage({ params }: Props) {
   if (!watch || !brand) notFound();
 
   const relatedWatches = getWatchesByBrand(brand.slug).filter((w) => w.slug !== watch.slug).slice(0, 4);
+  const relatedPosts = await getPostsMentioningWatch(watch.name, brand.name, watch.reference);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -114,6 +119,9 @@ export default async function WatchPage({ params }: Props) {
                 </div>
               </section>
             )}
+
+            {/* Related Blog Posts */}
+            <RelatedBlogPosts posts={relatedPosts} />
 
             {/* Record Sale */}
             {watch.highestSalePrice && (
