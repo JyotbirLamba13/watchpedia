@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { Watch } from '@/types';
 import { getBrandBySlug } from '@/lib/data';
+import WatchPlaceholder from './WatchPlaceholder';
 
 export default function WatchCard({ watch }: { watch: Watch }) {
   const brand = getBrandBySlug(watch.brandSlug);
@@ -22,7 +23,7 @@ export default function WatchCard({ watch }: { watch: Watch }) {
             quality={100}
           />
         ) : (
-          <span className="text-7xl opacity-30 group-hover:opacity-50 transition-opacity duration-500">⌚</span>
+          <WatchPlaceholder className="w-36 h-auto opacity-50" />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>

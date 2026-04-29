@@ -2,6 +2,7 @@ import Image from 'next/image';
 import type { Watch, Brand } from '@/types';
 import ImageZoom from './ImageZoom';
 import MarketPrice from './MarketPrice';
+import WatchPlaceholder from './WatchPlaceholder';
 
 export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Brand }) {
   const { specs } = watch;
@@ -24,7 +25,7 @@ export default function WatchInfobox({ watch, brand }: { watch: Watch; brand: Br
             <ImageZoom src={watch.image} alt={`${brand.name} ${watch.name}`} />
           </>
         ) : (
-          <span className="text-8xl opacity-30">⌚</span>
+          <WatchPlaceholder className="w-48 h-auto opacity-60" />
         )}
       </div>
 
